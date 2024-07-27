@@ -1,0 +1,92 @@
+.vehicle-section {
+    background-color: #F0FBFF;
+    width: 100%;
+    height: 2200px;
+    margin-top: 1px;
+}   
+
+.vehicle-section h1 {
+    color: #007f57;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:  'Times New Roman', Times, serif;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vehicle-section h3 {
+    color: #007f57;
+    font-size: 22px;
+    font-weight: 600;
+     padding-left: 50px;
+     padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.car-album {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     width: 100%;
+     height: 800px;
+     padding-left: 90px;
+     padding-top: 20px;
+     gap: 50px;
+}
+
+.car-album img {
+    width: 180px;
+    height: 220px;
+}
+
+.vehicle-section p1 {
+color: #007f57;
+font-size: 22px;
+font-weight: 600;
+font-family:  'Times New Roman', Times, serif;
+padding-top: 80px;
+ padding-left: 50px;
+ text-decoration: underline;
+}
+
+.scooter-album {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 500px;
+    padding-left: 90px;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+.scooter-album img {
+    width: 220px;
+    height: 200px;
+}
+
+.vehicle-section p2 {
+color: #007f57;
+font-size: 22px;
+font-weight: 600;
+font-family:  'Times New Roman', Times, serif;
+padding-top: 20px;
+ padding-left: 50px;
+ text-decoration: underline;
+}
+
+.bike-album {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 300px;
+    padding-left: 90px;
+    padding-top: 30px;
+    gap: 50px;
+}
+
+.bike-album img {
+    width: 220px;
+    height: 200px;
+}

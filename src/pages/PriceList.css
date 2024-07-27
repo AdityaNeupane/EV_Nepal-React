@@ -1,0 +1,47 @@
+.price-list {
+    /* background-color: #AFEBA0; */
+    width: 100%;
+    height: 800px;
+    margin-top: 1px;
+    background-image: url(../assets/images/info-section.png);
+}
+
+
+.brand-section {
+  margin: 20px 0;
+}
+
+.price-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.pricelist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.pricelist-table th,
+.pricelist-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.pricelist-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.pricelist-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pricelist-table tr:hover {
+  background-color: #ddd;
+}
+
+.pricelist-table th,
+.pricelist-table td {
+  text-align: left;
+}
