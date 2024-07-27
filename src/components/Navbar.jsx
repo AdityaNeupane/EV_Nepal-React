@@ -61,7 +61,9 @@ const Navbar = () => {
       
     </nav>
      <div className="hero-content">
-        {/* <h1>welcome to the website</h1> */}
+        <div className="learn-more-container">
+      <button className="learn-more-button">Learn More</button>
+    </div>
      </div>
      </div>
     </>
