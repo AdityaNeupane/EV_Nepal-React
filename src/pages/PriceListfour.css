@@ -1,0 +1,56 @@
+ 
+
+.price-list-four {
+   
+    width: 100%;
+    height: 350px;
+    margin-top: 1px;
+    background-image: url(../assets/images/info-section.png);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.price-list-four h2 {
+    color: #007f57;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.pricelist-four-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 320px;
+}
+
+.pricelist-four-table th,
+.pricelist-four-table td {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+
+.pricelist-table-four th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+ 
+
+.pricelist-table-four tr:hover {
+  background-color: #ddd;
+}
+
+.pricelist-four-table th,
+.pricelist-four-table td {
+  text-align: left;
+}

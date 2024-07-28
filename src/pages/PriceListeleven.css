@@ -1,0 +1,55 @@
+
+.price-list-eleven {
+   
+    width: 100%;
+    height: 300px;
+    margin-top: 1px;
+    background-image: url(../assets/images/info-section.png);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.price-list-eleven h2 {
+    color: #007f57;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.pricelist-eleven-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 320px;
+}
+
+.pricelist-eleven-table th,
+.pricelist-eleven-table td {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #f2f2f2;
+}
+
+.pricelist-table-eleven th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+ 
+
+.pricelist-table-eleven tr:hover {
+  background-color: #ddd;
+}
+
+.pricelist-eleven-table th,
+.pricelist-eleven-table td {
+  text-align: left;
+}

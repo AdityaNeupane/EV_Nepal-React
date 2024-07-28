@@ -8,6 +8,11 @@ import './Vehicle.css'
  import MGlogo from '../assets/car-logo/MGlogo.png'
  import tatalogo from '../assets/car-logo/tatalogo.png'
  import teslalogo from '../assets/car-logo/teslalogo.png'
+ import hyundailogo from '../assets/car-logo/hyundailogo.png'
+ import mahindralogo from '../assets/car-logo/mahindralogo.png'
+ import netalogo from '../assets/car-logo/netalogo.png'
+ import nissanlogo from '../assets/car-logo/nissanlogo.png'
+ import deepallogo from '../assets/car-logo/deepallogo.png'
 
 import atherlogo from '../assets/scooter-logo/atherlogo.png'
 import ecobitlogo from '../assets/scooter-logo/ecobitlogo.png'
@@ -40,9 +45,16 @@ const Vehicle = () => {
        <img src= {MGlogo} alt="MGlogo" />
        <img src= {tatalogo} alt="tatalogo" />
        <img src= {teslalogo} alt="teslalogo" />
+       <img src= {hyundailogo} alt="hyundailogo" />
+       <img src= {mahindralogo} alt="mahindralogo" />
+       <img src= {netalogo} alt="netalogo" />
+       <img src= {nissanlogo} alt="nissanlogo" />
+       <img src= {deepallogo} alt="deepallogo" />
 
        </div>
      
+     <br></br>
+     <br></br>
      <br></br>
      <br></br>
      <br></br>
