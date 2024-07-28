@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagramSquare, FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="footer" id="contact">
+      <div className="footer">
         <div className="_footer">
           <div className="_footer_1">
             <img
@@ -24,7 +24,7 @@ const Footer = () => {
             <span className="address">Address: Paras Buspark, Chitwan</span>
             <span className="email">
               <a href="mailto:evnepal@gmail.com" target="_blank">
-                Email: EvNepal@gmail.com
+                Email: evnepal@gmail.com
               </a>
             </span>
             <span className="phone">Phone: 9845324***</span>
