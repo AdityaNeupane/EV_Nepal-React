@@ -2,8 +2,6 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Home from "./pages/Home.jsx";
-// import Info from './pages/Info.jsx'
-import PriceListone from "./pages/PriceListone.jsx";
 import Pricelisttwo from "./pages/PriceListtwo.jsx";
 import PriceListthree from "./pages/PriceListthree.jsx";
 import PriceListfour from "./pages/PriceListfour.jsx";
@@ -19,40 +17,40 @@ import PriceListtwelve from "./pages/PriceListtwelve.jsx";
 import Testimonial from "./pages/Testimonial.jsx";
 import Newsletter from "./pages/Newsletter.jsx";
 import Footer from "./pages/Footer.jsx";
-// import ContactUs from './pages/ContactUs.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div>
-              <Home />
-              <AboutUs />
-              <Vehicle />
-              <Pricelisttwo />
-              <PriceListthree />
-              <PriceListfour />
-              <PriceListfive />
-              <PriceListsix />
-              <PriceListseven />
-              <PriceListeight />
-              <PriceListnine />
-              <PriceListten />
-              <PriceListeleven />
-              <PriceListtwelve />
-              <Testimonial />
-              <Newsletter />
-              <Footer />
-            </div>
-          }
-        />
-      </Routes>
-      {/* <Info/> */}
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <Home />
+                <AboutUs />
+                <Vehicle />
+                <Pricelisttwo />
+                <PriceListthree />
+                <PriceListfour />
+                <PriceListfive />
+                <PriceListsix />
+                <PriceListseven />
+                <PriceListeight />
+                <PriceListnine />
+                <PriceListten />
+                <PriceListeleven />
+                <PriceListtwelve />
+                <Testimonial />
+                <Newsletter />
+                <Footer />
+              </div>
+            }
+          />
+        </Routes>
+        {/* <Info/> */}
+      </Router>
+    </>
   );
 }
 
