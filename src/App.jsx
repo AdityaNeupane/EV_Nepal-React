@@ -26,31 +26,32 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/" element={<Vehicle />} />
-        {/* <Route path="/" element={<PriceListone />}/>
-        <Route path="/" element={<Home />}/>
-        <Route path="/" element={<Home />}/>
-        <Route path="/" element={<Home />}/> */}
+        <Route
+          path="/"
+          element={
+            <div>
+              <Home />
+              <AboutUs />
+              <Vehicle />
+              <Pricelisttwo />
+              <PriceListthree />
+              <PriceListfour />
+              <PriceListfive />
+              <PriceListsix />
+              <PriceListseven />
+              <PriceListeight />
+              <PriceListnine />
+              <PriceListten />
+              <PriceListeleven />
+              <PriceListtwelve />
+              <Testimonial />
+              <Newsletter />
+              <Footer />
+            </div>
+          }
+        />
       </Routes>
-
-      <Pricelisttwo />
-      <PriceListthree />
-      <PriceListfour />
-      <PriceListfive />
-      <PriceListsix />
-      <PriceListseven />
-      <PriceListeight />
-      <PriceListnine />
-      <PriceListten />
-      <PriceListeleven />
-      <PriceListtwelve />
       {/* <Info/> */}
-      <Testimonial />
-      <Newsletter />
-      {/* <ContactUs/> */}
-      <Footer />
     </Router>
   );
 }
