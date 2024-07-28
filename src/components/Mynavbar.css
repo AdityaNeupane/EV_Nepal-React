@@ -11,6 +11,7 @@
 .logoimage img {
   height: 80px;
   width: auto;
+  padding-left: 20px;
 }
 
 .navcart {
