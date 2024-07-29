@@ -3,7 +3,7 @@ import "./Newsletter.css";
 const Newsletter = () => {
   return (
     <>
-      <div className="mx-auto max-w-7xl px-2 py-10 lg:px-0" id="contact">
+      <div className="mx-auto max-w-7xl px-2 py-10 lg:px-0" id="contactus">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-black">

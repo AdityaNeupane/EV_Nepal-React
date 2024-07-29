@@ -47,8 +47,8 @@ function App() {
               <PriceListtwelve />
               <Testimonial />
               <Newsletter />
-              <br></br>
-              <br></br>
+              {/* <br></br> */}
+              {/* <br></br> */}
               <Footer />
             </div>
           }
