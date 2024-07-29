@@ -36,7 +36,13 @@
     cursor: pointer;
     color: #007f5f;
     font-size: 19px;
+    margin-left: 5px;
   }
+}
+
+.navtext:hover {
+  text-decoration: underline;
+  color: #007f5f;
 }
 
 .input {

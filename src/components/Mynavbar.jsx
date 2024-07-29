@@ -41,6 +41,40 @@ const Navbar = () => {
           >
             <span>About Us</span>
           </Scroll>
+
+        <Scroll
+            to="chargingstations"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            onSetActive={handleSetActive}
+            activeClass={activeLink === "about" ? "active" : ""}
+          >
+            <span>Charging Stations</span>
+          </Scroll>
+          
+          <Scroll
+            to="vehicles"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            onSetActive={handleSetActive}
+            activeClass={activeLink === "about" ? "active" : ""}
+          >
+            <span>Vehicles</span>
+          </Scroll>
+
+         <Scroll
+            to="price"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            onSetActive={handleSetActive}
+            activeClass={activeLink === "about" ? "active" : ""}
+          >
+            <span>Price List</span>
+          </Scroll>
+
           <Scroll
             to="contactus"
             spy={true}

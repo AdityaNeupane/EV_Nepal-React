@@ -24,7 +24,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route
           path="/"
@@ -47,8 +47,8 @@ function App() {
               <PriceListtwelve />
               <Testimonial />
               <Newsletter />
-              {/* <br></br> */}
-              {/* <br></br> */}
+              <br></br>
+              <br></br>
               <Footer />
             </div>
           }
