@@ -33,6 +33,7 @@ function App() {
               <Home />
               <AboutUs />
               <Vehicle />
+              <PriceListone />
               <Pricelisttwo />
               <PriceListthree />
               <PriceListfour />
@@ -46,6 +47,8 @@ function App() {
               <PriceListtwelve />
               <Testimonial />
               <Newsletter />
+              <br></br>
+              <br></br>
               <Footer />
             </div>
           }

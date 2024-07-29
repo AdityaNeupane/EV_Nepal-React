@@ -24,12 +24,23 @@ const Navbar = () => {
                 <span>Home</span>
               </Link>
             </li>
-
+            
             <li className="navbar-item">
               <Link to="/about">
                 <span>About Us</span>
               </Link>
             </li>
+            
+             <li className="navbar-item">
+               
+                <span>
+                    <a href="https://chargingstationsnepal.com" target="_blank" rel="noopener noreferrer">
+                    Charging Stations
+                    </a>
+                    </span>
+                 
+           </li>
+           
             <li
               className="navbar-item dropdown"
               onMouseEnter={() => setVehiclesDropdown(true)}
