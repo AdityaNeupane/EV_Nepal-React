@@ -1,5 +1,4 @@
 import "./App.css";
-import Navbar from "./components/Navbar.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import Home from "./pages/Home.jsx";
 // import Info from './pages/Info.jsx'
@@ -24,7 +23,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route
           path="/"
@@ -47,8 +45,6 @@ function App() {
               <PriceListtwelve />
               <Testimonial />
               <Newsletter />
-              {/* <br></br> */}
-              {/* <br></br> */}
               <Footer />
             </div>
           }
