@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ EV Nepal is a comprehensive web application designed to provide detailed information about electric vehicles available in Nepal. The platform includes data on electric cars, bikes, and scooters, along with information on nearby charging stations. The website aims to offer users a reliable and user-friendly interface to access up-to-date details, specifications, pricing, and charging infrastructure.
