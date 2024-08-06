@@ -34,11 +34,11 @@ const Navbar = () => {
              <li className="navbar-item">
                
                 <span>
-                    <a href="https://chargingstationsnepal.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://chargingstationsnepal.com" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'blue'}}>
                     Charging Stations
                     </a>
                     </span>
-                 
+                    
            </li>
            
             <li

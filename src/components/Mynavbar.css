@@ -6,12 +6,12 @@
   align-items: center;
   z-index: 10001;
   backdrop-filter: blur(20px);
-  height: 75px;
+  height: 80px;
 }
 
 .logoimage img {
   position: absolute;
-  height: 100px;
+  height: 110px;
   width: auto;
   padding-left: 20px;
   top: -10px;
@@ -22,12 +22,13 @@
   display: flex;
   width: 100%;
   transition: transform 0.5s ease all;
+  margin-left: 120px;
 }
 
 .navtext {
   display: flex;
   width: 100%;
-  gap: 30px;
+  gap: 35px;
   align-items: center;
   justify-content: center;
   font-size: 14px;

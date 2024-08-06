@@ -1,7 +1,17 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../components/Mynavbar";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+
+const navigate = useNavigate();
+
+const handleLearnMoreClick = () => {
+  navigate('/Info');
+};
+
+
   return (
     <div className="herosection" id="home">
       <Navbar />
@@ -15,7 +25,7 @@ const Home = () => {
             learn why electric vehicles <br></br> are the future of <br></br>
             transortation.
           </p>
-          <button className="learn-more-button">Learn More</button>
+          <button className="learn-more-button" onClick={handleLearnMoreClick}>Learn More</button>
         </div>
       </div>
     </div>

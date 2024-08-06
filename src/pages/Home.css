@@ -27,7 +27,7 @@
   width: 100%;
   align-items: start;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
   color: #007f5f;
   font-weight: bold;
   font-size: 40px;
@@ -44,9 +44,11 @@
 
   p {
     display: flex;
+    color: #007f5f;
     width: auto;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 

@@ -41,8 +41,8 @@ const Navbar = () => {
           >
             <span>About Us</span>
           </Scroll>
-
-        <Scroll
+          
+        {/* <Scroll
             to="chargingstations"
             spy={true}
             smooth={true}
@@ -50,8 +50,23 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "about" ? "active" : ""}
           >
-            <span>Charging Stations</span>
-          </Scroll>
+            <span>
+              <a href="https://chargingstationsnepal.com" target="_blank" rel="noopener noreferrer">
+              Charging Stations
+              </a>
+              </span>
+          </Scroll> */}
+
+          <span>
+  <a 
+    href="https://chargingstationsnepal.com" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Charging Stations
+  </a>
+</span>
+
           
           <Scroll
             to="vehicles"
@@ -59,7 +74,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             onSetActive={handleSetActive}
-            activeClass={activeLink === "about" ? "active" : ""}
+            activeClass={activeLink === "vehicles" ? "active" : ""}
           >
             <span>Vehicles</span>
           </Scroll>
@@ -70,7 +85,7 @@ const Navbar = () => {
             smooth={true}
             offset={-50}
             onSetActive={handleSetActive}
-            activeClass={activeLink === "about" ? "active" : ""}
+            activeClass={activeLink === "price" ? "active" : ""}
           >
             <span>Price List</span>
           </Scroll>
