@@ -39,7 +39,7 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "menu" ? "active" : ""}
           >
-            <span>About Us</span>
+            <span className="nav_links">About Us</span>
           </Scroll>
           
         {/* <Scroll
@@ -57,7 +57,7 @@ const Navbar = () => {
               </span>
           </Scroll> */}
 
-          <span>
+          <span className="nav_links">
   <a 
     href="https://chargingstationsnepal.com" 
     target="_blank" 
@@ -76,7 +76,7 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "vehicles" ? "active" : ""}
           >
-            <span>Vehicles</span>
+            <span className="nav_links">Vehicles</span>
           </Scroll>
 
          <Scroll
@@ -87,7 +87,7 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "price" ? "active" : ""}
           >
-            <span>Price List</span>
+            <span className="nav_links">Price List</span>
           </Scroll>
 
           <Scroll
@@ -98,7 +98,7 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "about" ? "active" : ""}
           >
-            <span>Contact Us</span>
+            <span className="nav_links">Contact Us</span>
           </Scroll>
         </div>
       </div>
