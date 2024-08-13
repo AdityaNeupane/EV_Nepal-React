@@ -8,7 +8,7 @@ const Pricelisttwo = () => {
     { name: 'Hyundai IONIQ 5 GLS Vision Roof', price: 'Rs. 1,02,96,000/-' },
      
   ];
-
+  
   return (
     <div className="price-list-two">
        

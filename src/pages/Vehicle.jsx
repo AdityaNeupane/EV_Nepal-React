@@ -29,12 +29,12 @@ const Vehicle = () => {
      <>
      <div className='vehicle-section'>
      
-     <h1>'Available Electric Vehicle Brands In Nepal'</h1>
+     <h1 className='maintopic'>' Available Electric Vehicle Brands In Nepal '</h1>
       <br></br>
       <br></br>
       <br></br>
-
-      <h3>Electric Cars</h3>
+      
+      <h3 className='topic1'>Electric Cars</h3>
       <br></br>
       <div className='car-album'>
 
@@ -60,7 +60,7 @@ const Vehicle = () => {
      <br></br>
      <br></br>
 
-     <p1>Electric Scooters</p1>
+     <p1 className='topic2'>Electric Scooters</p1>
       <br></br>
       <br></br>
      <div className='scooter-album'>
@@ -79,7 +79,7 @@ const Vehicle = () => {
       <br></br>
       <br></br>
 
-     <p2>Electric Bikes</p2>
+     <p2 className='topic3'>Electric Bikes</p2>
       <br></br>
       <br></br>
      <div className='bike-album'>

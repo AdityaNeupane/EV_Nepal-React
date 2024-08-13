@@ -69,7 +69,7 @@ const Navbar = () => {
 
           
           <Scroll
-            to="vehicles"
+            to="vehicle"
             spy={true}
             smooth={true}
             offset={-50}

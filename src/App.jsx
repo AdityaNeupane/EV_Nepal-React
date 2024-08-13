@@ -3,19 +3,19 @@ import "./App.css";
 import AboutUs from "./pages/AboutUs.jsx";
 import Home from "./pages/Home.jsx";
 // import Info from './pages/Info.jsx'
-import PriceListone from "./pages/PriceListone.jsx";
-import Pricelisttwo from "./pages/PriceListtwo.jsx";
-import PriceListthree from "./pages/PriceListthree.jsx";
-import PriceListfour from "./pages/PriceListfour.jsx";
-import PriceListfive from "./pages/PriceListfive.jsx";
-import PriceListsix from "./pages/PriceListsix.jsx";
-import PriceListseven from "./pages/PriceListseven.jsx";
-import PriceListeight from "./pages/PriceListeight.jsx";
-import PriceListnine from "./pages/PriceListnine.jsx";
+import PriceListone from "./carsPricelist/PriceListone.jsx";
+import Pricelisttwo from "./carsPricelist/PriceListtwo.jsx";
+import PriceListthree from "./carsPricelist/PriceListthree.jsx";
+import PriceListfour from "./carsPricelist/PriceListfour.jsx";
+import PriceListfive from "./carsPricelist/PriceListfive.jsx";
+import PriceListsix from "./carsPricelist/PriceListsix.jsx";
+import PriceListseven from "./carsPricelist/PriceListseven.jsx";
+import PriceListeight from "./carsPricelist/PriceListeight.jsx";
+import PriceListnine from "./carsPricelist/PriceListnine.jsx";
 import Vehicle from "./pages/Vehicle.jsx";
-import PriceListten from "./pages/PriceListten.jsx";
-import PriceListeleven from "./pages/PriceListeleven.jsx";
-import PriceListtwelve from "./pages/PriceListtwelve.jsx";
+import PriceListten from "./carsPricelist/PriceListten.jsx";
+import PriceListeleven from "./carsPricelist/PriceListeleven.jsx";
+import PriceListtwelve from "./carsPricelist/PriceListtwelve.jsx";
 import Testimonial from "./pages/Testimonial.jsx";
 import Newsletter from "./pages/Newsletter.jsx";
 import Footer from "./pages/Footer.jsx";
@@ -47,7 +47,7 @@ function App() {
          
          
               {/* {/* <Info /> */}
-              <AboutUs />
+              
               <Vehicle /> */
               <PriceListone />
               <Pricelisttwo />
@@ -61,6 +61,7 @@ function App() {
               <PriceListten />
               <PriceListeleven />
               <PriceListtwelve />
+              <AboutUs />
               <Testimonial />
               <Newsletter />
               <br></br>
