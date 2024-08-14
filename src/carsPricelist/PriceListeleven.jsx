@@ -10,8 +10,8 @@ const PriceListeleven = () => {
   return (
     <>
     <div className="price-list-eleven">
-       
-      <h2>GWM EV Models</h2>
+    
+      <h2 className='h2'>GWM EV Models</h2>
       <br></br>
       <table className="pricelist-eleven-table">
         <thead>

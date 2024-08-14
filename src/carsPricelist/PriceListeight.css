@@ -10,17 +10,27 @@
     text-align: center;
 }
 
-
-.price-list-eight h2 {
-    color: #007f57;
+.h2 {
+    color : black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     padding-top: 30px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-decoration: underline;
+     position: relative;
+}
+
+.h2:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+ margin-left: 520px;
+  width: 20%;
+  height: 3px;
+  background-color: black;
 }
 
 

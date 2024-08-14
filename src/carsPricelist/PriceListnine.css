@@ -11,18 +11,29 @@
 }
 
 
-.price-list-nine h2 {
-    color: #007f57;
+.h2 {
+    color:  black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     padding-top: 30px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    text-decoration: underline;
+    position: relative;
 }
 
+.h2:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  margin-left: 540px;
+  width: 50%;
+  height: 3px;
+  background-color: black;
+  transition: 0.5s;
+}
 
 
 .pricelist-nine-table {

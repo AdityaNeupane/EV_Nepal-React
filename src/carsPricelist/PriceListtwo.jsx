@@ -11,8 +11,8 @@ const Pricelisttwo = () => {
   
   return (
     <div className="price-list-two">
-       
-      <h2>Hyundai EV Models</h2>
+    
+      <h2 className='h2'>Hyundai EV Models</h2>
       <br></br>
       <table className="pricelist-two-table">
         <thead>

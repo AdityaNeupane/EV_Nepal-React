@@ -8,12 +8,12 @@ const PriceListeight = () => {
     { name: 'Mahindra E20 ', price: 'Rs. 22,65,000 /-' },
     
   ];
-
+  
   return (
      <>
      <div className="price-list-eight">
        
-      <h2>Mahindra EV Models</h2>
+      <h2 className='h2'>Mahindra EV Models</h2>
       <br></br>
       <table className="pricelist-eight-table">
         <thead>

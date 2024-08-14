@@ -13,8 +13,8 @@ const PriceListfour = () => {
   return (
      <>
      <div className="price-list-four">
-       
-      <h2>NETA EV Models</h2>
+     
+      <h2 className='h2'>NETA EV Models</h2>
       <br></br>
       <table className="pricelist-four-table">
         <thead>

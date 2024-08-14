@@ -14,8 +14,8 @@ const PriceListsix = () => {
      return (
      <>
      <div className="price-list-six">
-       
-      <h2>MG EV Models</h2>
+     
+      <h2 className='h2'>MG EV Models</h2>
       <br></br>
       <table className="pricelist-six-table">
         <thead>
