@@ -16,7 +16,7 @@ const PriceListfive = () => {
      <>
      <div className="price-list-five">
      
-      <h2 className='h2'>Tesla EV Models</h2>
+      <h2 className='carmodelfive'>Tesla EV Models</h2>
       <br></br>
       <table className="pricelist-five-table">
         <thead>

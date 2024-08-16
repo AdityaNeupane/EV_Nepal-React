@@ -9,8 +9,8 @@ const PriceListten = () => {
   return (
      <>
      <div className="price-list-ten">
-      
-      <h2 className='h2'>Citroen EV Models</h2>
+     
+      <h2 className='carmodelten'>Citroen EV Models</h2>
       <br></br>
       <table className="pricelist-ten-table">
         <thead>

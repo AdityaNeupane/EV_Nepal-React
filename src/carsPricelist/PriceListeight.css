@@ -1,5 +1,4 @@
 
-
 .price-list-eight {
    
     width: 100%;
@@ -10,7 +9,7 @@
     text-align: center;
 }
 
-.h2 {
+.carmodeleight {
     color : black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -22,7 +21,7 @@
      position: relative;
 }
 
-.h2:after {
+.carmodeleight:after {
   content: "";
   position: absolute;
   bottom: -8px;
@@ -54,7 +53,7 @@
   color: #333;
 }
 
- 
+
 
 .pricelist-table-eight tr:hover {
   background-color: #ddd;

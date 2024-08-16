@@ -9,29 +9,35 @@
 }
 
 
-.h1 {
+.heading {
   color: #007f57;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
   padding-top: 40px;
-  align-items: right;
-  justify-content: center;
-  text-align: right;
+  align-items: left;
+  /* justify-content: center; */
+  text-align: left;
     position: relative;
 }
 
-.h1:after {
+.heading:after {
   content: "";
   position: absolute;
-  width: 20%;
-  height: 3px;
+  width: 32%;
+  height: 4px;
   background-color: #007f57;
   left: 0;
-  bottom: -8px;
+  bottom: -10px;
   transition: 0.5s;
-  margin-left: 250px;
+  /* margin-left: 250px; */
 }
+
+.heading:hover:after {
+  width: 0;
+  transition: 0.5s;
+}
+
 
 .aboutus-section p {
   color: #007f57;

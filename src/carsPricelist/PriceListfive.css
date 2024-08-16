@@ -11,7 +11,7 @@
 }
 
 
-.h2 {
+.carmodelfive {
     color:  black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -23,16 +23,16 @@
     position: relative;
 }
 
-.h2:after {
+.carmodelfive:after {
   content: "";
   position: absolute;
   bottom: -8px;
   left: 0;
-  width: 60%;
+  width: 15%;
   height: 3px;
   background-color: black;
   transition: 0.5s;
-  margin-left: 370px;
+  margin-left: 560px;
 }
 
 .pricelist-five-table {

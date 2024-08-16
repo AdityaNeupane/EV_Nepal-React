@@ -10,7 +10,7 @@
 }
 
 
-.h2 {
+.carmodeleleven {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -22,14 +22,14 @@
     position: relative;
 }
 
-.h2:after {
+.carmodeleleven:after {
   content: "";
   position: absolute;
   bottom: -8px;
   left: 0;
-  margin-left: 520px;
+  margin-left: 550px;
   transition: 0.5s;
-  width: 18%;
+  width: 16%;
   height: 3px;
   background-color: black;
 }

@@ -1,9 +1,34 @@
 import React from 'react'
  import './Bikepriceone.css'
 const Bikepriceone = () => {
+const products = [
+{ name: '    ', price: 'Rs.     ' },
+{ name: '    ', price: 'Rs.     ' },
+
+];
   return (
     <>
-    
+    <div className="onebike">
+     
+      <h2 className='bikemodel'> Yatri Models</h2>
+      <br></br>
+      <table className="onebike-table">
+        <thead>
+          <tr>
+            <th>Yatri Bike's</th>
+            <th>Price ( in Rupees )</th>
+          </tr>
+        </thead>
+        <tbody>
+          {products.map((product, index) => (
+            <tr key={index}>
+              <td>{product.name}</td>
+              <td>{product.price}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
     </>
   )
 }

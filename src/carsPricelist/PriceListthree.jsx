@@ -19,7 +19,7 @@ const PriceListthree = () => {
      <>
      <div className="price-list-three">
      
-      <h2 className='h2'>BYD EV Models</h2>
+      <h2 className='carmodel'>BYD EV Models</h2>
       <br></br>
       <table className="pricelist-three-table">
         <thead>

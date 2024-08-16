@@ -6,12 +6,12 @@ const PriceListeleven = () => {
     { name: 'ORA 03 ev', price: 'Rs. 47,49,000/-' },
    
   ];
-
+  
   return (
     <>
     <div className="price-list-eleven">
     
-      <h2 className='h2'>GWM EV Models</h2>
+      <h2 className='carmodeleleven'>GWM EV Models</h2>
       <br></br>
       <table className="pricelist-eleven-table">
         <thead>

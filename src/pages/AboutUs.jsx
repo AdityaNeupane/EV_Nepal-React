@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="aboutus-section" id="aboutus">
-        <h1 className="h1">Know the Story of EV-Nepal</h1>
+        <h1 className="heading">Know the Story of EV-Nepal</h1>
         <br></br>
         <br></br>
         <p>

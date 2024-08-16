@@ -38,7 +38,7 @@ import './PriceListone.css'
         <h1 className='pricelist-heading'>' Price List of Electric Vehicles Available in Nepal '</h1>
         <br></br>
         <h1 className='vehicle-heading'>' Electric Cars '</h1>
-      <h2 className='h2'>Tata EV Models</h2>
+      <h2 className='carmodel'>Tata EV Models</h2>
        <br></br>
          
           <table className="pricelist-table">
@@ -49,7 +49,7 @@ import './PriceListone.css'
               </tr>
 
              
-
+             
             </thead>
             <tbody>
               {products.map((product, idx) => (
