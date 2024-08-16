@@ -8,9 +8,8 @@ const Home = () => {
 const navigate = useNavigate();
 
 const handleLearnMoreClick = () => {
-  navigate('/Info');
+  navigate('/info');
 };
-
 
   return (
     <div className="herosection" id="home">

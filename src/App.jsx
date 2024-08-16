@@ -54,9 +54,9 @@ function App() {
          
          
          
-              {/* {/* <Info /> */}
+         
               
-              <Vehicle /> */
+              <Vehicle /> 
               <PriceListone />
               <Pricelisttwo />
               <PriceListthree />

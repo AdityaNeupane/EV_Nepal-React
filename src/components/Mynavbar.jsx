@@ -29,7 +29,9 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "home" ? "active" : ""}
           >
+            <Link to="/Home">
             <span className="nav_links">Home</span>
+            </Link>
           </Scroll>
           <Scroll
             to="aboutus"
@@ -76,7 +78,9 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "vehicles" ? "active" : ""}
           >
+            <Link to="/Vehicle">
             <span className="nav_links">Vehicles</span>
+            </Link>
           </Scroll>
 
          <Scroll
@@ -87,7 +91,9 @@ const Navbar = () => {
             onSetActive={handleSetActive}
             activeClass={activeLink === "price" ? "active" : ""}
           >
+            <Link to="/Pricelistthree">
             <span className="nav_links">Price List</span>
+            </Link>
           </Scroll>
 
           <Scroll
