@@ -78,7 +78,7 @@ const Navbar = () => {
                   <FontAwesomeIcon icon={faCaretDown} />
                 </a>
               </div>
-
+              
               {priceListDropdown && (
                 <ul className="dropdown-menu">
                   <li>
