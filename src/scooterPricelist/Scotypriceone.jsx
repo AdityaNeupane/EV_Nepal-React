@@ -2,15 +2,17 @@ import React from 'react'
 import './Scotypriceone.css'
 const Scotypriceone = () => {
   const products = [
-{ name: '    ', price: 'Rs.     ' },
-{ name: '    ', price: 'Rs.     ' },
-
+{ name: 'Ather 450X (2.9 kwh battery)', price: 'Rs.3,99,999 /-' },
+{ name: 'Ather 450X (3.7 kwh battery)', price: 'Rs.4,39,999 /-' },
+{ name: 'Ather 450S (2.9 kwh battery)', price: 'Rs.3,50,000 /-' },
 ];
 
   return (
     <>
     <div className="onescoty">
-     
+      <h1 className='main-heading'>' Price List of Electric Vehicles Available in Nepal '</h1>
+      <br></br>
+     <h1 className='scoty-heading'> Electric Scooter's </h1>
       <h2 className='scotymodelone'> Ather Models</h2>
       <br></br>
       <table className="onescoty-table">

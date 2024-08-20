@@ -2,8 +2,11 @@ import React from 'react'
 import './Scotypricefive.css'
 const Scotypricefive = () => {
   const products = [
-{ name: '    ', price: 'Rs.     ' },
-{ name: '    ', price: 'Rs.     ' },
+{ name: 'Super Soco CU Mini    ', price: 'Rs.1,89,000 /-     ' },
+{ name: 'Super Soco CUx (Standard color)    ', price: 'Rs.2,69,000 /-     ' },
+{ name: 'Super Soco CUx (Luxury color)    ', price: 'Rs.2,79,900 /-     ' },
+{ name: 'Super Soco CPx (Single Battery)    ', price: 'Rs.4,79,000 /-     ' },
+{ name: 'Super Soco CPx (Dual Battery)    ', price: 'Rs.5,99,900 /-     ' },
 
 ];
 

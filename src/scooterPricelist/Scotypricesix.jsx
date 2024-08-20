@@ -2,8 +2,12 @@ import React from 'react'
 import './Scotypricesix.css'
 const Scotypricesix = () => {
   const products = [
-{ name: '    ', price: 'Rs.     ' },
-{ name: '    ', price: 'Rs.     ' },
+{ name: 'Yadea E8S Pro    ', price: 'Rs.2,30,000 /-     ' },
+{ name: 'Yadea G6    ', price: 'Rs.2,60,000 /-     ' },
+{ name: 'Yadea G1S    ', price: 'Rs.3,70,000 /-     ' },
+{ name: 'Yadea G5    ', price: 'Rs.3,50,000 /-     ' },
+{ name: 'Yadea S-bike    ', price: 'Rs.2,55,000 /-     ' },
+{ name: 'Yadea M6    ', price: 'Rs.1,75,000 /-     ' },
 
 ];
 

@@ -10,7 +10,7 @@
 
 
 .heading {
-  color: #007f57;
+  color: #f1faee;
   font-size: 32px;
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
@@ -26,7 +26,7 @@
   position: absolute;
   width: 32%;
   height: 4px;
-  background-color: #007f57;
+  background-color: #f1faee;
   left: 0;
   bottom: -8px;
   transition: 0.5s;
@@ -40,9 +40,9 @@
 
 
 .aboutus-section p {
-  color: #007f57;
+  color: #f1faee;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Times New Roman", Times, serif;
   /* padding-top: 30px; */
   /* align-items: center; */
@@ -51,7 +51,7 @@
 }
 
 .team {
-  color: #007f57;
+  color: #f1faee;
   font-size: 28px;
   font-weight: 600;
   font-family: "Times New Roman", Times, serif;
@@ -63,7 +63,7 @@
   position: absolute;
   width: 11%;
   height: 4px;
-  background-color: #007f57;
+  background-color: #f1faee;
   left: 0;
   bottom: -8px;
   transition: 0.5s;

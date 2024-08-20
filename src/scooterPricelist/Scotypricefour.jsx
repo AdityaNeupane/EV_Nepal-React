@@ -2,8 +2,10 @@ import React from 'react'
 import './Scotypricefour.css'
 const Scotypricefour = () => {
   const products = [
-{ name: '    ', price: 'Rs.     ' },
-{ name: '    ', price: 'Rs.     ' },
+{ name: 'Segway N100', price: 'Rs.2,45,000 /-     ' },
+{ name: 'Segway E100', price: 'Rs.2,71,000 /-     ' },
+{ name: 'Segway E110L', price: 'Rs.3,40,000 /-     ' },
+{ name: 'Segway E125', price: 'Rs.3,66,000 /-     ' },
 
 ];
 

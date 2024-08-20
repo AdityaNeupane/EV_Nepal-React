@@ -17,6 +17,7 @@ const handleLearnMoreClick = () => {
       <div className="hero">
         <div className="h1">
           <h1>Your Gateway to the Electric Vehicle Revolution</h1>
+          <br></br>
         </div>
         <div className="hero_content">
           <p>
