@@ -28,14 +28,14 @@
   align-items: start;
   justify-content: center;
   margin-top: -8px;
-  color: #007f5f;
+  color: #004b23;
   font-weight: bold;
   font-size: 40px;
   position: relative;
 }
 
 .h1:hover {
-  color: #007f5f;
+  color: #004b23;
 }
 
 .h1:after {
@@ -48,12 +48,12 @@
   height: 3px;
   /* width: 70%; */
   margin-left: 190px;
-  background-color: #007f5f;
+  background-color: #004b23;
 }
 
 .h1:hover:after {
   width: 70%;
-  background-color: #007f5f;
+  background-color: #004b23;
 }
 
 .hero_content {
@@ -67,7 +67,7 @@
 
   p {
     display: flex;
-    color: #007f5f;
+    color: #004b23;
     width: auto;
     text-align: justify;
     font-size: 18px;
@@ -78,7 +78,7 @@
 .learn-more-button {
   height: 40px;
   width: 90px;
-  background-color: #007f5f;
+  background-color: #004b23;
   color: #e9efe7;
   font-weight: 320;
   padding: 2px;

@@ -35,7 +35,7 @@
   font-weight: 600;
   span {
     cursor: pointer;
-    color: #007f5f;
+    color: #004b23;
     font-size: 19px;
     margin-left: 5px;
   }
@@ -55,7 +55,7 @@
   margin-left: 6px;
   font-size: 16px;
   font-weight: 800;
-  color: #007f5f;
+  color: #004b23;
 }
 
 .dropdown-icontwo {

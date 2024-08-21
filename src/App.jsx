@@ -30,6 +30,7 @@ import Footer from "./pages/Footer.jsx";
 import Info from "./pages/Info.jsx";
 // import ContactUs from './pages/ContactUs.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import  Gotobrands from './pages/Gotobrands.jsx'
 
 
 function App() {
@@ -55,8 +56,9 @@ function App() {
          
          
          
-              
+              <Gotobrands />
               <Vehicle /> 
+              
               <PriceListone />
               <Pricelisttwo />
               <PriceListthree />

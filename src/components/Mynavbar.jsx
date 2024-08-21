@@ -118,8 +118,6 @@ const toggleDropdown = () => {
             handleSetActive('vehicle'); 
           }}
         >
-
-
             <span className="veh">
               Vehicles 
             </span>
