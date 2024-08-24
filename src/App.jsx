@@ -12,7 +12,14 @@ import PriceListsix from "./carsPricelist/PriceListsix.jsx";
 import PriceListseven from "./carsPricelist/PriceListseven.jsx";
 import PriceListeight from "./carsPricelist/PriceListeight.jsx";
 import PriceListnine from "./carsPricelist/PriceListnine.jsx";
-import Vehicle from "./pages/Vehicle.jsx";
+
+import Carbrands from "./Brands/Carbrands.jsx";
+import Bikebrands from "./Brands/Bikebrands.jsx";
+import Scooterbrands from "./Brands/Scooterbrands.jsx";
+import Vanbrands from "./Brands/Vanbrands.jsx";
+import Gotobrands from "./pages/Gotobrands.jsx";
+
+ 
 import PriceListten from "./carsPricelist/PriceListten.jsx";
 import PriceListeleven from "./carsPricelist/PriceListeleven.jsx";
 import PriceListtwelve from "./carsPricelist/PriceListtwelve.jsx";
@@ -30,7 +37,7 @@ import Footer from "./pages/Footer.jsx";
 import Info from "./pages/Info.jsx";
 // import ContactUs from './pages/ContactUs.jsx'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import  Gotobrands from './pages/Gotobrands.jsx'
+
 
 
 function App() {
@@ -42,7 +49,7 @@ function App() {
         <Route path="/home"  element={<Home />}/>
          <Route path="/info" element={<Info />} />
          <Route path="/about" element={<AboutUs />}  />
-         <Route path="/vehicle" element={<Vehicle />}  />
+         
          <Route path="/contact" element={<Footer />} />
          <Route path="/footer" element={<Footer />} />
          <Route path="/testimonial" element={<Testimonial />} />
@@ -57,7 +64,13 @@ function App() {
          
          
               <Gotobrands />
-              <Vehicle /> 
+          
+            <Carbrands />
+            <Bikebrands />
+            <Scooterbrands />
+            <Vanbrands />
+
+               
               
               <PriceListone />
               <Pricelisttwo />

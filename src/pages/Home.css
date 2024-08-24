@@ -22,39 +22,44 @@
   gap: 100px;
 }
 
-.h1 {
-  display: flex;
-  width: 100%;
-  align-items: start;
-  justify-content: center;
-  margin-top: -8px;
-  color: #004b23;
-  font-weight: bold;
-  font-size: 40px;
+.highlight {
+  /* background-image: url("src/assets/images/ocean.jpg"); */
+  letter-spacing: -3px;
+  color: transparent;
+  background-clip: text;
+ font-family: cursive;
+  margin-top: 5px;
+  background-color: #004b23;
+  /* /* color: #004b23;  */
+  font-weight: 600;
+  font-size: 50px;
   position: relative;
 }
 
-.h1:hover {
-  color: #004b23;
+.highlight:hover {
+  background-image: url("../assets/images/ocean.jpg");
+  background-clip: text;
+  letter-spacing: -3px;
+  color: transparent;
 }
 
-.h1:after {
+/* .highlight:after {
   content: "";
   position: absolute;
   width: 0%;
   left: 0;
   bottom: -8px;
-  transition: 1s ;
+  transition: 0.5s ;
   height: 3px;
-  /* width: 70%; */
-  margin-left: 190px;
+  
+ 
   background-color: #004b23;
 }
 
-.h1:hover:after {
-  width: 70%;
+.highlight:hover:after {
+  width: 100%;
   background-color: #004b23;
-}
+} */
 
 .hero_content {
   display: flex;

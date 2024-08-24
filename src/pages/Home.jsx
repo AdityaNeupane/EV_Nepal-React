@@ -15,10 +15,9 @@ const handleLearnMoreClick = () => {
     <div className="herosection" id="home">
       <Navbar />
       <div className="hero">
-        <div className="h1">
-          <h1>Your Gateway to the Electric Vehicle Revolution</h1>
-          <br></br>
-        </div>
+        
+          <h1 className="highlight">Your Gateway to the Electric Vehicle Revolution</h1>
+           
         <div className="hero_content">
           <p>
             From zero emissions to <br></br> cutting-edge technology, <br></br>
