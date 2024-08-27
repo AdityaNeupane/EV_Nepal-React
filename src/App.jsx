@@ -18,6 +18,7 @@ import Bikebrands from "./Brands/Bikebrands.jsx";
 import Scooterbrands from "./Brands/Scooterbrands.jsx";
 import Vanbrands from "./Brands/Vanbrands.jsx";
 import Gotobrands from "./pages/Gotobrands.jsx";
+import Gotoprice from "./pages/Gotoprice.jsx";
 
  
 import PriceListten from "./carsPricelist/PriceListten.jsx";
@@ -64,7 +65,7 @@ function App() {
          
          
               <Gotobrands />
-          
+          <Gotoprice />
             <Carbrands />
             <Bikebrands />
             <Scooterbrands />

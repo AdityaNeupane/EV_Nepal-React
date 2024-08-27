@@ -14,23 +14,23 @@
     /* background-clip: text;
     letter-spacing: -2px;
     color: transparent; */
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     padding-top: 30px;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 0px;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     
 }
 
 .brand-heading:hover {
     background-image: url(../assets/images/ocean.jpg);
     background-clip: text;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     color: transparent;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* .brand-heading:after {

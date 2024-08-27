@@ -32,7 +32,7 @@ const handleExplore4More = () => {
    return (
      <>
      <div className="gotobrands">
-          <h1 className='brand-heading'> Explore Available Electric Vehicle Brands in Nepal </h1>
+          <h1 className='brand-heading'>Your ideal Electric Vehicle is just a click away - explore your options now. </h1>
 
       <div className='cart'>
       

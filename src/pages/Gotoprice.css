@@ -1,0 +1,119 @@
+.gotoprice {
+  background-image: url(../assets/images/gotoprice.png);  
+  background-color: #F0F8FF;
+  width: 100%;
+  height: 2120px;
+  margin-top: 0px;
+}
+
+.gotoprice-heading {
+    color: #004b23;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: -2px;
+}
+
+.gotoprice-heading:hover {
+    background-image: url(../assets/images/ocean.jpg);
+    background-clip: text;
+    letter-spacing: -2px;
+    color: transparent;
+}
+
+.gotoprice-ending {
+    color: #004b23;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    letter-spacing: -2px;
+    margin-top: 370px;
+}
+
+.gotoprice-ending:hover {
+    background-image: url(../assets/images/ocean.jpg);
+    background-clip: text;
+    letter-spacing: -2px;
+    color: transparent;
+}
+
+.box {
+    width: 100%;
+    height: 1400px;
+    /* margin-left: 280px; */
+    margin-top: 180px;
+     
+    
+    
+}
+.box1{
+    width: 60%;
+    height: 350px;
+    background-color: #F0F8FF;
+    margin-left: 90px;
+    border-radius: 10px;
+    border: 4px solid #004b23;
+    box-shadow: 5px 5px 8px #004b23;
+}
+
+.box1:hover {
+    border: 4px solid #004b23;
+    box-shadow:  -5px -5px 8px #004b23;
+}
+
+.box2 {
+    width: 60%;
+    height: 350px;
+    background-color: #F0F8FF;
+    margin-top: 70px;
+    margin-left: 450px;
+    border-radius: 10px;
+    border: 4px solid #004b23;
+    box-shadow: 5px 5px 8px #004b23;
+}
+
+.box2:hover {
+    border: 4px solid #004b23;
+    box-shadow: -5px -5px 5px #004b23;;
+}
+
+.box3{
+    width: 60%;
+    height: 350px;
+    background-color: #F0F8FF;
+    margin-top: 70px;
+    margin-left: 90px;
+    border-radius: 10px;
+    border: 4px solid #004b23;
+    box-shadow: 5px 5px 8px #004b23;
+}
+
+.box3:hover {
+    border: 4px solid #004b23;
+    box-shadow: -5px -5px 8px #004b23;;
+}
+
+.box4{
+    width: 60%;
+    height: 350px;
+    background-color: #F0F8FF;
+    margin-top: 70px;
+    margin-left: 450px;
+    border-radius: 10px;
+    border: 4px solid #004b23;
+    box-shadow: 5px 5px 8px #004b23;
+}
+.box4:hover {
+    border: 4px solid #004b23;
+    box-shadow: -5px -5px 8px #004b23;
+}
