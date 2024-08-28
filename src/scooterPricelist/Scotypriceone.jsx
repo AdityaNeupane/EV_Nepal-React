@@ -10,9 +10,7 @@ const Scotypriceone = () => {
   return (
     <>
     <div className="onescoty">
-      <h1 className='main-heading'>' Price List of Electric Vehicles Available in Nepal '</h1>
-      <br></br>
-     <h1 className='scoty-heading'> Electric Scooter's </h1>
+      
       <h2 className='scotymodelone'> Ather Models</h2>
       <br></br>
       <table className="onescoty-table">

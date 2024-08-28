@@ -4,8 +4,8 @@
    
     width: 100%;
     height: 350px;
-    margin-top: 1px;
-    background-image: url(../assets/images/info-section.png);
+    /* margin-top: 1px; */
+    background-image: url(../assets/images/leaf.jpg);
     padding: 20px;
     text-align: center;
 }
@@ -13,10 +13,10 @@
 
 .carmodelfour {
     color:  black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 30px;
+    font-family:  cursive;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 25px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -28,11 +28,11 @@
   position: absolute;
   bottom: -8px;
   left: 0;
-  width: 16%;
-  height: 3px;
+  width: 22%;
+  height: 4px;
   background-color:  black;
   transition: 0.5s;
-  margin-left: 550px;
+  margin-left: 510px;
 }
 
 .pricelist-four-table {
@@ -40,6 +40,8 @@
   border-collapse: collapse;
   margin: 20px 0;
   margin-left: 320px;
+  padding: 20px;
+  border: 2px solid black;
 }
 
 .pricelist-four-table th,
@@ -47,16 +49,21 @@
   border: 1px solid black;
   padding: 8px;
   background-color: #f2f2f2;
+  font-weight: 600;
 }
 
-.pricelist-table-four th {
+.pricelist-four-table th {
   background-color: #f2f2f2;
+  color: black;
+  font-size: 19px;
+}
+
+.pricelist-four-table td {
   color: #333;
 }
-
  
 
-.pricelist-table-four tr:hover {
+.pricelist-four-table tr:hover {
   background-color: #ddd;
 }
 

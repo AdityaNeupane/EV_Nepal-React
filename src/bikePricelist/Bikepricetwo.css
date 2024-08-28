@@ -2,7 +2,7 @@
 .twobike {
    
     width: 100%;
-    height: 550px;
+    height: 570px;
     margin-top: 1px;
     background-image: url(../assets/images/info-section.png);
     padding: 20px;
@@ -12,10 +12,10 @@
 
 .bikemodeltwo {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 30px;
+    font-family:  cursive;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 25px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -27,9 +27,9 @@
   position: absolute;
   bottom: -8px;
   left: 0;
-  margin-left: 550px;
-  width: 16%;
-  height: 3px;
+  margin-left: 500px;
+  width: 24%;
+  height: 4px;
   background-color: black;
   transition: 0.5s;
 
@@ -40,6 +40,8 @@
   border-collapse: collapse;
   margin: 20px 0;
   margin-left: 320px;
+  padding: 20px;
+  border: 2px solid black;
 }
 
 .twobike-table th,
@@ -47,11 +49,17 @@
   border: 1px solid black;
   padding: 8px;
   background-color: #f2f2f2;
+  font-weight: 600;
 }
 
-.twobike-table- th {
+.twobike-table th {
 
   background-color: #f2f2f2;
+  color: black;
+  font-size: 19px;
+}
+
+.twobike-table td {
   color: #333;
 }
 

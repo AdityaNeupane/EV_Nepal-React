@@ -9,9 +9,7 @@ const products = [
   return (
     <>
     <div className="onebike">
-     <h1 className='Main-heading'>' Price List of Electric Bikes Available in Nepal '</h1>
-     <br></br>
-     <h1 className='bike-heading'>Electric Bike's</h1>
+     
       <h2 className='bikemodel'> Yatri Models</h2>
       <br></br>
       <table className="onebike-table">

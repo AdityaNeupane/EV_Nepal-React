@@ -1,22 +1,23 @@
  
 
 .price-list-two {
-   
+  
     width: 100%;
     height: 400px;
-    margin-top: 1px;
-    background-image: url(../assets/images/info-section.png);
+    /* margin-top: 1px; */
+    background-image: url(../assets/images/leaf.jpg);
     padding: 20px;
     text-align: center;
+    /* object-fit: cover; */
 }
 
 
 .carmodeltwo {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 30px;
+    font-family:  cursive;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 25px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -28,9 +29,9 @@
   position: absolute;
   bottom: -8px;
   left: 0;
-  margin-left: 530px;
-  width: 18%;
-  height: 3px;
+  margin-left: 500px;
+  width: 24%;
+  height: 4px;
   background-color: black;
   transition: 0.5s;
 
@@ -41,6 +42,8 @@
   border-collapse: collapse;
   margin: 20px 0;
   margin-left: 320px;
+  padding: 20px;
+  border: 2px solid black;
 }
 
 .pricelist-two-table th,
@@ -48,16 +51,21 @@
   border: 1px solid black;
   padding: 8px;
   background-color: #f2f2f2;
+  font-weight: 600;
 }
 
-.pricelist-table-two th {
+.pricelist-two-table th {
   background-color: #f2f2f2;
-  color: #333;
+  color: black;
+  /* font-weight: bold; */
+  font-size: 19px;
 }
 
- 
+.pricelist-two-table td {
+  color: #333;
+ }
 
-.pricelist-table-two tr:hover {
+.pricelist-two-table tr:hover {
   background-color: #ddd;
 }
 

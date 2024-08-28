@@ -25,19 +25,20 @@ import './PriceListone.css'
         { name: 'Tata Tigor', price: 'Rs. 33,49,000/- ' },
         { name: '', price: '' },
         { name: 'Tata Xprest-T', price: 'Rs. 36,99,000/-' },
+        { name: '', price: '' },
+        { name: 'Tata Punch EV +S MR', price: 'Rs. 33,99,000/-' },
+        {name: 'Tata Punch EV LR', price: 'Rs. 36,99,000/-' },
+        {name: 'Tata Punch EV +S LR', price: 'Rs. 38,99,000/-' },
 
 
       ];
     
     
 
-
   return (
      <>
      <div className='price-list'>
-        <h1 className='pricelist-heading'>' Price List of Electric Vehicles Available in Nepal '</h1>
-        <br></br>
-        <h1 className='vehicle-heading'>' Electric Cars '</h1>
+        
       <h2 className='carmodel'>Tata EV Models</h2>
        <br></br>
          
