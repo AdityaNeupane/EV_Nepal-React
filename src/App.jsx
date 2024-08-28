@@ -20,6 +20,11 @@ import Vanbrands from "./Brands/Vanbrands.jsx";
 import Gotobrands from "./pages/Gotobrands.jsx";
 import Gotoprice from "./pages/Gotoprice.jsx";
 
+import Pricecars from "./PricesSection/Pricecars.jsx";
+import Pricebikes from "./PricesSection/Pricebikes.jsx";
+import Pricescooters from "./PricesSection/Pricescooters.jsx";  
+import Pricevans from "./PricesSection/Pricevans.jsx";
+
  
 import PriceListten from "./carsPricelist/PriceListten.jsx";
 import PriceListeleven from "./carsPricelist/PriceListeleven.jsx";
@@ -50,7 +55,10 @@ function App() {
         <Route path="/home"  element={<Home />}/>
          <Route path="/info" element={<Info />} />
          <Route path="/about" element={<AboutUs />}  />
-         
+         <Route path="/carsprice" element={<Pricecars />} />
+         <Route path="/bikesprice" element={<Pricebikes />} />
+         <Route path="/scootersprice" element={<Pricescooters />} />
+         <Route path="/vansprice" element={<Pricevans />} />
          <Route path="/contact" element={<Footer />} />
          <Route path="/footer" element={<Footer />} />
          <Route path="/testimonial" element={<Testimonial />} />

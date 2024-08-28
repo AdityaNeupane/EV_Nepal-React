@@ -4,7 +4,30 @@ import ecar from '../assets/images/ecar.png'
 import ebike from '../assets/images/ebike.png'
 import escooter from '../assets/images/escooter.png'
 import evan from '../assets/images/evan.png'
+import { useNavigate } from 'react-router-dom'
+
 const Gotoprice = () => {
+
+const navigate = useNavigate();
+
+const handleViewPricingOne = () => {
+    navigate('/carsprice');
+};
+
+
+const handleViewPricingTwo = () => {
+    navigate('/bikesprice');
+};
+
+
+const handleViewPricingThree = () => {
+    navigate('/scootersprice');
+};
+
+const handleViewPricingFour = () => {
+    navigate('/vansprice');
+};
+
   return (
      <>
      <div className="gotoprice">
@@ -18,7 +41,7 @@ const Gotoprice = () => {
         <div className='box1-content'>
             <p className='content1'>Explore the full pricing details for <u>Cars</u> - Simply click the button below.</p>
 
-            <button className='button1'>View Pricing</button>
+            <button className='button1' onClick={handleViewPricingOne}>View Pricing</button>
         </div>
     </div>
     
@@ -29,7 +52,7 @@ const Gotoprice = () => {
     <div className='box2-content'>
         <p className='content2'>Explore the full pricing details for <u>Bikes</u> - Simply click the button below.</p>
 
-        <button className='button2'>View Pricing</button>
+        <button className='button2' onClick={handleViewPricingTwo}>View Pricing</button>
     </div>
 
     <div className='box2-img'><img src= {ebike} alt="bikepic" /></div>
@@ -41,7 +64,7 @@ const Gotoprice = () => {
     <div className='box3-content'>
         <p className='content3'>Explore the full pricing details for <u>Scooters</u> - Simply click the button below.</p>
 
-        <button className='button3'>View Pricing</button>
+        <button className='button3' onClick={handleViewPricingThree}>View Pricing</button>
     </div>
 </div>
 
@@ -50,7 +73,7 @@ const Gotoprice = () => {
     <div className='box4-content'>
         <p className='content4'>Explore the full pricing details for <u>Passenger Vans</u> - Simply click the button below.</p>
 
-        <button className='button4'>View Pricing</button>
+        <button className='button4' onClick={handleViewPricingFour}>View Pricing</button>
     </div>
     <div className='box4-img'><img src= {evan} alt="vanpic" /></div>
     </div>
