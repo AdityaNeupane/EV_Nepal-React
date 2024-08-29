@@ -2,7 +2,7 @@
     background-color: #f8f9fa;
     /* background-color: aqua; */
     width: 100%;
-    height: 1050px;
+    height: 1300px;
 }
 
 .car-heading {
@@ -15,7 +15,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
-    background-image: url(../assets/images/ocean.jpg);
+    background-image: url(../assets/Background-images/ocean.jpg);
     background-clip: text;
     position: relative;
     color: transparent;
@@ -81,6 +81,25 @@
     height: 220px;
     border: 4px solid #004b23;
     padding: 20px;
+    box-shadow: 5px 5px 5px #004b23;
+    background-color: #F0F8FF;
+}
+
+.car-omada {
+    width: 400px;
+    height: 80px;
+    margin-top: 540px;
+    margin-left: 420px;
+    padding: 20px;
+}
+
+.car-omada:hover {
+    width: 400px;
+    height: 80px;
+    margin-top: 540px;
+    margin-left: 420px;
+    padding: 10px;
+    border: 4px solid #004b23;
     box-shadow: 5px 5px 5px #004b23;
     background-color: #F0F8FF;
 }

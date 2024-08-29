@@ -2,9 +2,9 @@
 .sixscoty {
    
     width: 100%;
-    height: 500px;
+    height: 520px;
     margin-top: 1px;
-    background-image: url(../assets/images/info-section.png);
+    background-image: url(../assets/Background-images/background6.jpg);
     padding: 20px;
     text-align: center;
 }
@@ -12,10 +12,10 @@
 
 .scotymodelsix {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 30px;
+    font-family:  cursive;
+    font-size: 32px;
+    font-weight: 900;
+    padding-top: 25px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -27,9 +27,9 @@
   position: absolute;
   bottom: -8px;
   left: 0;
-  margin-left: 570px;
-  width: 13%;
-  height: 3px;
+  margin-left: 540px;
+  width: 18%;
+  height: 4px;
   background-color: black;
   transition: 0.5s;
 
@@ -40,6 +40,8 @@
   border-collapse: collapse;
   margin: 20px 0;
   margin-left: 320px;
+  padding: 20px;
+  border: 2px solid black;
 }
 
 .sixscoty-table th,
@@ -47,16 +49,21 @@
   border: 1px solid black;
   padding: 8px;
   background-color: #f2f2f2;
+  font-weight: 600;
 }
 
-.sixscoty-table- th {
+.sixscoty-table th {
   background-color: #f2f2f2;
+  color: black;
+  font-size: 19px;
+}
+
+.sixscoty-table td {
   color: #333;
 }
-
  
 
-.sixscoty-table- tr:hover {
+.sixscoty-table tr:hover {
   background-color: #ddd;
 }
 

@@ -20,7 +20,7 @@
 }
 
 .gotoprice-heading:hover {
-    background-image: url(../assets/images/ocean.jpg);
+    background-image: url(../assets/Background-images/ocean.jpg);
     background-clip: text;
     letter-spacing: -2px;
     color: transparent;
@@ -41,7 +41,7 @@
 }
 
 .gotoprice-ending:hover {
-    background-image: url(../assets/images/ocean.jpg);
+    background-image: url(../assets/Background-images/ocean.jpg);
     background-clip: text;
     letter-spacing: -2px;
     color: transparent;

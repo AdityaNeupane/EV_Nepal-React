@@ -12,11 +12,14 @@ import PriceListnine from '../carsPricelist/PriceListnine'
 import PriceListten from '../carsPricelist/PriceListten'
 import PriceListeleven from '../carsPricelist/PriceListeleven'
 import PriceListtwelve from '../carsPricelist/PriceListtwelve'
+import Headingcar from '../headingPrice/Headingcar'
 const Pricecars = () => {
   return (
      <>
      <div className='pricecars'>
+     
 
+     <Headingcar/>
      <PriceListone/>
      <Pricelisttwo/>
      <PriceListthree/>

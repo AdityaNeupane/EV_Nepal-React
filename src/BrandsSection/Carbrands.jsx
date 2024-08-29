@@ -13,6 +13,8 @@ import mahindralogo from '../assets/car-logo/mahindralogo.png'
 import netalogo from '../assets/car-logo/netalogo.png'
 import nissanlogo from '../assets/car-logo/nissanlogo.png'
 import deepallogo from '../assets/car-logo/deepallogo.png'
+import sereslogo from '../assets/car-logo/sereslogo.png'
+import omadalogo from '../assets/car-logo/omadalogo.png'
 
 const Carbrands = () => {
   return (
@@ -38,7 +40,14 @@ const Carbrands = () => {
        <img src= {netalogo} alt="netalogo" />
        <img src= {nissanlogo} alt="nissanlogo" />
        <img src= {deepallogo} alt="deepallogo" />
+       <img src= {sereslogo} alt="sereslogo" />
+       {/* <img src= {omadalogo} alt="omadalogo" /> */}
     </div>
+    
+    <div className='car-omada'>
+      <img src= {omadalogo} alt="omadalogo" />
+    </div>
+
    </div>
      </>
   )

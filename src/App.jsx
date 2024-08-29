@@ -13,10 +13,10 @@ import PriceListseven from "./carsPricelist/PriceListseven.jsx";
 import PriceListeight from "./carsPricelist/PriceListeight.jsx";
 import PriceListnine from "./carsPricelist/PriceListnine.jsx";
 
-import Carbrands from "./Brands/Carbrands.jsx";
-import Bikebrands from "./Brands/Bikebrands.jsx";
-import Scooterbrands from "./Brands/Scooterbrands.jsx";
-import Vanbrands from "./Brands/Vanbrands.jsx";
+import Carbrands from "./BrandsSection/Carbrands.jsx";
+import Bikebrands from "./BrandsSection/Bikebrands.jsx";
+import Scooterbrands from "./BrandsSection/Scooterbrands.jsx";
+import Vanbrands from "./BrandsSection/Vanbrands.jsx";
 import Gotobrands from "./pages/Gotobrands.jsx";
 import Gotoprice from "./pages/Gotoprice.jsx";
 
