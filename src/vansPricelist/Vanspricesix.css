@@ -1,0 +1,68 @@
+.sixvan {
+  width: 100%;
+  height: 380px;
+  background-image: url('../assets/Background-images/background6.jpg');
+  padding: 20px;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.vanmodelsix {
+  color: black;
+  font-family: cursive;
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.vanmodelsix:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  margin-left: 540px;
+  width: 18%;
+  height: 4px;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.sixvan-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 320px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.sixvan-table th,
+.sixvan-table td {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.sixvan-table th {
+  background-color: #f2f2f2;
+  color: black;
+  font-size: 19px;
+}
+
+.sixvan-table td {
+  color: #333;
+}
+
+.sixvan-table tr:hover {
+  background-color: #ddd;
+}
+
+.sixvan-table th,
+.sixvan-table td {
+  text-align: left;
+}

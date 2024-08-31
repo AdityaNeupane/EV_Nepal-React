@@ -1,0 +1,68 @@
+.threevan {
+  width: 100%;
+  height: 400px;
+  background-image: url('../assets/Background-images/background6.jpg');
+  padding: 20px;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.vanmodelthree {
+  color: black;
+  font-family: cursive;
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.vanmodelthree:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  margin-left: 540px;
+  width: 18%;
+  height: 4px;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.threevan-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 320px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.threevan-table th,
+.threevan-table td {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.threevan-table th {
+  background-color: #f2f2f2;
+  color: black;
+  font-size: 19px;
+}
+
+.threevan-table td {
+  color: #333;
+}
+
+.threevan-table tr:hover {
+  background-color: #ddd;
+}
+
+.threevan-table th,
+.threevan-table td {
+  text-align: left;
+}
