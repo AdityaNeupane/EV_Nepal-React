@@ -45,7 +45,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-
+        
         <div className="team-member">
           <div className="team-card" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60)' }}>
             <div className="team-info">
