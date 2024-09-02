@@ -26,17 +26,17 @@ import Pricescooters from "./PricesSection/Pricescooters.jsx";
 import Pricevans from "./PricesSection/Pricevans.jsx";
 
  
-import PriceListten from "./carsPricelist/PriceListten.jsx";
-import PriceListeleven from "./carsPricelist/PriceListeleven.jsx";
-import PriceListtwelve from "./carsPricelist/PriceListtwelve.jsx";
-import Scotypriceone from "./scooterPricelist/Scotypriceone.jsx";
-import Scotypricetwo from "./scooterPricelist/Scotypricetwo.jsx";
-import Scotypricethree from "./scooterPricelist/Scotypricethree.jsx";
-import Scotypricefour from "./scooterPricelist/Scotypricefour.jsx";
-import Scotypricefive from "./scooterPricelist/Scotypricefive.jsx";
-import Scotypricesix from "./scooterPricelist/Scotypricesix.jsx";
-import Bikepriceone from "./bikePricelist/Bikepriceone.jsx";
-import Bikepricetwo from "./bikePricelist/Bikepricetwo.jsx";
+// import PriceListten from "./carsPricelist/PriceListten.jsx";
+// import PriceListeleven from "./carsPricelist/PriceListeleven.jsx";
+// import PriceListtwelve from "./carsPricelist/PriceListtwelve.jsx";
+// import Scotypriceone from "./scooterPricelist/Scotypriceone.jsx";
+// import Scotypricetwo from "./scooterPricelist/Scotypricetwo.jsx";
+// import Scotypricethree from "./scooterPricelist/Scotypricethree.jsx";
+// import Scotypricefour from "./scooterPricelist/Scotypricefour.jsx";
+// import Scotypricefive from "./scooterPricelist/Scotypricefive.jsx";
+// import Scotypricesix from "./scooterPricelist/Scotypricesix.jsx";
+// import Bikepriceone from "./bikePricelist/Bikepriceone.jsx";
+// import Bikepricetwo from "./bikePricelist/Bikepricetwo.jsx";
 import Testimonial from "./pages/Testimonial.jsx";
 import Newsletter from "./pages/Newsletter.jsx";
 import Footer from "./pages/Footer.jsx";
@@ -73,34 +73,14 @@ function App() {
          
          
               <Gotobrands />
-          <Gotoprice />
-            <Carbrands />
+               <Gotoprice />
+            {/* <Carbrands />
             <Bikebrands />
             <Scooterbrands />
-            <Vanbrands />
+            <Vanbrands /> */}
 
                
-              
-              <PriceListone />
-              <Pricelisttwo />
-              <PriceListthree />
-              <PriceListfour />
-              <PriceListfive />
-              <PriceListsix />
-              <PriceListseven />
-              <PriceListeight />
-              <PriceListnine />
-              <PriceListten />
-              <PriceListeleven />
-              <PriceListtwelve />
-              <Scotypriceone />
-              <Scotypricetwo />
-              <Scotypricethree />
-              <Scotypricefour />
-              <Scotypricefive />
-              <Scotypricesix />
-              <Bikepriceone />
-              <Bikepricetwo />
+                
               <AboutUs />
               <Testimonial />
               <Newsletter />
