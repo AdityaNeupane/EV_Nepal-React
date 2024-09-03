@@ -1,5 +1,5 @@
 import React from 'react'
-import './Pricevans.css'
+ 
 import Vanspriceone from '../vansPricelist/Vanspriceone'
 import Vanspricetwo from '../vansPricelist/Vanspricetwo'
 import Vanspricethree from '../vansPricelist/Vanspricethree'
@@ -20,7 +20,7 @@ const Pricevans = () => {
      <Vanspricefour/>
      <Vanspricefive/>
      <Vanspricesix/>
-
+     
      </div>
      
      </>

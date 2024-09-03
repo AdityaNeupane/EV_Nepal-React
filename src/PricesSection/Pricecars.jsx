@@ -1,5 +1,5 @@
 import React from 'react'
-import './Pricecars.css'
+ 
 import PriceListone from '../carsPricelist/PriceListone'
 import Pricelisttwo from '../carsPricelist/PriceListtwo'
 import PriceListthree from '../carsPricelist/PriceListthree'

@@ -10,29 +10,37 @@
   import { faFaceSmileBeam } from '@fortawesome/free-solid-svg-icons'
   import { faFaceLaughWink } from '@fortawesome/free-solid-svg-icons/faFaceLaughWink'
   import { faFaceLaughBeam } from '@fortawesome/free-solid-svg-icons/faFaceLaughBeam'
+  import headingbg4 from '../assets/Background-images/headingbg4.jpg'
  const Gotobrands = () => {
 
 const navigate = useNavigate();
 
 const handleExplore1More = () => {
-  navigate('/Carbrands');
+  navigate('/carbrands');
 };
 
 const handleExplore2More = () => {
-  navigate('/Bikebrands');
+  navigate('/bikebrands');
 };
 const handleExplore3More = () => {
-  navigate('/Scooterbrands');
+  navigate('/scooterbrands');
 };
 const handleExplore4More = () => {
-  navigate('/Vanbrands');
+  navigate('/passengervanbrands');
 };
 
 
    return (
      <>
      <div className="gotobrands">
-          <h1 className='brand-heading'>Your ideal Electric Vehicle is just a click away - explore your options now. </h1>
+
+      <div className='image-container'>
+        <img src= {headingbg4} alt="headingbg4" className='heading-image' />
+          <h1 className='brand-heading'> BRANDS  </h1>
+          <h2 className='brand-subheading'>Car - Bike - Scooter - Passenger Van</h2>
+         </div>
+
+          <h1 className='quoteone'>Your ideal electric vehicle is just a click away - Explore your options now.</h1>
 
       <div className='cart'>
       

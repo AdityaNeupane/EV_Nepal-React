@@ -1,5 +1,5 @@
 import React from 'react'
-import './Pricescooters.css'
+ 
 import Scotypriceone from '../scooterPricelist/Scotypriceone'
 import Scotypricetwo from '../scooterPricelist/Scotypricetwo'
 import Scotypricethree from '../scooterPricelist/Scotypricethree'
@@ -11,7 +11,6 @@ const Pricescooters = () => {
   return (
      <>
      <div className="pricescooters">
-
 
      <Headingscooter />
      <Scotypriceone />

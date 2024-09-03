@@ -5,6 +5,7 @@ import ebike from '../assets/images/ebike.png'
 import escooter from '../assets/images/escooter.png'
 import evan from '../assets/images/evan.png'
 import { useNavigate } from 'react-router-dom'
+import headingbg4 from '../assets/Background-images/headingbg4.jpg'
 
 const Gotoprice = () => {
 
@@ -31,7 +32,16 @@ const handleViewPricingFour = () => {
   return (
      <>
      <div className="gotoprice">
-     <h1 className='gotoprice-heading'>Find the Perfect Electric Vehicle Within Your Budget</h1>
+   
+
+   <div className='heading-image-container'>
+       <img src= {headingbg4} alt="headingbg4" className='heading-imagetwo' />
+
+       <h1 className='gotoprice-heading'> PRICE LIST</h1>
+       <h2 className='gotoprice-subheading'>Car - Bike - Scooter - Passenger Van</h2>
+   </div>
+
+<h1 className='quotetwo'>find the perfect electric vehicle within your budget</h1>
 
    <div className='box'>
     
