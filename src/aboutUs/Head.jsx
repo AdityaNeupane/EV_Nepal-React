@@ -8,7 +8,7 @@ const Head = () => {
      <div className='aboutus'>
            <div className='image-container'>
         <img src={headingbg4} alt='headingbg4' />
-        <h1 className='about-heading'>ABOUT US</h1>
+        <h1 className='about-heading'>About Us</h1>
         <h2 className='about-subheading'>Home  -  About Us</h2>
         </div>
         </div>

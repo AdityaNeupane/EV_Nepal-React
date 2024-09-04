@@ -9,7 +9,7 @@ const Aboutcompany = () => {
       <div className='company'>
 
       <div className='left-box'>
-        <h1 className='left-box-content'>ABOUT <br></br>EV NEPAL</h1>
+        <h1 className='left-box-content'>About <br></br>EV NEPAL</h1>
       </div>
 
       <div className='right-box'>

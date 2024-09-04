@@ -6,6 +6,7 @@ import escooter from '../assets/images/escooter.png'
 import evan from '../assets/images/evan.png'
 import { useNavigate } from 'react-router-dom'
 import headingbg4 from '../assets/Background-images/headingbg4.jpg'
+// import meeting from '../assets/GIF/meeting.gif'
 
 const Gotoprice = () => {
 
