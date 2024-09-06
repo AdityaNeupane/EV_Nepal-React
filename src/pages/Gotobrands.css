@@ -71,8 +71,8 @@
     width: 300px;
     background-color: #edf6f9;
     border-radius: 8px;
-    border: 2px solid #007f57;
-    box-shadow: 5px 5px 5px #004b23;
+    border: 4px solid #007f57;
+    /* box-shadow: 5px 5px 5px #004b23; */
 }
 
 .cart1-text {
@@ -88,14 +88,10 @@
     
 }
 
-.cart1-img:hover {
-    width: 320px;
-    height: 220px;
-}
-
+ 
 .cart1:hover {
-    height: 420px;
-    width: 320px;
+    box-shadow: 0 0 6px 4px #004b23;
+    border: 2px solid #007f57;
 }
 
 .cart2 {
@@ -103,8 +99,8 @@
     width: 300px;
     background-color: #edf6f9;
     border-radius: 8px;
-    border: 2px solid #007f57;
-    box-shadow: 5px 5px 5px #004b23;
+    border: 4px solid #007f57;
+    /* box-shadow: 5px 5px 5px #004b23; */
 }
 
 .cart2-text {
@@ -112,22 +108,20 @@
 }
 
 .cart2-img {
-    width: 300px;
+    width: 240px;
     height: 200px;
     border-radius: 8px;
     padding: 4px;
     object-fit: contain;
+    margin-left: 20px;
     
 }
 
-.cart2-img:hover {
-    width: 320px;
-    height: 220px;
-}
+ 
 
 .cart2:hover {
-    height: 420px;
-    width: 320px;
+    box-shadow: 0 0 6px 4px #004b23;
+    border: 2px solid #007f57;
 }
 
 .cart3 {
@@ -135,8 +129,8 @@
     width: 300px;
     background-color: #edf6f9;
     border-radius: 8px;
-    border: 2px solid #007f57;
-    box-shadow: 5px 5px 5px #004b23;
+    border: 4px solid #007f57;
+    /* box-shadow: 5px 5px 5px #004b23; */
 }
 
 .cart3-text {
@@ -144,22 +138,20 @@
 }
 
 .cart3-img {
-    width: 300px;
+    width: 220px;
     height: 200px;
     border-radius: 8px;
     padding: 4px;
     object-fit: contain;
+    margin-left: 25px;
     
 }
 
-.cart3-img:hover {
-    width: 320px;
-    height: 220px;
-}
+ 
 
 .cart3:hover {
-    height: 420px;
-    width: 320px;
+    box-shadow: 0 0 6px 4px #004b23;
+    border: 2px solid #007f57;
 }
 
 .cart4 {
@@ -167,8 +159,8 @@
     width: 300px;
     background-color: #edf6f9;
     border-radius: 8px;
-    border: 2px solid #007f57;
-    box-shadow: 5px 5px 5px #004b23;
+    border: 4px solid #007f57;
+    /* box-shadow: 5px 5px 5px #004b23; */
 }
 
 .cart4-text {
@@ -176,7 +168,7 @@
 }
 
 .cart4-img {
-    width: 300px;
+    width: 280px;
     height: 200px;
     border-radius: 8px;
     padding: 4px;
@@ -184,14 +176,11 @@
     
 }
 
-.cart4-img:hover {
-    width: 320px;
-    height: 220px;
-}
+ 
 
 .cart4:hover {
-    height: 420px;
-    width: 320px;
+    box-shadow: 0 0 6px 4px #004b23;
+    border: 2px solid #007f57;
 }
 
 .cart1-text {

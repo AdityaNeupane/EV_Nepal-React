@@ -46,8 +46,12 @@ width: 100%;
 height: 250px;
 background-color: #001219;
 border-radius: 12px;
-box-shadow: 0 0 8px 5px #333;
+/* box-shadow: 0 0 8px 5px #333; */
  
+}
+
+.upper-left:hover {
+    box-shadow: 0 0 8px 5px #004b23;
 }
 
 .upper-left-heading {
@@ -79,9 +83,15 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
+   
     
 }
+
+.upper-right:hover {
+    box-shadow: 0 0 8px 5px #004b23;
+}
+
 
 .upper-right-heading {
     font-family:  cursive;
@@ -111,8 +121,12 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
     
+}
+
+.upper-middle:hover {
+    box-shadow: 0 0 8px 5px #004b23;
 }
 
 .upper-middle-heading {
@@ -152,8 +166,12 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
     
+}
+
+.middle-left:hover {
+    box-shadow: 0 0 8px 5px #004b23;
 }
 
 .middle-left-heading {
@@ -184,10 +202,12 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
   
 }
-
+.middle-right:hover {
+    box-shadow: 0 0 8px 5px #004b23;
+}
 .middle-right-heading {
     font-family:  cursive;
     color: #F0F8FF;
@@ -225,10 +245,12 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
     
 }
-
+.lower-left:hover {
+    box-shadow: 0 0 8px 5px #004b23;
+}
 .lower-left-heading {
     font-family:  cursive;
     color: #F0F8FF;
@@ -257,9 +279,11 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
 }
-
+.lower-right:hover {
+    box-shadow: 0 0 8px 5px #004b23;
+}
 .lower-right-heading {
     font-family:  cursive;
     color: #F0F8FF;
@@ -288,9 +312,11 @@ box-shadow: 0 0 8px 5px #333;
     height: 250px;
     background-color: #001219;
     border-radius: 12px;
-    box-shadow: 0 0 8px 5px #333;
+    /* box-shadow: 0 0 8px 5px #333; */
 }
-
+.lower-middle:hover {
+    box-shadow: 0 0 8px 5px #004b23;
+}
 .lower-middle-heading {
     font-family:  cursive;
     color: #F0F8FF;
