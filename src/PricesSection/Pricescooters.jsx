@@ -7,9 +7,13 @@ import Scotypricefour from '../scooterPricelist/Scotypricefour'
 import Scotypricefive from '../scooterPricelist/Scotypricefive'
 import Scotypricesix from '../scooterPricelist/Scotypricesix'
 import Headingscooter from '../headingPrice/Headingscooter'
+
+import Mynavbar from '../components/Mynavbar'
+import Footer from '../pages/Footer'
 const Pricescooters = () => {
   return (
      <>
+     <Mynavbar />
      <div className="pricescooters">
 
      <Headingscooter />
@@ -21,6 +25,8 @@ const Pricescooters = () => {
      <Scotypricesix />
 
      </div>
+
+     <Footer />
      </>
   )
 }

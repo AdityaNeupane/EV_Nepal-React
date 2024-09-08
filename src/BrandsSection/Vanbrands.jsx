@@ -7,12 +7,16 @@ import React from 'react'
  import sokonlogo from '../assets/van-logo/sokonlogo.png'
  import srmlogo from '../assets/van-logo/srmlogo.png'
  import wulinglogo from '../assets/van-logo/wulinglogo.png'
+
+import Mynavbar from '../components/Mynavbar'
+import Footer from '../pages/Footer'
 const Vanbrands = () => {
   return (
     <>
+    <Mynavbar />
     <div className="van-brands">
       <h1 className='van-heading'>Available Electric Passenger-Van Brands in Nepal</h1>
-
+      
       <div className='input4'>
         <input />
         <span className='search-icon4'><IoIosSearch /></span>
@@ -28,6 +32,7 @@ const Vanbrands = () => {
       </div>
 
     </div>
+    <Footer />
     </>
   )
 }

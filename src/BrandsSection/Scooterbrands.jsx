@@ -7,12 +7,16 @@ import ecobitlogo from '../assets/scooter-logo/ecobitlogo.png'
 import segwaylogo from '../assets/scooter-logo/segwaylogo.png'
 import supersocologo from '../assets/scooter-logo/supersocologo.png'
 import yadealogo from '../assets/scooter-logo/yadealogo.png'
+
+import Mynavbar from '../components/Mynavbar'
+import Footer from '../pages/Footer'
 const Scooterbrands = () => {
   return (
     <>
+    <Mynavbar/>
     <div className="Scooterbrands">
     <h1 className='scooter-heading'>Available Electric Scooter Brands in Nepal-' 2 wheeler '</h1>
-     
+    
      <div className='input3'>
       <input />
       <span className='search-icon3'><IoIosSearch /></span>
@@ -28,7 +32,7 @@ const Scooterbrands = () => {
         </div>
 
     </div>
-    
+    <Footer />
     </>
   )
 }

@@ -15,7 +15,7 @@ const handleLearnMoreClick = () => {
     <div className="herosection" id="home">
       <Navbar />
       <div className="hero">
-        
+    
           <h1 className="highlight">Your Gateway to the Electric Vehicle Revolution</h1>
            
         <div className="hero_content">

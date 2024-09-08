@@ -7,9 +7,13 @@ import Vanspricefour from '../vansPricelist/Vanspricefour'
 import Vanspricefive from '../vansPricelist/Vanspricefive'
 import Headingvan from '../headingPrice/Headingvan'
 import Vanspricesix from '../vansPricelist/Vanspricesix'
+
+import Mynavbar from '../components/Mynavbar'
+import Footer from '../pages/Footer'
 const Pricevans = () => {
   return (
      <>
+     <Mynavbar />
      <div className="pricevans"> 
 
 
@@ -22,7 +26,7 @@ const Pricevans = () => {
      <Vanspricesix/>
      
      </div>
-     
+     <Footer />
      </>
   )
 }

@@ -3,23 +3,15 @@ import "../components/Mynavbar.css";
 import { Link as Scroll } from "react-scroll";
 import { Link } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
- import { faAngleDown, faPhone } from  '@fortawesome/free-solid-svg-icons'
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
- import { faChargingStation } from  '@fortawesome/free-solid-svg-icons'
-//  import { faPhone } from  '@fortawesome/free-solid-svg-icons'
-
+ import { faChargingStation } from  '@fortawesome/free-solid-svg-icons';
+ 
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("home");
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+ 
 
-  // set the active nav
-  const handleSetActive = (to) => {
-    setActiveLink(to);
-  };
-
-const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+ const [vehiclesDropdown, setVehiclesDropdown] = useState(false);
+ const [priceListDropdown, setPriceListDropdown] = useState(false);
 
    
 
@@ -59,20 +51,7 @@ const toggleDropdown = () => {
             <span className="nav_links">About Us</span>
           </Scroll>
           
-        {/* <Scroll
-            to="chargingstations"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            onSetActive={handleSetActive}
-            activeClass={activeLink === "about" ? "active" : ""}
-          >
-            <span>
-              <a href="https://chargingstationsnepal.com" target="_blank" rel="noopener noreferrer">
-              Charging Stations
-              </a>
-              </span>
-          </Scroll> */}
+      
 
           <span className="nav_links">
   <a 
@@ -84,81 +63,68 @@ const toggleDropdown = () => {
   </a>
     <FontAwesomeIcon icon={faChargingStation} className="dropdown-icontwo" />
 </span>
-
-
-
- {/* <div className="dropdown">
-      <button onClick={toggleDropdown} className="dropdown-toggle">
-        Vehicles<FontAwesomeIcon icon={ faCaretDown } className="dropdown-icon" />
-      </button>
-      {isOpen && (
-        <div className="dropdown-menu">
-          <ul>
-            <li className="dropdown-item">Menu Item 1</li>
-            <li className="dropdown-item">Menu Item 2</li>
-            <li className="dropdown-item">Menu Item 3</li>
-          </ul>
-        </div>
-      )}
-    </div> */}
           
-          {/* <Scroll
-            to="vehicle"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            onSetActive={handleSetActive}
-            activeClass={activeLink === "vehicles" ? "active" : ""}
-          > */}
-           
-         <Link to='/Vehicle' 
-          className={`nav_links ${activeLink === 'vehicle' ? 'active' : ''}`} 
-          onClick={() => {
-            toggleDropdown();
-            handleSetActive('vehicle'); 
-          }}
-        >
-            <span className="veh">
-              Vehicles 
-            </span>
-              <FontAwesomeIcon icon={faAngleDown} className="dropdown-icon" />
-            </Link>
-            
-           {isDropdownOpen && (
-          <div className="dropdown-menu">
-            <ul>
-              <li className="dropdown-item">
-                 Cars 
-              </li>
-              <li className="dropdown-item">
-                 Bikes 
-              </li>
-              <li className="dropdown-item">
-                {/* <Link to="/scooters">Scooters</Link> */}
-                 Scooters
-              </li>
-            </ul>
-          </div>
-        )}
+          {/* vehicles dropdown menu  */}
 
+         
+             <li
+              className="navbar-item dropdown"
+              onMouseEnter={() => setVehiclesDropdown(true)}
+              onMouseLeave={() => setVehiclesDropdown(false)}
+            >
+              <div className="dropdownone">
+                <a href="#vehicles" className="nav_links">Vehicles</a>
+                <a href="#">
+                  <FontAwesomeIcon icon={faCaretDown} />
+                </a>
+              </div>
 
-          {/* </Scroll>  */}
-          
+              {vehiclesDropdown && (
+                <ul className="dropdown-menu">
+                  <li>
+                    <a href="#vehicle1">Electric Car</a>
+                  </li>
+                  <li>
+                    <a href="#vehicle2">Electric Scooter</a>
+                  </li>
+                  <li>
+                    <a href="#vehicle3">Electric Bike</a>
+                  </li>
+                </ul>
+              )}
+         </li>
+     
+     {/* pricelist dropdown  */}
 
-         <Scroll
-            to="pricelist"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            onSetActive={handleSetActive}
-            activeClass={activeLink === "price" ? "active" : ""}
-          >
-            <Link to="/Pricelistthree" className="nav_links">
-            <span className="pri">Price List</span>
-              <FontAwesomeIcon icon={faAngleDown} className="dropdown-icon" />
-            </Link>
-          </Scroll>
+       <li
+              className="navbar-item dropdown"
+              onMouseEnter={() => setPriceListDropdown(true)}
+              onMouseLeave={() => setPriceListDropdown(false)}
+            >
+              <div className="dropdowntwo">
+                <a href="#pricelist" className="nav_links">Price List</a>
+                <a href="#">
+                  <FontAwesomeIcon icon={faCaretDown} />
+                </a>
+              </div>
 
+              {priceListDropdown && (
+                <ul className="dropdown-menu">
+                  <li>
+                    <a href="#price1">Electric Car</a>
+                  </li>
+                  <li>
+                    <a href="#price2">Electric Scooter</a>
+                  </li>
+                  <li>
+                    <a href="#price3">Electric Bike</a>
+                  </li>
+                </ul>
+              )}
+
+          </li>
+
+       
            
           <Scroll
             to="contactus"

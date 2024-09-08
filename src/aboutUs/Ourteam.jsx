@@ -27,12 +27,12 @@ const Ourteam = () => {
             </div>
             <div className='ourteam-box2'>
                 <div className='ourteam-box2-img'><img src={officeperson2} alt="officeperson2" /></div>
-                <h1 className='ourteam-box2-heading'>Will Smith</h1>
+                <h1 className='ourteam-box2-heading'>Jacob Smith</h1>
                 <p className='ourteam-box2-subheading'>Chief Executive Officer</p>
             </div>
             <div className='ourteam-box3'>
                 <div className='ourteam-box3-img'><img src={officeperson3} alt="officeperson3" /></div>
-                <h1 className='ourteam-box3-heading'>Kendall Jenner</h1>
+                <h1 className='ourteam-box3-heading'>Lisa Collins</h1>
                 <p className='ourteam-box3-subheading'>Marketing Manager</p>
             </div>
             </div>

@@ -1,4 +1,4 @@
-/* .navbar {
+.navbar {
   position: relative;
   width: 100%;
   display: flex;
@@ -22,9 +22,9 @@
   a {
     cursor: pointer;
   }
-} */
+}
 
-/* .navbar-item {
+.navbar-item {
   margin-left: 20px;
   position: relative;
   color: #007f5f;
@@ -80,29 +80,29 @@
   display: block;
   color: white;
   text-decoration: none;
-} */
+}
 
-/* .dropdown-menu li a:hover {
+.dropdown-menu li a:hover {
   background-color: #555;
-} */
+}
 
-/* .search-icon a {
+.search-icon a {
   font-size: 25px;
   color: white;
   margin-right: 27px;
   margin-top: 0px;
   margin-bottom: 25px;
-} */
+}
 
-/* .search-icon a:hover {
+.search-icon a:hover {
   background-color: #e9efe7;
   border-radius: 5px;
   width: 40px;
   height: 45px;
   color: #007f5f;
   padding: 5px;
-} */
-/* 
+}
+
 .learn-more-button {
   height: 40px;
   width: 90px;
@@ -119,9 +119,9 @@
   width: 100%;
   top: 430px;
   left: 62px;
-} */
+} 
 
-/* .hero-content h1 {
+.hero-content h1 {
   color: #007f5f;
   font-size: 40px;
   font-weight: 550;
@@ -142,4 +142,4 @@
   padding-left: 60px;
   display: flex;
   position: absolute;
-} */
+}

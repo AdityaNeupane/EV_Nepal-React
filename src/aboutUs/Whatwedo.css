@@ -44,20 +44,22 @@
 .upper-left {
 width: 100%;
 height: 250px;
-background-color: #001219;
+background-color: #F0F8FF;
 border-radius: 12px;
-/* box-shadow: 0 0 8px 5px #333; */
+box-shadow: 0 0 8px 2px #004b23;
+border: 2px solid #004b23;
  
 }
 
 .upper-left:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 
 .upper-left-heading {
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 30px;
     font-weight: 600;
     padding-top: 25px;
@@ -68,7 +70,7 @@ border-radius: 12px;
 
 .upper-left-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -81,21 +83,23 @@ border-radius: 12px;
 .upper-right {
     width: 100%;
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: 2px solid #004b23;
    
     
 }
 
 .upper-right:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 
 
 .upper-right-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 20px;
@@ -105,7 +109,7 @@ border-radius: 12px;
 
 .upper-right-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -119,19 +123,21 @@ border-radius: 12px;
 .upper-middle {
     width: 100%;
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: 2px solid #004b23;
     
 }
 
 .upper-middle:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+border: 2px solid #001219;
 }
 
 .upper-middle-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
@@ -141,7 +147,7 @@ border-radius: 12px;
 
 .upper-middle-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -164,19 +170,21 @@ border-radius: 12px;
 .middle-left {
     width: 100%;
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: 2px solid #004b23;
     
 }
 
 .middle-left:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 
 .middle-left-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
@@ -186,7 +194,7 @@ border-radius: 12px;
 
 .middle-left-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -200,17 +208,19 @@ border-radius: 12px;
 .middle-right {
     width: 100%;    
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: 2px solid #004b23;
   
 }
 .middle-right:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 .middle-right-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
@@ -220,7 +230,7 @@ border-radius: 12px;
 
 .middle-right-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -243,17 +253,19 @@ border-radius: 12px;
 .lower-left {
     width: 100%;
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: #004b23 solid 2px;
     
 }
 .lower-left:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 .lower-left-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
@@ -263,7 +275,7 @@ border-radius: 12px;
 
 .lower-left-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -277,16 +289,18 @@ border-radius: 12px;
 .lower-right {
     width: 100%;
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: 2px solid #004b23;
 }
 .lower-right:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 .lower-right-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 10px;
@@ -296,7 +310,7 @@ border-radius: 12px;
 
 .lower-right-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
@@ -310,16 +324,18 @@ border-radius: 12px;
 .lower-middle {
     width: 100%;
     height: 250px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     border-radius: 12px;
-    /* box-shadow: 0 0 8px 5px #333; */
+    box-shadow: 0 0 8px 2px #004b23;
+    border: 2px solid #004b23;
 }
 .lower-middle:hover {
-    box-shadow: 0 0 8px 5px #004b23;
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 .lower-middle-heading {
     font-family:  cursive;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
@@ -329,7 +345,7 @@ border-radius: 12px;
 
 .lower-middle-para {
     font-family: 'Times New Roman', Times, serif;
-    color: #F0F8FF;
+    color: #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;

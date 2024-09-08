@@ -16,9 +16,13 @@ import deepallogo from '../assets/car-logo/deepallogo.png'
 import sereslogo from '../assets/car-logo/sereslogo.png'
 import omadalogo from '../assets/car-logo/omadalogo.png'
 
+import Mynavbar from '../components/Mynavbar'
+import Footer from '../pages/Footer'
+
 const Carbrands = () => {
   return (
      <>
+     <Mynavbar />
      <div className='car-brands'>
      <h1 className='car-heading'>Available Electric Car Brands in Nepal - <u>' 4 wheeler '</u> </h1>
       
@@ -47,8 +51,9 @@ const Carbrands = () => {
     <div className='car-omada'>
       <img src= {omadalogo} alt="omadalogo" />
     </div>
-
+    
    </div>
+   <Footer />
      </>
   )
 }

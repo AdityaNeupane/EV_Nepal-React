@@ -11,7 +11,7 @@ import Carbrands from "./BrandsSection/Carbrands.jsx";
 import Bikebrands from "./BrandsSection/Bikebrands.jsx";
 import Scooterbrands from "./BrandsSection/Scooterbrands.jsx";
 import Vanbrands from "./BrandsSection/Vanbrands.jsx";
- 
+ import Display from "./pages/Display.jsx";
 import Testimonial from "./pages/Testimonial.jsx";
 import Newsletter from "./pages/Newsletter.jsx";
 import Footer from "./pages/Footer.jsx";
@@ -45,6 +45,7 @@ function App() {
 
          </Routes>
          
+         <Display />
          <Gotobrands />
          <Gotoprice />
           <About /> 

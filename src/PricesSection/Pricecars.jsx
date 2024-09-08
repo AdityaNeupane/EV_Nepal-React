@@ -13,9 +13,13 @@ import PriceListten from '../carsPricelist/PriceListten'
 import PriceListeleven from '../carsPricelist/PriceListeleven'
 import PriceListtwelve from '../carsPricelist/PriceListtwelve'
 import Headingcar from '../headingPrice/Headingcar'
+
+import Mynavbar from '../components/Mynavbar'
+import Footer from '../pages/Footer'
 const Pricecars = () => {
   return (
      <>
+     <Mynavbar/>
      <div className='pricecars'>
      
 
@@ -34,7 +38,7 @@ const Pricecars = () => {
      <PriceListtwelve/>
 
      </div>
-     
+     <Footer/>
      </>
   )
 }

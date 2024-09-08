@@ -40,15 +40,21 @@
 .ourjourney-para {
     width: 90%;
     height: 900px;
-    background-color: #001219;
+    background-color: #F0F8FF;
     margin-left: 75px;
     /* margin-right: 150px; */
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow:  0 0 6px 6px #004b23 ;
+    box-shadow:  0 0 8px 3px #004b23 ;
+    border: 2px solid #004b23;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+
+.ourjourney-para:hover {
+    box-shadow: 0 0 8px 3px #001219;
+    border: 2px solid #001219;
 }
 
 .ourjourney-para-image {
@@ -63,7 +69,8 @@
     margin-top: 20px;
     /* margin-right: 20px; */
     padding: 20px;
-    color: #F0F8FF;
+    color: #001219;
+    font-weight: 500;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
