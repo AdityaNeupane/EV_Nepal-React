@@ -1,29 +1,32 @@
 import React, { useState } from "react";
-import "../components/Mynavbar.css";
+ import "./Mynavbar.css";
 import { Link as Scroll } from "react-scroll";
 import { Link } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import { faChargingStation } from  '@fortawesome/free-solid-svg-icons';
- 
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import logo from "../assets/images/logo.png";
 const Navbar = () => {
- 
-
  const [vehiclesDropdown, setVehiclesDropdown] = useState(false);
  const [priceListDropdown, setPriceListDropdown] = useState(false);
 
-   
+
+const [activeLink, setActiveLink] = useState("");
+
+const handleSetActive = (link) => {
+  setActiveLink(link);
+};
 
 
-  return (
+
+return (
     <div className="navbar">
       <div className="logoimage">
         <Link to="/">
-          <img src="src/assets/images/logo.png" alt="logo" />
+          <img src= {logo} alt="logo" />
         </Link>
       </div>
-
       <div className="navcart">
         <div className="navtext">
           <Scroll
@@ -38,8 +41,6 @@ const Navbar = () => {
             <span className="nav_links">Home</span>
             </Link>
           </Scroll>
-
-
           <Scroll
             to="aboutus"
             spy={true}
@@ -50,9 +51,6 @@ const Navbar = () => {
           >
             <span className="nav_links">About Us</span>
           </Scroll>
-          
-      
-
           <span className="nav_links">
   <a 
     href="https://chargingstationsnepal.com" 
@@ -61,71 +59,81 @@ const Navbar = () => {
   >
     Charging Stations
   </a>
-    <FontAwesomeIcon icon={faChargingStation} className="dropdown-icontwo" />
+    <FontAwesomeIcon icon={faChargingStation} className="dropdown-iconthree" />
 </span>
-          
-          {/* vehicles dropdown menu  */}
 
-         
-             <li
-              className="navbar-item dropdown"
+
+
+            {/* vehicles dropdown menu  */}
+
+            <ul className="navbar-item dropdown">
+              <li
+               
               onMouseEnter={() => setVehiclesDropdown(true)}
               onMouseLeave={() => setVehiclesDropdown(false)}
             >
               <div className="dropdownone">
-                <a href="#vehicles" className="nav_links">Vehicles</a>
-                <a href="#">
-                  <FontAwesomeIcon icon={faCaretDown} />
-                </a>
+                <span className="nav_links">Vehicles</span>
+                  <FontAwesomeIcon icon={faCaretDown} className="dropdown-iconone" />
               </div>
 
               {vehiclesDropdown && (
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menuone">
                   <li>
-                    <a href="#vehicle1">Electric Car</a>
+                    <Link to="/Carbrands">Electric Car</Link>
                   </li>
                   <li>
-                    <a href="#vehicle2">Electric Scooter</a>
+                    <Link to="/Scooterbrands">Electric Scooter</Link>
                   </li>
                   <li>
-                    <a href="#vehicle3">Electric Bike</a>
+                     <Link to="/Bikebrands">Electric Bike</Link>
+                  </li>
+                  <li>
+                    <Link to="/Vanbrands">Passenger EV van</Link>
                   </li>
                 </ul>
               )}
          </li>
-     
+</ul>
+
+
      {/* pricelist dropdown  */}
 
+
+     <ul className="navbar-item dropdown">
+
        <li
-              className="navbar-item dropdown"
+               
               onMouseEnter={() => setPriceListDropdown(true)}
               onMouseLeave={() => setPriceListDropdown(false)}
-            >
-              <div className="dropdowntwo">
-                <a href="#pricelist" className="nav_links">Price List</a>
-                <a href="#">
-                  <FontAwesomeIcon icon={faCaretDown} />
-                </a>
+            > 
+            <div className="dropdowntwo">
+        <span className="nav_links">Price List</span>
+                  <FontAwesomeIcon icon={faCaretDown} className="dropdown-icontwo" />
               </div>
 
+
               {priceListDropdown && (
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menutwo">
                   <li>
-                    <a href="#price1">Electric Car</a>
+                    <Link to="/Pricecars">Electric Car</Link>
                   </li>
                   <li>
-                    <a href="#price2">Electric Scooter</a>
+                    <Link to="/Pricescooters">Electric Scooter</Link>
                   </li>
                   <li>
-                    <a href="#price3">Electric Bike</a>
+                    <Link to="/Pricebikes">Electric Bike</Link>
+                  </li>
+                  <li>
+                    <Link to="/Pricevans">Passenger EV van</Link>
                   </li>
                 </ul>
               )}
+          </li> 
 
-          </li>
+     </ul>
 
-       
-           
+
           <Scroll
             to="contactus"
             spy={true}
@@ -137,9 +145,6 @@ const Navbar = () => {
             <span className="nav_links">Contact Us</span>
               {/* <FontAwesomeIcon icon={faPhone} className="dropdown-iconthree" /> */}
           </Scroll>
-
-          
-
         </div>
       </div>
       <div className="input">

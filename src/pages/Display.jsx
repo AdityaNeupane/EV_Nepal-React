@@ -15,11 +15,11 @@ const Display = () => {
   const settings = {
     dots: true,          // Show dots for navigation
     infinite: true,      // Infinite loop
-    speed: 500,          // Transition speed
+    speed: 800,          // Transition speed
     slidesToShow: 1,     // Show one slide at a time
     slidesToScroll: 1,   // Scroll one slide at a time
     autoplay: true,      // Auto-slide
-    autoplaySpeed: 2000, // 2 seconds per slide
+    autoplaySpeed: 2000, // 1 seconds per slide
   
   };
 
