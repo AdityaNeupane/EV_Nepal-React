@@ -1,6 +1,6 @@
 .whatwedo {
      width: 100%;
-    height: 1160px;
+    height: 1540px;
     /* margin-top: 2px; */
     background-color: #F0F8FF;
     position: relative;
@@ -15,11 +15,11 @@
     width: 25%;
     height: 130px;
     border-radius: 50px;
-    box-shadow: 6px 6px 8px #004b23;
+    box-shadow: 4px 4px 8px #242423;
 }
 .whatwedo-heading {
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family:cursive;
@@ -33,27 +33,29 @@
 
 .upper-box {
     width: 100%;
-    height: 290px;
+    height: 420px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-  
-    gap: 30px;
+    /* padding: 20px; */
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-right: 35px;
+    /* gap: 10px; */
 }
 
 .upper-left {
-width: 100%;
-height: 250px;
-background-color: #F0F8FF;
+width: 90%;
+height: 400px;
+background-color: #f8f9ff;
 border-radius: 12px;
-box-shadow: 0 0 8px 2px #004b23;
+/* box-shadow: 0 0 8px 2px #004b23; */
 border: 2px solid #004b23;
+filter: drop-shadow(0 0 6px #004b23);
  
 }
 
 .upper-left:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 
 .upper-left-heading {
@@ -62,8 +64,9 @@ border: 2px solid #004b23;
     color: #001219;
     font-size: 30px;
     font-weight: 600;
-    padding-top: 25px;
-    padding-left: 30px;
+    padding-top: 20px;
+     
+    padding-left: 40px;
     padding-right: 20px;
     /* letter-spacing: 1px; */
 }
@@ -73,27 +76,27 @@ border: 2px solid #004b23;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
     letter-spacing: 1px;
     text-align: start;
 }
 
 .upper-right {
-    width: 100%;
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 90%;
+    height: 400px;
+    background-color: #f9f8ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: 2px solid #004b23;
+    filter: drop-shadow(0 0 6px #004b23);
    
     
 }
 
 .upper-right:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 
 
@@ -103,8 +106,9 @@ border: 2px solid #004b23;
     font-size: 32px;
     font-weight: 600;
     padding-top: 20px;
-    padding-left: 30px;
-    /* letter-spacing: 1px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 1px;
 }
 
 .upper-right-para {
@@ -112,27 +116,27 @@ border: 2px solid #004b23;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
     /* letter-spacing: 1px; */
     text-align: start;
 }
 
 .upper-middle {
-    width: 100%;
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 90%;
+    height: 400px;
+    background-color: #f8f9ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: 2px solid #004b23;
+    filter: drop-shadow(0 0 6px #004b23);
     
 }
 
 .upper-middle:hover {
-    box-shadow: 0 0 8px 3px #001219;
-border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 
 .upper-middle-heading {
@@ -140,8 +144,9 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 32px;
     font-weight: 600;
-    padding-top: 25px;
-    padding-left: 30px;
+    padding-top: 20px;
+    /* padding-left: 40px; */
+    text-align: center;
     letter-spacing: 1px;
 }
 
@@ -150,9 +155,9 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     letter-spacing: 1px;
     text-align: start;
@@ -160,26 +165,29 @@ border: 2px solid #001219;
 
 .middle-box {
     width: 100%;
-    height: 290px;
+    height: 350px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
-    gap: 30px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 40px;
+    /* padding: 20px; */
+    gap: 10px;
 }
 
 .middle-left {
-    width: 100%;
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 95%;
+    height: 300px;
+    background-color: #f8f9ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: 2px solid #004b23;
+    filter: drop-shadow(0 0 6px #004b23);
     
 }
 
 .middle-left:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 
 .middle-left-heading {
@@ -187,8 +195,9 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 32px;
     font-weight: 600;
-    padding-top: 25px;
-    padding-left: 30px;
+    padding-top: 15px;
+    /* padding-left: 30px; */
+    text-align: center;
     letter-spacing: 1px;
 }
 
@@ -197,35 +206,35 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    /* padding-bottom: 20px; */
     letter-spacing: 1px;
     text-align: start;
 }
 
 .middle-right {
-    width: 100%;    
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 95%;    
+    height: 300px;
+    background-color: #f9f8ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: 2px solid #004b23;
-  
+    filter: drop-shadow(0 0 6px #004b23);
 }
 .middle-right:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 .middle-right-heading {
     font-family:  cursive;
     color: #001219;
     font-size: 32px;
     font-weight: 600;
-    padding-top: 25px;
-    padding-left: 30px;
-    letter-spacing: 1px;
+    padding-top: 15px;
+    /* padding-left: 30px; */
+    text-align: center;
+    /* letter-spacing: 1px; */
 }
 
 .middle-right-para {
@@ -234,8 +243,8 @@ border: 2px solid #001219;
     font-size: 18px;
     font-weight: 100;
     padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 25px;
+    padding-right: 30px;
+    padding-top: 15px;
     padding-bottom: 20px;
     letter-spacing: 1px;
     text-align: start;
@@ -243,25 +252,28 @@ border: 2px solid #001219;
 
 .lower-box {
     width: 100%;
-    height: 290px;
+    height: 420px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
-    gap: 30px;
+    padding-left: 70px;
+    padding-right: 35px;
+    padding-top: 50px;
+    /* padding: 20px; */
+    /* gap: 30px; */
 }
 
 .lower-left {
-    width: 100%;
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 90%;
+    height: 400px;
+    background-color: #f8f9ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: #004b23 solid 2px;
+    filter: drop-shadow(0 0 6px #004b23);
     
 }
 .lower-left:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 .lower-left-heading {
     font-family:  cursive;
@@ -269,7 +281,8 @@ border: 2px solid #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    text-align: center;
     letter-spacing: 1px;
 }
 
@@ -278,33 +291,34 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     letter-spacing: 1px;
     text-align: start;
 }
 
 .lower-right {
-    width: 100%;
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 90%;
+    height: 400px;
+    background-color: #f9f8ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: 2px solid #004b23;
+    filter: drop-shadow(0 0 6px #004b23);
 }
 .lower-right:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 .lower-right-heading {
     font-family:  cursive;
     color: #001219;
     font-size: 32px;
     font-weight: 600;
-    padding-top: 10px;
-    padding-left: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     letter-spacing: 1px;
 }
 
@@ -313,25 +327,25 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     letter-spacing: 1px;
     text-align: start;
 }
 
 .lower-middle {
-    width: 100%;
-    height: 250px;
-    background-color: #F0F8FF;
+    width: 90%;
+    height: 400px;
+    background-color: #f8f9ff;
     border-radius: 12px;
-    box-shadow: 0 0 8px 2px #004b23;
+    /* box-shadow: 0 0 8px 2px #004b23; */
     border: 2px solid #004b23;
+    filter: drop-shadow(0 0 6px #004b23);
 }
 .lower-middle:hover {
-    box-shadow: 0 0 8px 3px #001219;
-    border: 2px solid #001219;
+    filter: drop-shadow(0 0 12px #004b23);
 }
 .lower-middle-heading {
     font-family:  cursive;
@@ -339,7 +353,9 @@ border: 2px solid #001219;
     font-size: 32px;
     font-weight: 600;
     padding-top: 25px;
-    padding-left: 30px;
+    /* text-align: center; */
+    padding-left: 40px;
+    padding-right: 40px;
     letter-spacing: 1px;
 }
 
@@ -348,10 +364,26 @@ border: 2px solid #001219;
     color: #001219;
     font-size: 18px;
     font-weight: 100;
-    padding-left: 30px;
-    padding-right: 20px;
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
     letter-spacing: 1px;
     text-align: start;
 }
+
+
+.upper-box img {
+   padding-top: 20px;
+    margin-left: 150px;
+}
+
+.middle-box img {
+    padding-top: 20px;
+     margin-left: 250px;
+ }
+
+ .lower-box img {
+    padding-top: 20px;
+     margin-left: 150px;
+ }

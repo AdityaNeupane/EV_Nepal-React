@@ -45,7 +45,16 @@
      border-radius: 20px;
      filter: drop-shadow(0 0 4px #004b23);
      background-color: #f8f9fa;
+     display: flex;
+     gap: 30px;
  }
+
+.about-upperrightbox img {
+    width: 80px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 20px;
+}
 
 .about-upperrightbox:hover {
     filter: drop-shadow(0 0 8px #004b23);
@@ -69,9 +78,10 @@
    font-size: 32px;
    font-weight: 600;
    font-family: cursive;
-   text-align: center;
+   /* text-align: center; */
    padding: 20px;
    letter-spacing: 2px;
+   margin-left: 80px;
  }
   
  .about-lowerrightboxheading {
