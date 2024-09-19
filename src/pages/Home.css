@@ -28,38 +28,31 @@
   color: transparent;
   background-clip: text;
  font-family: cursive;
-  margin-top: 5px;
+  margin-top: 8px;
   background-color: #004b23;
   /* /* color: #004b23;  */
   font-weight: 600;
   font-size: 50px;
   position: relative;
-}
-
-.highlight:hover {
-  background-image: url("../assets/Background-images/ocean.jpg");
-  background-clip: text;
-  letter-spacing: -3px;
-  color: transparent;
-}
-
-/* .highlight:after {
-  content: "";
-  position: absolute;
-  width: 0%;
-  left: 0;
-  bottom: -8px;
-  transition: 0.5s ;
-  height: 3px;
+  display: inline-block;
+  margin: 0 0.5rem;
   
- 
-  background-color: #004b23;
+  /* animation: wobbleAnimation 1s infinite;  */
 }
+/* 
+@keyframes bounceAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+} 
+ */
 
-.highlight:hover:after {
-  width: 100%;
-  background-color: #004b23;
-} */
+ 
+
+ 
 
 .hero_content {
   display: flex;
@@ -87,10 +80,14 @@
   color: #e9efe7;
   font-weight: 320;
   padding: 2px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 
 .learn-more-button:hover {
-  background-color: black;
-  
+  background-color: #e9efe7;
+  color: #004b23;
+  border: 2px solid #004b23;
 }

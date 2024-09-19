@@ -39,8 +39,8 @@ const handleExplore4More = () => {
           <h1 className='brand-heading'> BRANDS  </h1>
           <h2 className='brand-subheading'>Car - Bike - Scooter - Passenger Van</h2>
          </div>
-
-          <h1 className='quoteone'>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
+         
+          <h1 className='quoteone animate__animated animate__swing'>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
 
       <div className='cart'>
       

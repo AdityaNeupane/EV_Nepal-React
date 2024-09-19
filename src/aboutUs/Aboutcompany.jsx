@@ -8,7 +8,7 @@ const Aboutcompany = () => {
       
      <div className='about-company'>
 
-      <div className='about-leftbox'>
+      <div className='about-leftbox '>
         <img src={illustration5} alt="illustration5" />
       </div>
     

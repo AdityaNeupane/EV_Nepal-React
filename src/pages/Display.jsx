@@ -26,9 +26,10 @@ const Display = () => {
   return (
    <>
    <div className="display">
-    <h1 className="display-heading"> New Electric Vehicle Entries in the Nepalese Market</h1>
-   
-      <div className="slider-container">
+    
+
+
+         <div className="slider-container">
       <Slider {...settings}>
         <div>
           <img src={porschetaycan4s} alt="Image A" className='slider-image' />

@@ -41,8 +41,8 @@ const handleViewPricingFour = () => {
        <h1 className='gotoprice-heading'> PRICE LIST</h1>
        <h2 className='gotoprice-subheading'>Car - Bike - Scooter - Passenger Van</h2>
    </div>
-
-<h1 className='quotetwo'>find the perfect electric vehicle within your budget</h1>
+   
+<h1 className='quotetwo animate__animated animate__swing'>find the perfect electric vehicle within your budget</h1>
 
    <div className='box'>
     
