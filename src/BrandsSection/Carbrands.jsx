@@ -23,9 +23,11 @@ const Carbrands = () => {
   return (
      <>
      <Mynavbar />
+     
      <div className='car-brands'>
+          <button onClick={() => window.history.back()}>Go Back</button>
      <h1 className='car-heading'>Available Electric Car Brands in Nepal - <u>' 4 wheeler '</u> </h1>
-      
+     
       <div className='input1'>
         <input />
         <span className='search-icon1'><IoIosSearch /></span>

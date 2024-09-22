@@ -38,7 +38,7 @@ import './PriceListone.css'
   return (
      <>
      <div className='price-list'>
-        
+     
       <h2 className='carmodel'>Tata EV Models</h2>
        <br></br>
          

@@ -1,60 +1,52 @@
-import React from 'react';
-import './Display.css';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+ import React from 'react';
+ import { Swiper, SwiperSlide } from 'swiper/react';
+ import { Navigation, Pagination } from 'swiper/modules';
+ import 'swiper/css';
+ import 'swiper/css/navigation';
+ import 'swiper/css/pagination';
 
-import porschetaycan4s from '../assets/display-images/porschetaycan4s.png';
-import mgcyberster from '../assets/display-images/mgcyberster.png';
-import hyperht from '../assets/display-images/hyperht.png';
-import avatr11 from '../assets/display-images/avatr11.png';
-import jaecooj6 from '../assets/display-images/jaecooj6.png';
-import punchev from '../assets/display-images/punchev.png';
+import porsche1 from '../assets/display-images/porsche1.png';
+import porsche2 from '../assets/display-images/porsche2.png';
+import porsche3 from '../assets/display-images/porsche3.jpg';
+import cyberster1 from '../assets/display-images/cyberster1.jpg';
+import cyberster2 from '../assets/display-images/cyberster2.png';
+import cyberster3 from '../assets/display-images/cyberster3.png';
+import bydsealion1 from '../assets/display-images/bydsealion1.jpg';
+import bydsealion2 from '../assets/display-images/bydsealion2.jpg';
+import jaecoo1 from '../assets/display-images/jaecoo1.jpg';
+ import avatr4 from '../assets/display-images/avatr4.jpg';
+ import avatr5 from '../assets/display-images/avatr5.jpg';
+ import punch1 from '../assets/display-images/punch1.png';
+ import punch2 from '../assets/display-images/punch2.png';
+ import punch3 from '../assets/display-images/punch3.jpg';
 const Display = () => {
-
-  const settings = {
-    dots: true,          // Show dots for navigation
-    infinite: true,      // Infinite loop
-    speed: 800,          // Transition speed
-    slidesToShow: 1,     // Show one slide at a time
-    slidesToScroll: 1,   // Scroll one slide at a time
-    autoplay: true,      // Auto-slide
-    autoplaySpeed: 2000, // 1 seconds per slide
-  
-  };
-
   return (
-   <>
-   <div className="display">
-    
-
-
-         <div className="slider-container">
-      <Slider {...settings}>
-        <div>
-          <img src={porschetaycan4s} alt="Image A" className='slider-image' />
-        </div>
-        <div>
-          <img src={mgcyberster} alt="Image B" className='slider-image' />
-        </div>
-        <div>
-          <img src={hyperht} alt="Image C" className='slider-image' />
-        </div>
-        <div>
-          <img src={avatr11} alt="Image D" className='slider-image' />
-        </div>
-        <div>
-          <img src={jaecooj6} alt="Image E" className='slider-image' />
-        </div>
-        <div>
-          <img src={punchev} alt="Image F" className='slider-image' />
-        </div>
-      </Slider>
+    <div className="slider-container">
+      <Swiper
+        modules={[Navigation, Pagination]}
+        spaceBetween={30}
+        slidesPerView={1}
+        navigation={true}
+        pagination={{ clickable: true }}
+      >
+        <SwiperSlide><img src={porsche1} alt="Porsche 1" /> </SwiperSlide>
+        <SwiperSlide><img src={porsche2} alt="Porsche 2" /></SwiperSlide>
+        <SwiperSlide> <img src={porsche3} alt="Porsche 3" /></SwiperSlide>
+        <SwiperSlide><img src={cyberster1} alt="Cyberster 1" /></SwiperSlide>
+        <SwiperSlide><img src={cyberster2} alt="Cyberster 2" /></SwiperSlide>
+        <SwiperSlide><img src={cyberster3} alt="Cyberster 3" /></SwiperSlide>
+        <SwiperSlide><img src={bydsealion1} alt="bydsealion1" /></SwiperSlide>
+        <SwiperSlide><img src={bydsealion2} alt="bydsealion2" /></SwiperSlide>
+        <SwiperSlide><img src={jaecoo1} alt="jaecoo1" /></SwiperSlide>
+        <SwiperSlide><img src={avatr4} alt="avatr4" /></SwiperSlide>
+        <SwiperSlide><img src={avatr5} alt="avatr5" /></SwiperSlide>
+        <SwiperSlide><img src={punch1} alt="punch1" /></SwiperSlide>
+        <SwiperSlide><img src={punch2} alt="punch2" /></SwiperSlide>
+        <SwiperSlide><img src={punch3} alt="punch3" /></SwiperSlide>
+      </Swiper>
     </div>
-   
-   </div>
-   </>
   );
 };
 
 export default Display;
+

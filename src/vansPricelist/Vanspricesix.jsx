@@ -8,8 +8,9 @@ const Vanspricesix = () => {
 ];
   return (
      <>
-    
+     
      <div className='sixvan'>
+      
     <h1 className='vanmodelsix'>Wuling Models</h1>
     <br/><br/>
     <table className='sixvan-table'>

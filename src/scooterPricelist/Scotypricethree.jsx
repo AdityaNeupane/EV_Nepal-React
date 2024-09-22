@@ -14,7 +14,7 @@ const Scotypricethree = () => {
   return (
     <>
     <div className="threescoty">
-     
+    
       <h2 className='scotymodelthree'> NIU Models</h2>
       <br></br>
       <table className="threescoty-table">

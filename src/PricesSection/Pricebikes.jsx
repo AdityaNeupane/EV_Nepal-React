@@ -14,6 +14,7 @@ const Pricebikes = () => {
     <div className="pricebikes">
     
     <Headingbike/>
+    
      <Bikepriceone/>
      <Bikepricetwo/>
     <Footer/>

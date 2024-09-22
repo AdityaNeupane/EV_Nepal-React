@@ -6,10 +6,14 @@ import battery1 from "../assets/batterypic/battery1.png";
 import battery2 from "../assets/batterypic/battery2.png";
 import battery3 from "../assets/batterypic/battery3.png";
 import battery4 from "../assets/batterypic/battery4.png";
+import Mynavbar from "../components/Mynavbar";
+import Footer from "../pages/Footer";
 const Info = () => {
   return (
     <>
+    <Mynavbar />
       <div className="info-section">
+            <button onClick={() => window.history.back()}>Go Back</button>
         <h1 className="info-heading">Electric Vehicles are the future of transportation – learn why here...</h1>
          <p className="contentone">In recent years, the automotive landscape has undergone a profound transformation with the increasing prominence of electric vehicles (EVs). This shift is not merely a change in vehicle propulsion but a revolution that is reshaping the energy and utility industry. In this blog, we will delve into the EV market’s growth, its benefits, and the challenges that still need to be addressed. Moreover, this blog will explore how companies like Havis play a pivotal role in overcoming these challenges while helping energy and utility companies embrace the future of transportation.</p>
       <h1 className="topicone">the electric vehicle market surge ;</h1>
@@ -60,7 +64,7 @@ The adoption of electric cars is not limited to passenger cars; it extends the d
 
 <p className="endnote">thankyou for reading the blog !</p>
       </div>
-
+<Footer />
     </>
   );
 };

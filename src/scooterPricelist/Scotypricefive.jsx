@@ -13,7 +13,7 @@ const Scotypricefive = () => {
   return (
     <>
     <div className="fivescoty">
-     
+    
       <h2 className='scotymodelfive'> Super Soco Models</h2>
       <br></br>
       <table className="fivescoty-table">

@@ -11,9 +11,9 @@ const Bikebrands = () => {
 
   <Mynavbar />
     <div className='bike-brands'>
+          <button onClick={() => window.history.back()}>Go Back</button>
     <h1 className='bikes-heading'> Available Electric Bike Brands in Nepal - <u>' 2 wheeler '</u> </h1>
-    
-    <div className='input2'>
+        <div className='input2'>
       <input />
       <span className='search-icon2'><IoIosSearch /></span>
     </div>

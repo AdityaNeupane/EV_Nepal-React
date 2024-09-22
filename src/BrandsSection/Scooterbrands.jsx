@@ -15,6 +15,7 @@ const Scooterbrands = () => {
     <>
     <Mynavbar/>
     <div className="Scooterbrands">
+          <button onClick={() => window.history.back()}>Go Back</button>
     <h1 className='scooter-heading'>Available Electric Scooter Brands in Nepal-' 2 wheeler '</h1>
     
      <div className='input3'>

@@ -11,6 +11,7 @@ const products = [
   return (
      <>
      <div className='onevan'>
+      
      <h1 className='vanmodelone'>Foton Models</h1>
       <br></br>
       <table className='onevan-table'>
@@ -30,7 +31,7 @@ const products = [
        </tbody>
       </table>
         </div>
-     
+        
      </>
   )
 }

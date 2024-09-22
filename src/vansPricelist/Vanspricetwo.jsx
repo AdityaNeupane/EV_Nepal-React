@@ -10,6 +10,7 @@ const Vanspricetwo = () => {
      <>
      
       <div className='twovan'>
+        
     <h1 className='vanmodeltwo'>KingLong Models</h1>
     <br/><br/>
     <table className='twovan-table'>

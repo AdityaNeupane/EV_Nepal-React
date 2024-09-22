@@ -15,6 +15,7 @@ const Vanbrands = () => {
     <>
     <Mynavbar />
     <div className="van-brands">
+          <button onClick={() => window.history.back()}>Go Back</button>
       <h1 className='van-heading'>Available Electric Passenger-Van Brands in Nepal</h1>
       
       <div className='input4'>

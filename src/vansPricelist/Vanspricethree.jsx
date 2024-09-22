@@ -11,6 +11,7 @@ const Vanspricethree = () => {
      <>
      
       <div className='threevan'>
+        
     <h1 className='vanmodelthree'>KYC Models</h1>
     <br/><br/>
     <table className='threevan-table'>

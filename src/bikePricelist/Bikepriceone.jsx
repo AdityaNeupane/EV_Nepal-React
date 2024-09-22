@@ -9,7 +9,7 @@ const products = [
   return (
     <>
     <div className="onebike">
-     
+    
       <h2 className='bikemodel'> Yatri Models</h2>
       <br></br>
       <table className="onebike-table">
