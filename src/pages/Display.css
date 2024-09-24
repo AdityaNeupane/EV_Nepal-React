@@ -1,7 +1,9 @@
- 
+  
 .slider-container {
-  width: 800px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the slider */
+  width: 100%; /* Adjust the width as needed */
+  /* margin: 0 auto; */
+  overflow: hidden;
+  height: auto; /* Center the slider */
 }
 
 .swiper-slide {
@@ -11,10 +13,11 @@
 }
 
 .swiper-slide img {
-  display: block;
+  /* display: block; */
   width: 100%;
-  height: auto;
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  /* height: 500px; */
+  object-fit: cover; 
+ /* aspect-ratio: 1 / 1; */
 }
 
 .swiper-button-prev,

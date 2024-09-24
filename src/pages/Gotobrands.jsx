@@ -40,8 +40,8 @@ const handleExplore4More = () => {
           <h2 className='brand-subheading'>Car - Bike - Scooter - Passenger Van</h2>
          </div>
          
-          <h1 className='quoteone animate__animated animate__swing'>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
-
+          <h1 className='quoteone animate__animated animate__bounceIn'>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
+          
       <div className='cart'>
       
       <div className='cart1'>
@@ -50,7 +50,7 @@ const handleExplore4More = () => {
         </div>
         <div className='cart1-text'>
           <p>Discover the leading Car brands available in Nepal. Click the button below to explore all brands.</p>
-          <button className='explore' onClick={handleExplore1More}>Explore More
+          <button className='explore1 animate__animated animate__heartBeat' onClick={handleExplore1More}>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </div>
@@ -62,7 +62,7 @@ const handleExplore4More = () => {
         </div>
         <div className='cart2-text'>
           <p>Uncover the top Bike brands in Nepal. Click the button below to see the full list.</p>
-          <button className='explore' onClick={handleExplore2More}>Explore More
+          <button className='explore2 animate__animated animate__heartBeat' onClick={handleExplore2More}>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </div>
@@ -74,7 +74,7 @@ const handleExplore4More = () => {
         </div>
         <div className='cart3-text'>
           <p> Explore the range of Scooter brands available in Nepal. Click the button below for more details.</p>
-          <button className='explore' onClick={handleExplore3More}>Explore More
+          <button className='explore3 animate__animated animate__heartBeat' onClick={handleExplore3More}>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </div>
@@ -86,7 +86,7 @@ const handleExplore4More = () => {
         </div>
         <div className='cart4-text'>
           <p> Find out about the Passenger Van brands available in Nepal. Click the button below to learn more.</p>
-          <button className='explore' onClick={handleExplore4More}>Explore More
+          <button className='explore4 animate__animated animate__heartBeat' onClick={handleExplore4More}>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </div>

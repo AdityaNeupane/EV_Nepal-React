@@ -6,7 +6,7 @@ import { IoIosSearch } from "react-icons/io";
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import { faChargingStation } from  '@fortawesome/free-solid-svg-icons';
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
-import logo from "../assets/images/logo.png";
+import logo2 from "../assets/images/logo2.png";
 const Navbar = () => {
  const [vehiclesDropdown, setVehiclesDropdown] = useState(false);
  const [priceListDropdown, setPriceListDropdown] = useState(false);
@@ -24,7 +24,7 @@ return (
     <div className="navbar">
       <div className="logoimage">
         <Link to="/">
-          <img src= {logo} alt="logo" />
+          <img src= {logo2} alt="logo" />
         </Link>
       </div>
       <div className="navcart">

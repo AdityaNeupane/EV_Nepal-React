@@ -24,37 +24,42 @@
 }
 
 .highlight {
-  /* background-image: url("src/assets/images/ocean.jpg"); */
-  letter-spacing: -3px;
-  color: transparent;
-  background-clip: text;
+  letter-spacing: -1px;
  font-family: cursive;
-  margin-top: 8px;
-  background-color: #004b23;
-  /* /* color: #004b23;  */
+  margin-top: 8px; 
+  color: transparent; 
   font-weight: 600;
-  font-size: 50px;
+  font-size: 48px;
   position: relative;
-  display: inline-block;
-  margin: 0 0.5rem;
-  
-  /* animation: wobbleAnimation 1s infinite;  */
+  -webkit-text-stroke: 0.8px #004b23;
+  text-transform:capitalize;
 }
-/* 
-@keyframes bounceAnimation {
-  0%, 100% {
-    transform: translateY(0);
+ .highlight::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #004b23;
+  overflow: hidden;
+  /* -webkit-text-stroke: 0.3px #004b23; */
+  border-right: 3px solid #004b23;
+  animation: animate 6s linear infinite;
+  white-space: nowrap;
+}
+@keyframes animate {
+  0%
+  {
+    width: 0; 
   }
-  50% {
-    transform: translateY(-20px);
-  }
-} 
- */
-
+  70%
+  {
+     width: 100%;
+     }
+}
  
-
  
-
 .hero_content {
   display: flex;
   flex-direction: column;
@@ -71,24 +76,31 @@
     text-align: justify;
     font-size: 18px;
     font-weight: 500;
+    position: relative;
   }
 }
 
 .learn-more-button {
-  height: 40px;
-  width: 90px;
-  background-color: #004b23;
-  color: #e9efe7;
+  height: 35px;
+  width: 85px;
+  background-color: #e9efe7;
+  color: #004b23;
   font-weight: 320;
+  font-size: 14px;
   padding: 2px;
-  border-radius: 10px;
+  border-radius: 8px;
   /* margin-left: 10px; */
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  filter: drop-shadow(0 0 7px #004b23);
+  display: inline-block;
+ animation-iteration-count: infinite;
+ border: 2px solid #004b23;
 }
 
 
 .learn-more-button:hover {
-  background-color: #e9efe7;
-  color: #004b23;
-  border: 2px solid #004b23;
+  background-color: #004b23;
+  color: #e9efe7;
+  border: 1.8px solid #e9efe7;
 }

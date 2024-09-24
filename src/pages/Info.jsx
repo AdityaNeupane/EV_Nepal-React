@@ -8,17 +8,24 @@ import battery3 from "../assets/batterypic/battery3.png";
 import battery4 from "../assets/batterypic/battery4.png";
 import Mynavbar from "../components/Mynavbar";
 import Footer from "../pages/Footer";
+import turnback from "../assets/icons/turnback.png";
+import uparrow from "../assets/icons/uparrow.png";
+import needleunderline from "../assets/images/needleunderline.png";
 const Info = () => {
   return (
     <>
     <Mynavbar />
       <div className="info-section">
-            <button onClick={() => window.history.back()}>Go Back</button>
+           <div >
+           <button onClick={() => window.history.back()} >
+            <img src={turnback} alt="turnback"  className="back-button1"/>
+            </button>
+            </div>
         <h1 className="info-heading">Electric Vehicles are the future of transportation – learn why here...</h1>
          <p className="contentone">In recent years, the automotive landscape has undergone a profound transformation with the increasing prominence of electric vehicles (EVs). This shift is not merely a change in vehicle propulsion but a revolution that is reshaping the energy and utility industry. In this blog, we will delve into the EV market’s growth, its benefits, and the challenges that still need to be addressed. Moreover, this blog will explore how companies like Havis play a pivotal role in overcoming these challenges while helping energy and utility companies embrace the future of transportation.</p>
       <h1 className="topicone">the electric vehicle market surge ;</h1>
       <p className="contenttwo">The electric vehicle market has experienced exponential growth, marked by an accelerating shift towards sustainable and eco-friendly transportation. This surge is not just a trend but a fundamental transformation in the automotive industry that is permeating various sectors.
-
+      
 The global electric vehicle market witnessed unprecedented growth in recent years, with sales reaching record highs. This surge in electric and luxury electric cars is attributed to several factors, including government incentives, advancements in battery technology, lower operating costs, and the growing awareness of climate change. As countries worldwide set ambitious targets to reduce greenhouse gas emissions, electric cars have emerged as a critical solution to achieving these goals.
 
 The adoption of electric cars is not limited to passenger cars; it extends the driving range to a diverse range of vehicles and electric SUVs, including buses, trucks, and utility vehicles. This broadening scope underscores the versatility and adaptability of electric vehicle technology across various industries.</p>
@@ -62,7 +69,13 @@ The adoption of electric cars is not limited to passenger cars; it extends the d
 
      </div>
 
-<p className="endnote">thankyou for reading the blog !</p>
+<p className="endnote">" thankyou for reading the blog "</p>
+<img src={needleunderline} alt="needleunderline" className="needleunderline" />
+<div>
+  <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+  <img src={uparrow} alt="uparrow" className="uparrow1" />
+</button>
+</div>
       </div>
 <Footer />
     </>

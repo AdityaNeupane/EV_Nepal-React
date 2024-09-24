@@ -16,6 +16,9 @@ import deepallogo from '../assets/car-logo/deepallogo.png'
 import sereslogo from '../assets/car-logo/sereslogo.png'
 import omadalogo from '../assets/car-logo/omadalogo.png'
 
+import turnback from '../assets/icons/turnback.png'
+import uparrow from '../assets/icons/uparrow.png'
+
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
 
@@ -25,7 +28,9 @@ const Carbrands = () => {
      <Mynavbar />
      
      <div className='car-brands'>
-          <button onClick={() => window.history.back()}>Go Back</button>
+          <button onClick={() => window.history.back()}>
+            <img src={turnback} alt="turnback" className="back-button2"/> 
+          </button>
      <h1 className='car-heading'>Available Electric Car Brands in Nepal - <u>' 4 wheeler '</u> </h1>
      
       <div className='input1'>
@@ -54,6 +59,11 @@ const Carbrands = () => {
       <img src= {omadalogo} alt="omadalogo" />
     </div>
     
+   <button onClick={() => window.scrollTo({ top: 0, behaviour: 'smooth' })}>
+   <img src={uparrow} alt="uparrow" className="uparrow2"/>
+   </button>
+
+
    </div>
    <Footer />
      </>

@@ -8,6 +8,9 @@ import React from 'react'
  import srmlogo from '../assets/van-logo/srmlogo.png'
  import wulinglogo from '../assets/van-logo/wulinglogo.png'
 
+ import turnback from '../assets/icons/turnback.png'
+ import uparrow from '../assets/icons/uparrow.png'
+
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
 const Vanbrands = () => {
@@ -15,7 +18,9 @@ const Vanbrands = () => {
     <>
     <Mynavbar />
     <div className="van-brands">
-          <button onClick={() => window.history.back()}>Go Back</button>
+          <button onClick={() => window.history.back()}>
+            <img src={turnback} alt="turnback" className="back-button5" />
+          </button>
       <h1 className='van-heading'>Available Electric Passenger-Van Brands in Nepal</h1>
       
       <div className='input4'>
@@ -31,6 +36,11 @@ const Vanbrands = () => {
        <img src= {srmlogo} alt="srmlogo" />
        <img src= {wulinglogo} alt="wulinglogo" />
       </div>
+
+     <button onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
+       <img src={uparrow} alt='uparrow' className='uparrow5'/>
+     </button>
+
 
     </div>
     <Footer />
