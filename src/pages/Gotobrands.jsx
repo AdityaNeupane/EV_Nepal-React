@@ -11,6 +11,7 @@
   import { faFaceLaughWink } from '@fortawesome/free-solid-svg-icons/faFaceLaughWink'
   import { faFaceLaughBeam } from '@fortawesome/free-solid-svg-icons/faFaceLaughBeam'
   import headingbg4 from '../assets/Background-images/headingbg4.jpg'
+  import uparrow from '../assets/icons/uparrow.png'
  const Gotobrands = () => {
 
 const navigate = useNavigate();
@@ -100,6 +101,8 @@ const handleExplore4More = () => {
         <FontAwesomeIcon icon={faFaceLaughBeam}  className='emojis' />
      
        </div>
+  
+        <div><button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><img src={uparrow} alt="uparrow" className='uparrowfixed animate__animated animate__zoomIn' /></button></div>
 
       </div>
      
