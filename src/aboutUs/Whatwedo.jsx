@@ -74,7 +74,7 @@ const Whatwedo = () => {
 
         <div className="lower-right animate__animated animate__fadeInRight">
           <img src={reviews} alt="review"  className='animate__animated animate__swing'/>
-     <h1 className='lower-right-heading'>   Expert Reviews and Ratings </h1>
+     <h1 className='lower-right-heading animate__animated animate__shakeXanimate__shakeX'>   Expert Reviews and Ratings </h1>
      <p className='lower-right-para animate__animated animate__fadeInUp'> In-depth reviews and ratings from experts and users to provide insights into the performance and reliability of different electric vehicles.   </p>
         </div>
 

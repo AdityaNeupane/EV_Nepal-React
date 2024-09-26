@@ -10,23 +10,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .bikes-heading {
     font-family: cursive;
     font-weight: 700;
-    letter-spacing: 1px;
-    color: black;
+    /* letter-spacing: 1px; */
+    color: #004b23;
     font-size: 45px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
   
-    background-image: url(../assets/Background-images/ocean.jpg); 
-    background-clip: text;
-    position: relative;
-    color: transparent;
 }
        
  
 
 .input2 {
-    padding-top: 25px;
+    padding-top: 40px;
     position: relative;
     padding-right: 50px;
     display: flex;
@@ -36,19 +32,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
         height: 45px;
         border: 2px solid black;
         border-radius: 10px;
-        margin-left: 400px;
-        background-color: #f8f9ff;
+        margin-left: 900px;
+        background-color: #f8f9fa;
     }
 
     input:focus {
         outline: none;
-        border: 2px solid #007f5f;
+        /* border: 2px solid #007f5f; */
         padding: 10px;
     }
 
     .search-icon2 {
         position: absolute;
-        right: 500px;
+        right: 50px;
         
         cursor: pointer;
         font-size: 30px;
@@ -94,7 +90,7 @@ aspect-ratio: 3/2;
     margin-left: 1280px;
 }
 
-.uparrow3 {
-    /* margin-top: 250px; */
-    margin-left: 1250px;
-}
+ .doubleunderline2 {
+    margin-top: 10px;
+    margin-left: 120px;
+ }

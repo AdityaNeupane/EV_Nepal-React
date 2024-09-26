@@ -45,7 +45,7 @@ const handleExplore4More = () => {
           
       <div className='cart'>
       
-      <div className='cart1'>
+      <div className='cart1 animate__animated animate__bounceInUp'>
       <div className='cart1-img'>
         <img src= {ecar} alt="carpic" />
         </div>
@@ -57,7 +57,7 @@ const handleExplore4More = () => {
           </div>
       </div>
      
-     <div className='cart2'>
+     <div className='cart2 animate__animated animate__bounceInDown'>
       <div className='cart2-img'>
        <img src= {ebike} alt="bikepic" />
         </div>
@@ -69,7 +69,7 @@ const handleExplore4More = () => {
           </div>
       </div>
 
-      <div className='cart3'>
+      <div className='cart3 animate__animated animate__bounceInUp'>
       <div className='cart3-img'>
       <img src= {escooter} alt="scooterpic" />
         </div>
@@ -81,7 +81,7 @@ const handleExplore4More = () => {
           </div>
       </div>
 
-      <div className='cart4'>
+      <div className='cart4 animate__animated animate__bounceInDown'>
       <div className='cart4-img'>
         <img src= {evan} alt="vanpic" />
         </div>

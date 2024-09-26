@@ -17,7 +17,7 @@ import sereslogo from '../assets/car-logo/sereslogo.png'
 import omadalogo from '../assets/car-logo/omadalogo.png'
 
 import turnback from '../assets/icons/turnback.png'
-import uparrow from '../assets/icons/uparrow.png'
+ import doubleunderline2 from '../assets/images/doubleunderline2.png'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
@@ -31,8 +31,8 @@ const Carbrands = () => {
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback" className="back-button2"/> 
           </button>
-     <h1 className='car-heading'>Available Electric Car Brands in Nepal - <u>' 4 wheeler '</u> </h1>
-     
+     <h1 className='car-heading'>Available Electric Car Brands in Nepal- <u>"4 wheeler"</u> </h1>
+     <img src={doubleunderline2} alt="doubleunderline" className='doubleunderline3'/>
       <div className='input1'>
         <input />
         <span className='search-icon1'><IoIosSearch /></span>
@@ -59,9 +59,7 @@ const Carbrands = () => {
       <img src= {omadalogo} alt="omadalogo" />
     </div>
     
-   <button onClick={() => window.scrollTo({ top: 0, behaviour: 'smooth' })}>
-   <img src={uparrow} alt="uparrow" className="uparrow2"/>
-   </button>
+  
 
 
    </div>

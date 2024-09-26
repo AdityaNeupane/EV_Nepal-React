@@ -46,7 +46,7 @@ const handleViewPricingFour = () => {
 
    <div className='box'>
     
-    <div className='box1'>
+    <div className='box1 animate__animated animate__bounceInRight'>
         <div className='box1-img'><img src= {ecar} alt="carpic" /></div>
 
         <div className='box1-content'>
@@ -57,7 +57,7 @@ const handleViewPricingFour = () => {
     </div>
     
 
-    <div className='box2'>
+    <div className='box2 animate__animated animate__bounceInLeft'>
    
 
     <div className='box2-content'>
@@ -69,7 +69,7 @@ const handleViewPricingFour = () => {
     <div className='box2-img'><img src= {ebike} alt="bikepic" /></div>
 </div>
 
-    <div className='box3'>
+    <div className='box3 animate__animated animate__bounceInRight'>
     <div className='box3-img'><img src= {escooter} alt="scooterpic" /></div>
 
     <div className='box3-content'>
@@ -79,7 +79,7 @@ const handleViewPricingFour = () => {
     </div>
 </div>
 
-    <div className='box4'> 
+    <div className='box4 animate__animated animate__bounceInLeft'> 
     
     <div className='box4-content'>
         <p className='content4'>Explore the full pricing details for <u>Passenger Vans</u> - Simply click the button below.</p>

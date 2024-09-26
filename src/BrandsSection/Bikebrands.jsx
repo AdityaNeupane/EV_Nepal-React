@@ -6,7 +6,7 @@ import supersocologo from '../assets/bike-logo/supersocologo.png'
 import Footer from '../pages/Footer'
 import Mynavbar from '../components/Mynavbar'
 import turnback from '../assets/icons/turnback.png'
-import uparrow from '../assets/icons/uparrow.png'
+ import doubleunderline2 from '../assets/images/doubleunderline2.png'
 const Bikebrands = () => {
   return (
     <>
@@ -16,7 +16,8 @@ const Bikebrands = () => {
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback"  className='back-button3'/>
           </button>
-    <h1 className='bikes-heading'> Available Electric Bike Brands in Nepal - <u>' 2 wheeler '</u> </h1>
+    <h1 className='bikes-heading'> Available Electric Bike Brands in Nepal-<u>"2 wheeler"</u> </h1>
+    <img src={doubleunderline2} alt="doubleunderline" className='doubleunderline2' />
         <div className='input2'>
       <input />
       <span className='search-icon2'><IoIosSearch /></span>
@@ -26,10 +27,7 @@ const Bikebrands = () => {
        <img src= {yatrilogo} alt="yatrilogo" />
        <img src= {supersocologo} alt="supersocologo" />
        </div>
-
-       <button onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
-        <img src={uparrow} alt='uparrow' className='uparrow3'/>
-       </button>
+ 
 
     </div>
     <Footer/>

@@ -16,11 +16,11 @@ const Ourjourney = () => {
        <div className="ourjourney-para">
 
         <div className='ourjourney-para-image'>
-        <img src={meeting} alt="meeting" />
+        <img src={meeting} alt="meeting" className='animate__animated  animate__fadeInDown' />
         </div>
-
+        
            <div className='ourjourney-para-text'>
-            <h1 className='ourjourney-para-heading'>   
+            <h1 className='ourjourney-para-heading animate__animated   animate__fadeInUp'>   
 
 Our journey began with a simple idea: to create a one-stop platform where Nepalese consumers could access reliable and comprehensive information about electric vehicles. We recognized the need for a resource that not only showcased the latest EV models but also educated users on the benefits, availability, and infrastructure surrounding electric mobility in Nepal.
 <br></br><br></br>

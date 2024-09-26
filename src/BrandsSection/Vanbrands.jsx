@@ -9,7 +9,7 @@ import React from 'react'
  import wulinglogo from '../assets/van-logo/wulinglogo.png'
 
  import turnback from '../assets/icons/turnback.png'
- import uparrow from '../assets/icons/uparrow.png'
+ import doubleunderline2 from '../assets/images/doubleunderline2.png'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
@@ -22,7 +22,7 @@ const Vanbrands = () => {
             <img src={turnback} alt="turnback" className="back-button5" />
           </button>
       <h1 className='van-heading'>Available Electric Passenger-Van Brands in Nepal</h1>
-      
+      <img src={doubleunderline2} alt="doubleunderline2" className="doubleunderline5" />
       <div className='input4'>
         <input />
         <span className='search-icon4'><IoIosSearch /></span>
@@ -37,9 +37,7 @@ const Vanbrands = () => {
        <img src= {wulinglogo} alt="wulinglogo" />
       </div>
 
-     <button onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
-       <img src={uparrow} alt='uparrow' className='uparrow5'/>
-     </button>
+     
 
 
     </div>
