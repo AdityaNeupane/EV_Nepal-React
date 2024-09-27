@@ -55,7 +55,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     color: #001219;
     font-family: cursive;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 35px;
       display: inline-block;
   margin: 1 0.5rem;
   margin-left: 90px;
@@ -67,9 +67,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 60px;
-    margin-left: 15px;
+    margin-left: 22px;
     margin-right: 20px;
     /* gap: 0.2px; */
+    justify-content: space-evenly;
 }
 
 .cart1 {
@@ -77,9 +78,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     width: 300px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    border: 2px solid #004b23;
+    /* border: 1.8px solid #001219; */
     /* box-shadow: 5px 5px 5px #004b23; */
-    filter: drop-shadow(0 0 7px #004b23);
+    filter: drop-shadow(0 0 8px #004b23);
  background-color: #f0f8ff;
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
@@ -101,7 +102,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
  
 .cart1:hover {
   filter: drop-shadow(0 0 12px #004b23);
-  /* border: 3px solid #004b23; */
+  border: 1.8px solid #001219;
 }
 
 .cart2 {
@@ -109,8 +110,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
     width: 300px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    border: 2px solid #004b23;
-    filter: drop-shadow(0 0 7px #004b23);
+    /* border: 1.8px solid #001219; */
+    filter: drop-shadow(0 0 8px #004b23);
     /* box-shadow: 5px 5px 5px #004b23; */
  background-color: #f0f8ff;
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
@@ -134,6 +135,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
 
 .cart2:hover {
   filter: drop-shadow(0 0 12px #004b23);
+  border: 1.8px solid #001219;
 }
 
 .cart3 {
@@ -141,8 +143,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
     width: 300px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    border: 2px solid #004b23;
-    filter: drop-shadow(0 0 7px #004b23);
+    /* border: 1.8px solid #001219; */
+    filter: drop-shadow(0 0 8px #004b23);
     /* box-shadow: 5px 5px 5px #004b23; */
   background-color: #f0f8ff;
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
@@ -166,6 +168,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
 
 .cart3:hover {
   filter: drop-shadow(0 0 12px #004b23);
+  border: 1.8px solid #001219;
 }
 
 .cart4 {
@@ -173,8 +176,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
     width: 300px;
     background-color: #f8f9fa;
     border-radius: 10px;
-    border: 2px solid #004b23;
-    filter: drop-shadow(0 0 7px #004b23);
+    /* border: 1.8px solid #001219; */
+    filter: drop-shadow(0 0 8px #004b23);
     /* box-shadow: 5px 5px 5px #004b23; */
  background-color: #f0f8ff;
 background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.51' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
@@ -197,6 +200,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
 
 .cart4:hover {
   filter: drop-shadow(0 0 12px #004b23);
+  border: 1.8px solid #001219;
 }
 
 .cart1-text {
@@ -340,4 +344,28 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
   z-index: 999;    /* Ensure the icon is above other content */
   display: inline-block;
   /* animation-iteration-count: infinite; */
+}
+
+.effect3d {
+    animation-name: effect3d;
+    animation-duration: 1s; /* Adjust duration as needed */
+    animation-fill-mode: forwards; /* Keeps the final state of the animation */
+}
+
+@keyframes effect3d {
+    to {
+        text-shadow: 
+            0 1px 0 #ccc, 
+            0 2px 0 #c9c9c9, 
+            0 3px 0 #bbb, 
+            0 4px 0 #b9b9b9, 
+            0 5px 0 #aaa, 
+            0 6px 1px rgba(0, 0, 0, .1), 
+            0 0 5px rgba(0, 0, 0, .1), 
+            0 1px 3px rgba(0, 0, 0, .3), 
+            0 3px 5px rgba(0, 0, 0, .2), 
+            0 5px 10px rgba(0, 0, 0, .25), 
+            0 10px 10px rgba(0, 0, 0, .2), 
+            0 20px 20px rgba(0, 0, 0, .15);
+    }
 }

@@ -21,7 +21,7 @@ const Vanbrands = () => {
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback" className="back-button5" />
           </button>
-      <h1 className='van-heading'>Available Electric Passenger-Van Brands in Nepal</h1>
+      <h1 className='van-heading effect3d'>Available Electric Passenger-Van Brands in Nepal</h1>
       <img src={doubleunderline2} alt="doubleunderline2" className="doubleunderline5" />
       <div className='input4'>
         <input />

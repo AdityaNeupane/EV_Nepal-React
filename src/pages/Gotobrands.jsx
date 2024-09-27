@@ -41,7 +41,7 @@ const handleExplore4More = () => {
           <h2 className='brand-subheading'>Car - Bike - Scooter - Passenger Van</h2>
          </div>
          
-          <h1 className='quoteone animate__animated animate__bounceIn'>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
+          <h1 className='quoteone  effect3d '>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
           
       <div className='cart'>
       

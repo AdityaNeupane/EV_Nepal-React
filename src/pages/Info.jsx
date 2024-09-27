@@ -21,7 +21,7 @@ const Info = () => {
             <img src={turnback} alt="turnback"  className="back-button1"/>
             </button>
             </div>
-        <h1 className="info-heading">Electric Vehicles are the future of transportation. learn here why,</h1>
+        <h1 className="info-heading effect3d">Electric Vehicles are the future of transportation. learn here why,</h1>
          <p className="contentone">In recent years, the automotive landscape has undergone a profound transformation with the increasing prominence of electric vehicles (EVs). This shift is not merely a change in vehicle propulsion but a revolution that is reshaping the energy and utility industry. In this blog, we will delve into the EV market’s growth, its benefits, and the challenges that still need to be addressed. Moreover, this blog will explore how companies like Havis play a pivotal role in overcoming these challenges while helping energy and utility companies embrace the future of transportation.</p>
       <h1 className="topicone">the electric vehicle market surge ;</h1>
       <p className="contenttwo">The electric vehicle market has experienced exponential growth, marked by an accelerating shift towards sustainable and eco-friendly transportation. This surge is not just a trend but a fundamental transformation in the automotive industry that is permeating various sectors.

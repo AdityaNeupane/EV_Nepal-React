@@ -31,7 +31,7 @@ const Carbrands = () => {
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback" className="back-button2"/> 
           </button>
-     <h1 className='car-heading'>Available Electric Car Brands in Nepal- <u>"4 wheeler"</u> </h1>
+     <h1 className='car-heading effect3d'>Available Electric Car Brands in Nepal- "4 wheeler" </h1>
      <img src={doubleunderline2} alt="doubleunderline" className='doubleunderline3'/>
       <div className='input1'>
         <input />

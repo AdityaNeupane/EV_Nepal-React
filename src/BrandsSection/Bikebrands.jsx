@@ -16,8 +16,8 @@ const Bikebrands = () => {
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback"  className='back-button3'/>
           </button>
-    <h1 className='bikes-heading'> Available Electric Bike Brands in Nepal-<u>"2 wheeler"</u> </h1>
-    <img src={doubleunderline2} alt="doubleunderline" className='doubleunderline2' />
+    <h1 className='bikes-heading effect3d'> Available Electric Bike Brands in Nepal- "2 wheeler" </h1>
+    <img src={doubleunderline2} alt="doubleunderline" className='doubleunderline2 ' />
         <div className='input2'>
       <input />
       <span className='search-icon2'><IoIosSearch /></span>

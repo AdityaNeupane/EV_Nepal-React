@@ -20,7 +20,7 @@ const Scooterbrands = () => {
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback" className="back-button4" />
           </button>
-    <h1 className='scooter-heading'>Available Electric Scooter Brands in Nepal- <u>"2 wheeler"</u></h1>
+    <h1 className='scooter-heading effect3d'>Available Electric Scooter Brands in Nepal- "2 wheeler"</h1>
     <img src={doubleunderline2} alt="doubleunderline" className='doubleunderline4' />
      <div className='input3'>
       <input />
