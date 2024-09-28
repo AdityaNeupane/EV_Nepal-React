@@ -8,7 +8,7 @@ import segwaylogo from '../assets/scooter-logo/segwaylogo.png'
 import supersocologo from '../assets/scooter-logo/supersocologo.png'
 import yadealogo from '../assets/scooter-logo/yadealogo.png'
 import turnback from '../assets/icons/turnback.png'
- import doubleunderline2 from '../assets/images/doubleunderline2.png'
+ import doubleunderline2 from '../assets/underlines/doubleunderline2.png'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'

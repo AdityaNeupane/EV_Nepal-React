@@ -1,17 +1,19 @@
 import React from 'react'
 import './Headingbike.css'
-import headingbg1 from '../assets/Background-images/headingbg1.png'
+ import doubleunderline5 from '../assets/underlines/doubleunderline5.png'
+ import backarrow2 from '../assets/icons/backarrow2.png'
 const Headingbike = () => {
   return (
      <>
      
      <div className='head-bike'>
 
-      <div className='image-container2'>
-       <img src={headingbg1} alt="headingbg1"/>
-      <h1 className='head-bike-heading'>Welcome to the latest prices of every Electric Bike Brand's available in the country.</h1>
-     </div>
+   <h1 className='heading-bike animate__animated animate__slideInDown'>latest prices of Electric bikes available in the market</h1>
+     <img src={doubleunderline5} alt="doubleunderline5" className='doubleunderline6 animate__animated animate__slideInRight'/>
 
+     <button onClick={() => window.history.back()}  >
+            <img src={backarrow2} alt="backarrow2" className="back-buttonbike"/> 
+          </button>
      </div>
      
      </>

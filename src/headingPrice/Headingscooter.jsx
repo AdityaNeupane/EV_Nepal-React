@@ -1,17 +1,20 @@
 import React from 'react'
 import './Headingscooter.css'
-import headingbg1 from '../assets/Background-images/headingbg1.png'
+import   backarrow2 from '../assets/icons/backarrow2.png'
+import doubleunderline5 from '../assets/underlines/doubleunderline5.png'
+
 const Headingscooter = () => {
   return (
      <>
      
      <div className='head-scooter'>
+    <h1 className='heading-scooter animate__animated  animate__slideInDown'>latest prices of Electric Scooters available in the market</h1>
+    <img src={doubleunderline5} alt="doubleunderline5" className='doubleunderline7 animate__animated animate__slideInRight'/>
 
-     <div className='image-container3'> 
-        <img src={headingbg1} alt="headingbg1"   />
-
-      <h1 className='head-scooter-heading'>Welcome to the latest prices of every Electric Scooter Brand's available in the country.</h1>
-     </div>
+    <button onClick={() => window.history.back()}  >
+            <img src={backarrow2} alt="backarrow2" className="back-buttonscooter"/> 
+          </button>
+     
 
      </div>
      

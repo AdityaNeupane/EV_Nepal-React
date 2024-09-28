@@ -6,7 +6,7 @@ import supersocologo from '../assets/bike-logo/supersocologo.png'
 import Footer from '../pages/Footer'
 import Mynavbar from '../components/Mynavbar'
 import turnback from '../assets/icons/turnback.png'
- import doubleunderline2 from '../assets/images/doubleunderline2.png'
+ import doubleunderline2 from '../assets/underlines/doubleunderline2.png'
 const Bikebrands = () => {
   return (
     <>

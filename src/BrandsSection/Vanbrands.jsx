@@ -9,7 +9,7 @@ import React from 'react'
  import wulinglogo from '../assets/van-logo/wulinglogo.png'
 
  import turnback from '../assets/icons/turnback.png'
- import doubleunderline2 from '../assets/images/doubleunderline2.png'
+ import doubleunderline2 from '../assets/underlines/doubleunderline2.png'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'

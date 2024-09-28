@@ -9,8 +9,8 @@ import battery4 from "../assets/batterypic/battery4.png";
 import Mynavbar from "../components/Mynavbar";
 import Footer from "../pages/Footer";
 import turnback from "../assets/icons/turnback.png";
-import uparrow from "../assets/icons/uparrow.png";
-import needleunderline from "../assets/images/needleunderline.png";
+ 
+import needleunderline from "../assets/underlines/needleunderline.png";
 const Info = () => {
   return (
     <>

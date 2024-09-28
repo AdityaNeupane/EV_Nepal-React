@@ -93,17 +93,17 @@
   border-radius: 8px;
   /* margin-left: 10px; */
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 0px;
   /* filter: drop-shadow(0 0 7px #004b23); */
   display: inline-block;
- animation-iteration-count: infinite;
+ /* animation-iteration-count: infinite; */
  border: 2px solid #004b23;
  box-shadow: 2px 2px 4px #004b23;
 }
 
 
 .learn-more-button:hover {
-  background-color: #004b23;
+  background-color: #001219;
   color: #e9efe7;
   /* border: 1px solid #e9efe7; */
   filter: drop-shadow(0 0 5px #004b23);
