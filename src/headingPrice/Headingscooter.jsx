@@ -8,8 +8,8 @@ const Headingscooter = () => {
      <>
      
      <div className='head-scooter'>
-    <h1 className='heading-scooter animate__animated  animate__slideInDown'>latest prices of Electric Scooters available in the market</h1>
-    <img src={doubleunderline5} alt="doubleunderline5" className='doubleunderline7 animate__animated animate__slideInRight'/>
+    <h1 className='heading-scooter  '>latest prices of Electric Scooters available in the market</h1>
+    <img src={doubleunderline5} alt="doubleunderline5" className='doubleunderline7    '/>
 
     <button onClick={() => window.history.back()}  >
             <img src={backarrow2} alt="backarrow2" className="back-buttonscooter"/> 

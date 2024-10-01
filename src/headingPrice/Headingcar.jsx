@@ -9,12 +9,12 @@ const Headingcar = () => {
      
      <div className='head-car'>
    
-     <h1 className='heading-car animate__animated animate__slideInDown '>latest prices of Electric Cars available in the market</h1>
+     <h1 className='heading-car  '>latest prices of Electric Cars available in the market</h1>
 
-       <img src={doubleunderline5} alt="doubleunderline5" className='doubleunderline5 animate__animated animate__slideInRight'/>
+       <img src={doubleunderline5} alt="doubleunderline5" className='doubleunderline5  '/>
 
      <button onClick={() => window.history.back()}  >
-            <img src={backarrow2} alt="backarrow" className="back-buttoncar"/> 
+            <img src={backarrow2} alt="backarrow2" className="back-buttoncar"/> 
           </button>
  
           

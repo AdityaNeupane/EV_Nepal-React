@@ -4,6 +4,8 @@
   /* margin: 0 auto; */
   overflow: hidden;
   height: auto; /* Center the slider */
+  position: relative;
+  background-color: #f0f8ff;
 }
 
 .swiper-slide {
@@ -22,20 +24,151 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #fff; /* Change button color */
-  background-color: #333; /* Change button background color */
+  color: #001219; /* Change button color */
+  
   border: none;
-  font-size: 24px;
+  font-size: 32px;
   padding: 10px;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .swiper-pagination-bullet {
   background-color: #ccc; /* Change bullet color */
   opacity: 0.5;
+  width:12px;
+  height: 12px;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #000;
+  background-color: #001219;
   opacity: 1;
 } 
+
+
+
+ 
+
+ .image-container-cyberster {
+  position: relative;
+  display: inline-block;
+}
+
+.display-heading-cyberster {
+  position: absolute;
+  top: 8%; /* Adjust as needed */
+  left: 30%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: #001219  ; /* Make sure the text is visible */
+  font-size: 80px; /* Adjust as needed */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional, to make text more readable */
+  font-family: cursive;
+}
+
+.display-heading2-cyberster {
+  position: absolute;
+  top: 7%; /* Adjust as needed */
+  left: 57%; /* Adjust as needed */
+  /* transform: translate(-50%, -50%); Center the text */
+  color: #001219  ; /* Make sure the text is visible */
+  font-size: 40px; /* Adjust as needed */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional, to make text more readable */
+  font-family:  cursive;
+  letter-spacing: 1px;
+}
+
+.display-heading-cyberster:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+
+  left: 0;
+  width: 20%;
+  height: 8px;
+  background-color:  #ddd ;/* Adjust as needed */
+  transition: 1s;
+}
+
+.display-heading-cyberster:hover:after {
+  width: 90%;
+  
+}
+
+.image-container-cyberster img {
+  width: 100%; /* Make sure the image takes up the full container width */
+  height: auto; /* Maintain image aspect ratio */
+}
+
+ 
+
+
+.effect3d {
+    animation-name: effect3d;
+    animation-duration: 1s; /* Adjust duration as needed */
+    animation-fill-mode: forwards; /* Keeps the final state of the animation */
+}
+
+@keyframes effect3d {
+    to {
+        text-shadow: 
+            0 1px 0 #ccc, 
+            0 2px 0 #c9c9c9, 
+            0 3px 0 #bbb, 
+            0 4px 0 #b9b9b9, 
+            0 5px 0 #aaa, 
+            0 6px 1px rgba(0, 0, 0, .1), 
+            0 0 5px rgba(0, 0, 0, .1), 
+            0 1px 3px rgba(0, 0, 0, .3), 
+            0 3px 5px rgba(0, 0, 0, .2), 
+            0 5px 10px rgba(0, 0, 0, .25), 
+            0 10px 10px rgba(0, 0, 0, .2), 
+            0 20px 20px rgba(0, 0, 0, .15);
+    }
+}
+
+
+.image-container-porsche {
+  position: relative;
+  display: inline-block;
+}
+
+.display-heading-porsche {
+  position: absolute;
+  top: 8%; /* Adjust as needed */
+  left: 35%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: #001219  ; /* Make sure the text is visible */
+  font-size: 80px; /* Adjust as needed */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional, to make text more readable */
+  font-family: cursive;
+}
+
+.display-heading-porsche:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+width: 55%;
+  left: 0;
+  height: 8px;
+  background-color: #ddd ;/* Adjust as needed */
+  transition: 1s;
+
+}
+
+.display-heading2-porsche {
+position: absolute;
+left: 7%;
+bottom: -3%;
+  background-color: #f0f8ff;
+color: #001219  ; /* Make sure the text is visible */
+font-size: 50px; /* Adjust as needed */
+font-weight: bold;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional, to make text more readable */
+font-family: cursive;
+ padding: 10px;
+ border-radius: 10px;
+ filter: drop-shadow(0 0 10px #001219);
+}
