@@ -1,6 +1,6 @@
 .herosection {
   height: 100vh;
-  background-image: url("src/assets/images/herosection5.png");
+  background-image: url("src/assets/images/herosection6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,9 +27,9 @@
   letter-spacing: -1px;
  font-family:  cursive;
   margin-top: 12px; 
-  color: #004b23; 
-  font-weight: 500;
-  font-size: 50px;
+  color: #007f5f; 
+  font-weight: 600;
+  font-size: 48px;
   position: relative;
   -webkit-text-stroke: 0.8px #004b23;
   text-transform: none;
@@ -41,7 +41,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  color: #001219;
+  color: #000000;
   overflow: hidden;
   /* -webkit-text-stroke: 0.3px #004b23; */
   border-right: 1px solid none;
@@ -79,11 +79,13 @@
     font-weight: 500;
     position: relative;
     display: inline-block;
+    font-family: sans-serif;
   }
 
 
 .learn-more-button {
   height: 35px;
+  font-family: sans-serif;
   width: 85px;
   background-color: #e9efe7;
   color: #004b23;

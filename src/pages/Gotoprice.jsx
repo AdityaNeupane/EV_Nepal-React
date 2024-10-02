@@ -54,7 +54,7 @@ const handleViewPricingFour = () => {
         <div className='box1-img'><img src= {ecar} alt="carpic" /></div>
 
         <div className='box1-content'>
-            <p className='content1'>Explore the full pricing details for <u>Cars</u> - Simply click the button below.</p>
+            <p className='content1'>Explore the full pricing details for Cars - Simply click the button below.</p>
 
             <button className='button1 animate__animated animate__heartBeat' onClick={handleViewPricingOne}>View Pricing</button>
         </div>
@@ -69,7 +69,7 @@ const handleViewPricingFour = () => {
      <div className='box2-img'><img src= {ebike} alt="bikepic" /></div>
 
     <div className='box2-content'>
-        <p className='content2'>Explore the full pricing details for <u>Bikes</u> - Simply click the button below.</p>
+        <p className='content2'>Explore the full pricing details for Bikes - Simply click the button below.</p>
 
         <button className='button2 animate__animated animate__heartBeat' onClick={handleViewPricingTwo}>View Pricing</button>
     </div>
@@ -82,7 +82,7 @@ const handleViewPricingFour = () => {
     <div className='box3-img'><img src= {escooter} alt="scooterpic" /></div>
 
     <div className='box3-content'>
-        <p className='content3'>Explore the full pricing details for <u>Scooters</u> - Simply click the button below.</p>
+        <p className='content3'>Explore the full pricing details for Scooters - Simply click the button below.</p>
 
         <button className='button3 animate__animated animate__heartBeat' onClick={handleViewPricingThree}>View Pricing</button>
     </div>
@@ -96,7 +96,7 @@ const handleViewPricingFour = () => {
 <div className="box4-img"><img src= {evan} alt="vanpic" /></div>
 
     <div className='box4-content'>
-        <p className='content4'>Explore the full pricing details for <u>Passenger Vans</u> - Simply click the button below.</p>
+        <p className='content4'>Explore the full pricing details for Passenger Vans - Simply click the button below.</p>
 
         <button className='button4 animate__animated animate__heartBeat' onClick={handleViewPricingFour}>View Pricing</button>
     </div>

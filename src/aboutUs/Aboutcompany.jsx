@@ -14,7 +14,7 @@ const Aboutcompany = () => {
       
       <div className='about-rightbox'>
         <div className='about-upperrightbox'>
-          <h1 className='about-upperrightboxheading animate__animated  animate__bounceInDown'>About EV Nepal</h1>
+          <h1 className='about-upperrightboxheading animate__animated  animate__bounceInDown'> EV Nepal</h1>
           <img src={person} alt="person" className='animate__animated   animate__bounceInRight' />
         </div>
         <div className='about-lowerrightbox'>

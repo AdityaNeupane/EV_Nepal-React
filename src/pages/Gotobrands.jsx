@@ -50,7 +50,7 @@ const handleExplore4More = () => {
         <img src= {ecar} alt="carpic" />
         </div>
         <div className='cart1-text'>
-          <p>Discover the leading Car brands available in Nepal. Click the button below to explore all brands.</p>
+          <p>Discover the leading Car brands available in Nepal. Click the button below to explore.</p>
           <button className='explore1 animate__animated animate__heartBeat' onClick={handleExplore1More}>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>

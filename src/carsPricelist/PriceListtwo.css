@@ -16,9 +16,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .carmodeltwo {
     color: #f0f8ff;
-    font-family:  cursive;
-    font-size: 32px;
-    font-weight: 900;
+    font-family:   sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
     padding-top: 25px;
     align-items: center;
     justify-content: center;
@@ -61,10 +62,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   color: black;
   /* font-weight: bold; */
   font-size: 19px;
+  font-family: sans-serif;
 }
 
 .pricelist-two-table td {
   color: #001219;
+  font-family: sans-serif;
  }
 
 .pricelist-two-table tr:hover {

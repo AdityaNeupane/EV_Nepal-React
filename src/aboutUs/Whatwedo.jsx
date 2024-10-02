@@ -1,6 +1,6 @@
 import React from 'react'
 import './Whatwedo.css'
-import headingbg4  from '../assets/Background-images/headingbg4.jpg'
+ 
 import news from '../assets/icons/news.png'
 import calc from '../assets/icons/calc.png'
 import listing from '../assets/icons/listing.png'
@@ -10,15 +10,15 @@ import brand from '../assets/icons/brand.png'
 import pricing from '../assets/icons/pricing.png'
 import reviews from '../assets/icons/reviews.png'
 
+import needleunderline5 from '../assets/underlines/needleunderline5.png';
+
 const Whatwedo = () => {
   return (
      <>
      <div className="whatwedo">
       
-      <div className="whatwedo-image">
-        <img src={headingbg4}   alt="headingbg4" />
-        <h1 className='whatwedo-heading'>what we do</h1>
-      </div>
+      <h1 className='whatwedo-heading'>What we do / Services</h1>
+      <img src={needleunderline5} alt='underline' className='whatwedo-underline'></img>
 
       <div className="upper-box">
       

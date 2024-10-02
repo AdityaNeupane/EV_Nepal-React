@@ -1,6 +1,6 @@
 import React from 'react'
 import './Ourteam.css'
-import headingbg4 from '../assets/Background-images/headingbg4.jpg'
+import needleunderline6 from '../assets/underlines/needleunderline6.png'
 import officeperson from '../assets/images/officeperson.jpg'
 import officeperson2 from '../assets/images/officeperson2.jpg'
 import officeperson3 from '../assets/images/officeperson3.jpg'
@@ -10,10 +10,8 @@ const Ourteam = () => {
       
       <div className="ourteam">
 
-        <div className='ourteam-image'>
-        <img src={headingbg4} alt="headingbg4"  />
-        <h1 className='ourteam-heading'>Our Team</h1>
-        </div>
+         <h1 className='ourteam-heading'>Our Team</h1>
+         <img src={needleunderline6} alt='underline' className='ourteam-underline'></img>
         
        <div className='ourteam-content'>
           <div className='ourteam-box'>

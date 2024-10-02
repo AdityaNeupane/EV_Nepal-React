@@ -1,6 +1,6 @@
 import React from 'react'
 import './Ourjourney.css'
-import headingbg4 from '../assets/Background-images/headingbg4.jpg';
+ import needleunderline7 from '../assets/underlines/needleunderline7.png';
 import meeting from '../assets/GIF/meeting.gif';
 const Ourjourney = () => {
   return (
@@ -8,10 +8,8 @@ const Ourjourney = () => {
      <div className="ourjourney">
    
 
-     <div className="ourjourney-image">
-        <img src={headingbg4} alt="headingbg4" />
-        <h1 className="ourjourney-heading">Our Journey</h1>
-        </div>
+    <h1 className='ourjourney-heading'>Our Journey</h1>
+    <img src={needleunderline7} alt='underline ' className='ourjourney-underline'></img>
 
        <div className="ourjourney-para">
 
