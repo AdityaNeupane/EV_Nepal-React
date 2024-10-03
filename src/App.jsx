@@ -16,6 +16,7 @@ import Testimonial from "./pages/Testimonial.jsx";
 import Newsletter from "./pages/Newsletter.jsx";
 import Footer from "./pages/Footer.jsx";
 import Info from "./pages/Info.jsx";
+import EMIcalc from "./pages/EMIcalc.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -43,11 +44,13 @@ function App() {
          <Route path="/reviews" element={<Testimonial />} />
          <Route path="/newsletter" element={<Newsletter />} />
 
+
          </Routes>
          
          <Display />
          <Gotobrands />
          <Gotoprice />
+         <EMIcalc />
           <About /> 
           
           <Testimonial />
