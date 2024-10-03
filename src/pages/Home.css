@@ -1,6 +1,6 @@
 .herosection {
   height: 100vh;
-  background-image: url("src/assets/images/herosection6.png");
+  background-image: url("src/assets/images/herosection4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -87,7 +87,7 @@
   height: 35px;
   font-family: sans-serif;
   width: 85px;
-  background-color: #e9efe7;
+  background-color: #ffffff;
   color: #004b23;
   font-weight: 320;
   font-size: 14px;
