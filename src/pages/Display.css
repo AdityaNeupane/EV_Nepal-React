@@ -39,8 +39,8 @@
 
 /* General bullet styling */
 .swiper-pagination-bullet {
-  width: 20px;   /* Change width to create the longer shape */
-  height: 10px;  /* Adjust height */
+  width: 25px;   /* Change width to create the longer shape */
+  height: 5px;  /* Adjust height */
   border-radius: 10px; /* Make the bullets rounded */
   background-color: grey; /* Light gray color for inactive bullets */
   transition: background-color 0.3s ease;
@@ -50,7 +50,7 @@
 /* Active bullet styling */
 .swiper-pagination-bullet-active {
   background-color: #001219; /* Black color for active bullet */
-  width: 35px;  /* Make the active bullet wider */
+  width: 40px;  /* Make the active bullet wider */
 }
 
 

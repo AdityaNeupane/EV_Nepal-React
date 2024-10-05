@@ -1,0 +1,17 @@
+.copyright {
+    height: 35px;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+
+.copyright-text {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #001219;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    justify-content: center;
+}

@@ -1,7 +1,7 @@
-import React from 'react'
-import './Headingbike.css'
- import doubleunderline5 from '../assets/underlines/doubleunderline5.png'
- import backarrow2 from '../assets/icons/backarrow2.png'
+import React from 'react';
+import './Headingbike.css';
+ import doubleunderline5 from '../assets/underlines/doubleunderline5.png';
+ import backarrow2 from '../assets/icons/backarrow2.png';
 const Headingbike = () => {
   return (
      <>
@@ -20,4 +20,4 @@ const Headingbike = () => {
   )
 }
 
-export default Headingbike
+export default Headingbike;

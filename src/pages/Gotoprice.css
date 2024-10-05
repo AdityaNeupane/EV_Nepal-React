@@ -1,7 +1,7 @@
 .gotoprice {
  
   width: 100%;
-  height: 1400px;
+  height: 1640px;
   margin-top: 35px;
   position: relative;
   background-color: #ffffff;
@@ -13,16 +13,19 @@
 .heading-imagetwo {
     width: 70%;
     height: 180px;
-  
+  margin-top: 120px;
     border-radius: 10px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    align-items: center;
+    left: 17%;
+    position: relative;
     /* box-shadow: 4px 4px 8px #242423; */
 } 
 
 
  .gotoprice-heading {
     position: absolute;
-    top: 5%;
+    top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family:cursive;
@@ -36,7 +39,7 @@
  
  .gotoprice-subheading {
     position: absolute;
-    top: 9%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family:sans-serif;
@@ -54,29 +57,62 @@
     font-family:  cursive;
     font-weight: 600;
      text-align: center;
-    margin-top: 35px;
+    margin-top: 15px;
      display: inline-block;
   margin: 1 0.5rem;
-  margin-left: 270px;
+  position: relative;
+  left: 20%;
 }
 
- 
+.divider-price {
+    margin-left: 8px;
+}
+
+.price-illustration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.price-illustration img {
+    width: auto;
+    height: auto;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+}
+   .marq5 {
+    position: relative;
+    height: 100px;
+    width:100px ;
+    top: -16%;
+    left: 20%;
+    filter: drop-shadow(0 0 8px #f2f3f4);
+   }
+
+   .marq6 {
+    position: relative;
+    left: 55%;
+    top: 10%;
+   }
+
  
 .box {
     width: 100%;
-    height: 900px;
+    height: 500px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 100px;
-    padding-top: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* gap: 40px; */
+    margin-top: 60px;
+    margin-left: 22px;
+    margin-right: 20px;
+    justify-content: space-evenly
 }
 
 .box1{
-    width: 350px;
+    width: 300px;
     height: 400px;
-    /* background-color: #F0F8FF; */
-    background-color: #f8f9fa;
-    margin-left: 280px;
+ 
+    /* margin-left: 280px; */
     border-radius: 10px;
     /* border: 1.8px solid #001219; */
     /* box-shadow: 0 0 6px 3px #004b23; */
@@ -95,9 +131,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .box1-img {
     width: 300px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-left: 25px;
+   
     height: 200px;
    
     padding: 2px;
@@ -108,33 +142,33 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  
 
 .box2-img {
-    width: 250px;
-   margin-left: 50px;
-   margin-top: 10px;
-    height: 180px;
+    width: 240px;
+   margin-left: 20px;
+   /* margin-top: 10px; */
+    height: 200px;
    
-    padding: 2px;
+    padding: 4px;
     object-fit: contain;
     
 }
  
 .box3-img {
-    width: 250px;
-    margin-top: 5px;
-    margin-left: 40px;
-    height: 180px;
+    width: 220px;
+    /* margin-top: 5px; */
+    margin-left: 25px;
+    height: 200px;
     
-    padding: 2px;
+    padding: 4px;
     object-fit: contain;
 }
  
 .box4-img {
-    width: 300px;
-    margin-top: 30px;
-    margin-right: 40px;
+    width: 280px;
+    /* margin-top: 30px; */
+    /* margin-right: 40px; */
     height: 200px;
     
-    padding: 2px;
+    padding: 4px;
     object-fit: contain;
 }
 
@@ -143,7 +177,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  
 
 .box2 {
-    width: 350px;
+    width: 300px;
     height: 400px;
   
     background-color: #f8f9fa;
@@ -165,12 +199,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 } 
 
 .box3{
-    width: 350px;
-    height: 420px;
+    width: 300px;
+    height: 400px;
     
     background-color: #f8f9fa;
   
-    margin-left: 280px;
+    /* margin-left: 280px; */
     border-radius: 10px;
     /* border: 1.8px solid #001219; */
     
@@ -187,8 +221,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .box4{
-    width: 350px;
-    height: 420px;
+    width: 300px;
+    height: 400px;
     
     background-color: #f8f9fa;
   
@@ -208,32 +242,35 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
  
 .content1 {
-    color: #000000;
+    color: #001219;
     font-family:  sans-serif;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 500;
-    margin-left: 30px;
-    margin-right: 25px;
-    margin-top: 10px;
+    /* margin-left: 30px; */
+    /* margin-right: 25px; */
+    padding: 20px;
+    text-align: start;
 }
 .button1 {
     color: #001219;
     font-family:  sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     height: 32px;
     width: 120px;
     padding: 3px;
     border: 1.8px solid #001219;
     border-radius: 8px;
-    margin-top: 30px;
-    margin-left: 110px;
+    /* margin-top: 30px; */
+    /* margin-left: 110px; */
     background-color: #f0f8ff;
     letter-spacing: 1px;
     box-shadow: 3px 3px 5px #004b23;
-    display: inline-block;
-    /* animation-iteration-count: infinite; */
+ 
+    position: relative;
+    left: 30%;
+   margin-top: 10px;
 }
 
 .button1:hover {
@@ -246,33 +283,35 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  
 
 .content2 {
-    color: #000000;
+    color: #001219;
     font-family:  sans-serif;
     font-size: 18px;
     font-weight: 500;
-    letter-spacing: 1px;
-    margin-left: 30px;
-    margin-right: 22px;
-    margin-top: 20px;
+    letter-spacing: 0.5px;
+    /* margin-left: 30px; */
+    /* margin-right: 22px; */
+    /* margin-top: 20px; */
+    padding: 20px;
+
 }
 
 .button2 {
     color: #001219;
     font-family:  sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     height: 32px;
     width: 120px;
     padding: 3px;
     border: 1.8px solid #001219;
     border-radius: 8px;
-    margin-top: 30px;
-    margin-left: 110px;
+    margin-top: 10px;
+    /* margin-left: 110px; */
     background-color: #f0f8ff;
     letter-spacing: 1px;
     box-shadow: 3px 3px 5px #004b23;
-    display: inline-block;
-    /* animation-iteration-count: infinite; */
+    position: relative;
+    left: 30%;
 }
 
 .button2:hover {
@@ -284,33 +323,35 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  
 
 .content3 {
-    color: #000000;
+    color: #001219;
     font-family:  sans-serif;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 500;
-    margin-top: 60px;
-    margin-left: 30px;
-    margin-right: 20px;
+    /* margin-top: 60px; */
+    /* margin-left: 30px; */
+    /* margin-right: 20px; */
+    padding: 20px;
 }
 
 .button3 {
     color: #001219;
     font-family:  sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     height: 32px;
     width: 120px;
     padding: 3px;
     border: 1.8px solid #001219;
     border-radius: 8px;
-    margin-top: 20px;
-    margin-left: 110px;
+    margin-top: 10px;
+    /* margin-left: 110px; */
     background-color: #f0f8ff;
     letter-spacing: 1px;
     box-shadow: 3px 3px 5px #004b23;
-    display: inline-block;
-    /* animation-iteration-count: infinite; */
+
+    position: relative;
+    left: 30%;
 }
 
 .button3:hover {
@@ -323,34 +364,35 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
  
 
 .content4 {
-    color: #000000;
+    color: #001219;
     font-family:  sans-serif;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 500;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 20px;
+    /* margin-top: 10px; */
+    /* margin-left: 30px; */
+    /* margin-right: 20px; */
+    padding: 20px;
 }
 
 .button4 {
     color: #001219;
     font-family:  sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     height: 32px;
     width: 120px;
     padding: 3px;
     border: 1.8px solid #001219;
     border-radius: 8px;
-    margin-top: 28px;
-    margin-left: 110px;
+    margin-top: 10px;
+    /* margin-left: 110px; */
     background-color: #f0f8ff;
     letter-spacing: 1px;
     box-shadow: 3px 3px 5px #004b23;
-    /* filter: drop-shadow(0 0 7px #004b23); */
-    display: inline-block;
-    /* animation-iteration-count: infinite; */
+
+    position: relative;
+    left: 30%;
 }
 
 .button4:hover {
@@ -359,18 +401,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     border: 1px solid #F0F8FF;
 }
 
- .preloader {
-  width: 100px;
-  height: 100px;
-  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="%23001219" stroke="%23001219" stroke-width="6" r="15" cx="40" cy="65"><animate attributeName="cy" calcMode="spline" dur="1.3" values="65;135;65;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="%23001219" stroke="%23001219" stroke-width="6" r="15" cx="100" cy="65"><animate attributeName="cy" calcMode="spline" dur="1.3" values="65;135;65;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="%23001219" stroke="%23001219" stroke-width="6" r="15" cx="160" cy="65"><animate attributeName="cy" calcMode="spline" dur="1.3" values="65;135;65;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-   position: absolute;
-  top: 56%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  
 
 .effect3d {
     animation-name: effect3d;

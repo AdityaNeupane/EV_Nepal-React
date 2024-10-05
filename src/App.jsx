@@ -17,6 +17,7 @@ import Newsletter from "./pages/Newsletter.jsx";
 import Footer from "./pages/Footer.jsx";
 import Info from "./pages/Info.jsx";
 import EMIcalc from "./pages/EMIcalc.jsx";
+import Copyright from "./pages/Copyright.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -59,6 +60,7 @@ function App() {
              <br></br>
              <br></br>
           <Footer />
+          <Copyright />
            </div>
           
     </Router>

@@ -1,7 +1,7 @@
-import React from 'react'
-import './Headingcar.css'
-import backarrow2 from '../assets/icons/backarrow2.png'
-import doubleunderline5 from '../assets/underlines/doubleunderline5.png'
+import React from 'react';
+import './Headingcar.css';
+import backarrow2 from '../assets/icons/backarrow2.png';
+import doubleunderline5 from '../assets/underlines/doubleunderline5.png';
 
 const Headingcar = () => {
   return (
@@ -26,4 +26,4 @@ const Headingcar = () => {
   )
 }
 
-export default Headingcar
+export default Headingcar;

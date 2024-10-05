@@ -2,75 +2,49 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
-import { FaFacebook, FaInstagramSquare, FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaInstagram,  FaLinkedin, FaTwitter } from "react-icons/fa";
+import logo3 from "../assets/images/logo3.jpeg";
 
 const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="_footer">
-          <div className="_footer_1">
-            <img
-              src="src/assets/images/Footerlogo.png"
-              alt="logo"
-              className="footer_image"
-            />
-            <p className="description">
-              Take a peek into our office at ParasBuspark, Bharatpur.
-            </p>
-          </div>
-          <div className="_footer_2">
-            <span className="title">Contact Us</span>
-            <span className="address">Address: Paras Buspark, Chitwan</span>
-            <span className="email">
-              <a href="mailto:evnepal@gmail.com" target="_blank">
-                Email: evnepal@gmail.com
-              </a>
-            </span>
-            <span className="phone">Phone: 9845324***</span>
-          </div>
-          <div className="_footer_3_4">
-            <div className="_footer_3">
-              <span className="title">
-                <Link style={{ cursor: "auto" }}>Quick Links</Link>
-              </span>
-              <Scroll to="home" spy={true} smooth={true} className="quick-link">
-                <span>Home</span>
-              </Scroll>
-              <Scroll
-                to="aboutus"
-                spy={true}
-                smooth={true}
-                className="quick-link"
-              >
-                <span>AboutUs</span>
-              </Scroll>
-              <Scroll
-                to="contactus"
-                spy={true}
-                smooth={true}
-                className="quick-link"
-              >
-                <span>ContactUs</span>
-              </Scroll>
-            </div>
-            <div className="_footer_4">
-              <span className="title">Social Links</span>
-              <FaFacebook
-                className="social-icon"
-                style={{ cursor: "pointer" }}
-              />
-              <FaPinterest
-                className="social-icon"
-                style={{ cursor: "pointer" }}
-              />
-              <FaInstagramSquare
-                className="social-icon"
-                style={{ cursor: "pointer" }}
-              />
-            </div>
+        <div className="footer1">
+          <h1 className="footer1-heading">EV Nepal</h1>
+          <div className="footer1-content">
+            <img src={logo3} alt="footerlogo" />
+            <p> EV Nepal is the ultimate destination <br/>for everything related to electric vehicles.  </p>
           </div>
         </div>
+        <div className="footer2">
+          <h1 className="footer2-heading">Contacts</h1>
+          <ul className="footer2-content">
+            <li>WhatsApp: 9811220410</li>
+            <li>E-mail: eVnepal123@gmail.com</li>
+            <li>Address: Bharatpur-9, Chitwan</li>
+          </ul>
+        </div>
+        <div className="footer3">
+          <h1 className="footer3-heading">Quick Links</h1>
+          <ul className="footer3-content">
+            <li>Home</li>
+            <li>Brand list</li>
+            <li>Price list</li>
+            <li>Charging Station</li>
+            <li>EMI calculator</li>
+            <li>About Us </li>
+          </ul>
+        </div>
+        <div className="footer4">
+          <h1 className="footer4-heading">Socials</h1>
+          <div className="footer4-content">
+            <FaFacebook className="social-icon" />
+            <FaInstagram className="social-icon" />
+            <FaTwitter className="social-icon" />
+            <FaLinkedin className="social-icon" />
+          </div>
+        </div>
+        
       </div>
     </>
   );

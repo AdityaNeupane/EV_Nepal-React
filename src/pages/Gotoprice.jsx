@@ -6,6 +6,13 @@ import escooter from '../assets/images/escooter.png'
 import evan from '../assets/images/evan.png'
 import { useNavigate } from 'react-router-dom'
 import headingbg4 from '../assets/Background-images/headingbg4.jpg'
+
+ 
+import pricemarq5 from '../assets/illustrations/pricemarq5.png'
+import pricemarq6 from '../assets/illustrations/pricemarq6.png'
+ 
+
+import divider3 from '../assets/underlines/divider3.png'
  
 
 const Gotoprice = () => {
@@ -30,10 +37,17 @@ const handleViewPricingFour = () => {
     navigate('/vansprice');
 };
 
+
+ 
+
+ 
+
+
   return (
      <>
      <div className="gotoprice">
    
+   <img src={divider3} alt="divider" className='divider-price' />
 
    <div className='heading-image-container'>
        <img src= {headingbg4} alt="headingbg4" className='heading-imagetwo' />
@@ -42,10 +56,20 @@ const handleViewPricingFour = () => {
        <h2 className='gotoprice-subheading'>Car - Bike - Scooter - Passenger Van</h2>
    </div>
    
+ 
+
+<div className='price-illustration'>
+    <img src={pricemarq6} alt="pricemarq3" className='marq6' />
+     
+    <img src={pricemarq5} alt="pricemarq4" className='marq5' />
+</div>
+ 
+
 <h1 className='quotetwo  effect3d'>find the perfect electric vehicle within your budget</h1>
 
 
-<div className="preloader"></div>
+
+ 
 
    <div className='box'>
 
@@ -75,7 +99,7 @@ const handleViewPricingFour = () => {
     </div>
 </div>
  
-{/* <div className="preloader"></div> */}
+ 
 
  
     <div className='box3 animate__animated animate__bounceInLeft'>

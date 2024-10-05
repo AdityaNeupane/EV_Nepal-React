@@ -1,7 +1,7 @@
-import React from 'react'
-import './Headingvan.css'
-import backarrow2 from '../assets/icons/backarrow2.png' 
-import doubleunderline5 from '../assets/underlines/doubleunderline5.png'
+import React from 'react';
+import './Headingvan.css';
+import backarrow2 from '../assets/icons/backarrow2.png';
+import doubleunderline5 from '../assets/underlines/doubleunderline5.png';
 
 const Headingvan = () => {
   return (
@@ -25,4 +25,4 @@ const Headingvan = () => {
   )
 }
 
-export default Headingvan
+export default Headingvan;

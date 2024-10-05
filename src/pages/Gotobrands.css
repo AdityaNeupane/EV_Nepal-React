@@ -1,8 +1,8 @@
 .gotobrands {
     /* background-image: url(../assets/images/price.png); */
     width: 100%;
-    height: 930px;
-    padding-top: 60px;
+    height: 1420px;
+    /* padding-top: 60px; */
     background-color: #ffffff;
     position: relative;
     /* background-color: #ffffff ; */
@@ -11,9 +11,12 @@
 .heading-image {
     width: 70%;
     height: 180px;
-  
+  margin-top: -20px;
     border-radius: 10px;
-    margin-left: 220px;
+    position: relative;
+    align-items: center;
+    left: 17%;
+    /* margin-left: 220px; */
     /* box-shadow: 4px 4px 8px #242423; */
     /* filter: drop-shadow(0 0 12px #004b23); */
 }
@@ -21,8 +24,8 @@
 
  .brand-heading {
     position: absolute;
-    top: 12%;
-    left: 52%;
+    top: 13%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family:cursive;
     font-weight: 600;
@@ -35,8 +38,8 @@
  
  .brand-subheading {
     position: absolute;
-    top: 18%;
-    left: 52%;
+    top: 17%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family:sans-serif;
     font-weight: 200;
@@ -49,23 +52,106 @@
  
 
 .quoteone {
+    position: relative;
     font-size: 32px;
     font-weight: 600;
     color: #001219;
     font-family: cursive;
-    text-align: center;
-    margin-top: 35px;
+    /* text-align: center; */
+    left: 7%;
+    margin-top: 90px;
       display: inline-block;
   margin: 1 0.5rem;
-  margin-left: 90px;
+  /* margin-left: 90px; */
 }
+
+    .marquee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; /* Space between slides */
+    margin-top: 90px;
+}
+
+.marquee-slide {
+    overflow: hidden; /* Hide overflow to prevent images from showing outside the container */
+    width: 100%;
+}
+
+.marquee-content {
+    display: flex;
+    /* Set this to ensure that there are enough images for a seamless effect */
+    width: calc(100% * 1); /* Ensure enough space for the repeat */
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+/* Animation for Slide 1 (moving left) */
+.marquee-slide:nth-child(1) .marquee-content {
+    animation: scroll-left 20s linear infinite; /* Specify the direction */
+}
+
+ 
+.marquee-slide:nth-child(2) .marquee-content {
+    animation: scroll-left 20s linear infinite; /* Specify the direction */
+}
+
+/* Animation for Slide 3 (moving left) */
+.marquee-slide:nth-child(3) .marquee-content {
+    animation: scroll-left 20s linear infinite; /* Specify the direction */
+}
+
+/* Common styles for images */
+.marquee-content img {
+    width: 120px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 50px; /* Space between images */
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: screen;
+}
+
+/* Keyframes for scrolling left */
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%); /* Move left by the full width of the content */
+    }
+}
+
+ 
+
+/* Add a second instance of the images to create the looping effect */
+.marquee-content::after {
+    content: '';
+    display: flex;
+    /* Copy the logos so they can be shown */
+    flex: 1 0 auto; /* Allow this to take up space */
+}
+
+/* Ensure that we have enough images for scrolling for Slide 1 */
+.marquee-slide:nth-child(1) .marquee-content::after {
+    animation: scroll-left 20s linear infinite; /* Repeat left scrolling */
+}
+
+/* Ensure that we have enough images for scrolling for Slide 2 */
+.marquee-slide:nth-child(2) .marquee-content::after {
+    animation: scroll-left 20s linear infinite; /* Repeat right scrolling */
+}
+
+/* Ensure that we have enough images for scrolling for Slide 3 */
+.marquee-slide:nth-child(3) .marquee-content::after {
+    animation: scroll-left 20s linear infinite; /* Repeat left scrolling */
+}
+
 
 .cart {
     width: 100%;
     height: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-left: 22px;
     margin-right: 20px;
     /* gap: 0.2px; */
@@ -323,25 +409,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 
-.emoji {
-    align-items: center;
-    justify-content: center;
-    margin-left: 640px;
-    gap: 25px;
-    height: 20px;
-    width: 50px;
-    /* bottom: 20px; */
-    display: flex;
-}
+ 
 
-.emojis {
-    font-size: 30px;
-    color: #001219;
-}
-
-.emojis:hover {
-    font-size: 40px ;
-}
+ 
 
 
  .uparrowfixed {

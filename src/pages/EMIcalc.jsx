@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './EMIcalc.css';
+// import divider5 from '../assets/underlines/divider5.png';
 
 const EMIcalc = () => {
     const [principal, setPrincipal] = useState('');
@@ -64,7 +65,10 @@ const EMIcalc = () => {
                 </div>
             )}
         </div>
-        </div>
+         
+  
+      {/* <div >   <img src={divider5} alt="divider" className="divider-calc" /></div> */}
+      </div>
     );
 };
 
