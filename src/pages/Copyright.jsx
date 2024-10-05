@@ -5,7 +5,7 @@ const Copyright = () => {
      <>
      <div className='copyright'>
         <h1 className='copyright-text'>
-            EV Nepal @ 2024 Copyright | All Rights Reserved.
+            eV nepal | Copyrights © 2024 All Rights Reserved |<b> नेपालमा बनेको ! </b>
         </h1>
      </div>
      
