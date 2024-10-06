@@ -1,13 +1,15 @@
 .footer {
   width: 100%;
   height: 500px;
-  background-color: darkgray;
+  /* background-color: darkgray; */
   /* display: flex; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
   gap: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+  background-color: #008870;
+  margin-top: 1px;
 }
 
 /* .footer1-heading, */
@@ -17,7 +19,7 @@
 .footer5-heading
 {
   font-size: 22px;
-  color: #001219;
+  color: #000000;
   font-weight: 600;
   font-family: cursive;
   text-align: center;
@@ -28,7 +30,7 @@
 
 .footer1-heading {
 font-size: 40px;
-color: #001219;
+color: #000000;
 font-family: 900;
 letter-spacing: 2px;
 font-family: cursive;
@@ -40,7 +42,7 @@ position: relative;
 .footer2-heading:after {
   content: "";
   position: absolute;
-  background-color: #001219;
+  background-color: #000000;
   height: 2px;
   width: 50%;
   bottom: -4px;
@@ -53,7 +55,7 @@ position: relative;
 {
 content: "";
 position: absolute;
-background-color: #001219;
+background-color: #000000;
 height: 2px;
 width: 30%;
 bottom: -4px;
@@ -63,7 +65,7 @@ left: 35%;
 .footer3-heading:after {
   content: "";
   position: absolute;
-  background-color: #001219;
+  background-color: #000000;
   height: 2px;
   width: 50%;
   bottom: -4px;
@@ -94,7 +96,7 @@ left: 35%;
   font-size: 20px;
   font-family: sans-serif;
   font-weight: 600;
-  color: #001219;
+  color: #000000;
   letter-spacing: 2px;
   /* margin-top: 40px; */
   text-align: start;
@@ -109,7 +111,7 @@ left: 35%;
 .footer4-content
  {
   font-family: sans-serif;
-  color: #001219;
+  color: #000000;
   font-weight: 500;
   font-size: 18px;
   margin-top: 40px;
@@ -127,7 +129,7 @@ left: 35%;
 
 .footer3-content {
   font-family: sans-serif;
-  color: #001219;
+  color: #000000;
   font-weight: 500;
   font-size: 18px;
   margin-top: 40px;
@@ -159,7 +161,7 @@ left: 35%;
 .social-icon {
   width: auto;
   height: 50px;
-  color: #001219;
+  color: #000000;
 }
 
 .social-icon:hover {

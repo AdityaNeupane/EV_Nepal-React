@@ -53,13 +53,9 @@ function App() {
          <Gotoprice />
          <EMIcalc />
           <About /> 
-          
           <Testimonial />
           <Newsletter />
-             <br></br>
-             <br></br>
-             <br></br>
-          <Footer />
+             <Footer />
           <Copyright />
            </div>
           

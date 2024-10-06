@@ -10,6 +10,7 @@ import Vanspricesix from '../vansPricelist/Vanspricesix'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
+import Copyright from '../pages/Copyright'
 const Pricevans = () => {
   return (
      <>
@@ -27,6 +28,7 @@ const Pricevans = () => {
      
      </div>
      <Footer />
+     <Copyright/>
      </>
   )
 }

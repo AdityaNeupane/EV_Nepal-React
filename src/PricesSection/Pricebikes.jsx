@@ -6,6 +6,7 @@ import React from 'react'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
+import Copyright from '../pages/Copyright'
 
 const Pricebikes = () => {
   return (
@@ -18,6 +19,7 @@ const Pricebikes = () => {
      <Bikepriceone/>
      <Bikepricetwo/>
     <Footer/>
+    <Copyright />
 
     </div>
     

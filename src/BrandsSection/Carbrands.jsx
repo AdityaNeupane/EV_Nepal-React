@@ -21,6 +21,7 @@ import turnback from '../assets/icons/turnback.png'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
+import Copyright from '../pages/Copyright'
 
 const Carbrands = () => {
   return (
@@ -60,10 +61,11 @@ const Carbrands = () => {
     </div>
     
   
-
+  
 
    </div>
    <Footer />
+   <Copyright />
      </>
   )
 }

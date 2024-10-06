@@ -12,7 +12,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     font-weight: 700;
     /* letter-spacing: 1px; */
     color: #004b23;
-    font-size: 45px;
+    font-size: 42px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -67,17 +67,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .bike-album img {
-    width: 180px;
-    height: 220px;
-    padding: 20px;
+    width: 150px;
+    height: auto;
+    /* padding: px; */
 aspect-ratio: 3/2;
+object-fit: contain;
 }
 
 .bike-album img:hover {
-    width: 180px;
-    height: 220px;
-    border: 1px solid #004b23;
-    padding: 20px;
+   
+    /* border: 1px solid #004b23; */
+    padding: 5px;
     /* box-shadow: 5px 5px 5px #004b23; */
     background-color: #f0f8ff;
     filter: drop-shadow(0 0 6px #004b23);
@@ -91,7 +91,7 @@ aspect-ratio: 3/2;
 }
 
  .doubleunderline2 {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 120px;
  }
 

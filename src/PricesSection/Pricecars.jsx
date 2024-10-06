@@ -16,6 +16,7 @@ import Headingcar from '../headingPrice/Headingcar'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
+import Copyright from '../pages/Copyright'
 const Pricecars = () => {
   return (
      <>
@@ -36,9 +37,10 @@ const Pricecars = () => {
      <PriceListten/>
      <PriceListeleven/>
      <PriceListtwelve/>
-
+     
      </div>
      <Footer/>
+     <Copyright/>
      </>
   )
 }

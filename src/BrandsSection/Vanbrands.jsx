@@ -13,6 +13,7 @@ import React from 'react'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
+import Copyright from '../pages/Copyright'
 const Vanbrands = () => {
   return (
     <>
@@ -37,11 +38,12 @@ const Vanbrands = () => {
        <img src= {wulinglogo} alt="wulinglogo" />
       </div>
 
-     
+
 
 
     </div>
     <Footer />
+    <Copyright />
     </>
   )
 }

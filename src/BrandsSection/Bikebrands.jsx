@@ -7,6 +7,7 @@ import Footer from '../pages/Footer'
 import Mynavbar from '../components/Mynavbar'
 import turnback from '../assets/icons/turnback.png'
  import doubleunderline2 from '../assets/underlines/doubleunderline2.png'
+ import Copyright from '../pages/Copyright'
 const Bikebrands = () => {
   return (
     <>
@@ -31,6 +32,7 @@ const Bikebrands = () => {
 
     </div>
     <Footer/>
+    <Copyright/>
     </>
   )
 }

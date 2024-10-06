@@ -10,6 +10,7 @@ import Headingscooter from '../headingPrice/Headingscooter'
 
 import Mynavbar from '../components/Mynavbar'
 import Footer from '../pages/Footer'
+import Copyright from '../pages/Copyright'
 const Pricescooters = () => {
   return (
      <>
@@ -25,8 +26,9 @@ const Pricescooters = () => {
      <Scotypricesix />
 
      </div>
-
+     
      <Footer />
+     <Copyright/>
      </>
   )
 }
