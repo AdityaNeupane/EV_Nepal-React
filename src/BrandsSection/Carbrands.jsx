@@ -26,7 +26,7 @@ import Copyright from '../pages/Copyright'
 const Carbrands = () => {
   return (
      <>
-     <Mynavbar />
+     {/* <Mynavbar /> */}
      
      <div className='car-brands'>
           <button onClick={() => window.history.back()}>
@@ -59,13 +59,7 @@ const Carbrands = () => {
     <div className='car-omada'>
       <img src= {omadalogo} alt="omadalogo" />
     </div>
-    
-  
-  
-
    </div>
-   <Footer />
-   <Copyright />
      </>
   )
 }

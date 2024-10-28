@@ -7,8 +7,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   justify-content: space-evenly;
   gap: 20px;
-  /* padding-right: 20px; */
-  background-color: #008870;
+  
+  background-color: #f2f3f4;
   margin-top: 1px;
 }
 
@@ -87,7 +87,7 @@ left: 35%;
   margin-top: 20px;
   left: 15%;
   position: relative;
-  mix-blend-mode: color-burn;
+  /* mix-blend-mode: color-burn; */
 
   /* top: 40%; */
 }

@@ -19,46 +19,37 @@ import Info from "./pages/Info.jsx";
 import EMIcalc from "./pages/EMIcalc.jsx";
 import Copyright from "./pages/Copyright.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Mynavbar.jsx";
+
 
 
 
 function App() {
   return (
     <Router>
-    <div>
+      <Navbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home"  element={<Home />}/>
-         <Route path="/info" element={<Info />} />
-         <Route path="/about" element={<About />}  />
-         <Route path="/carbrands" element={<Carbrands />} />
-         <Route path="/bikebrands" element={<Bikebrands />} />
-         <Route path="/scooterbrands" element={<Scooterbrands />} />
-         <Route path="/passengervanbrands" element={<Vanbrands />} />
-         <Route path="/carsprice" element={<Pricecars />} />
-         <Route path="/bikesprice" element={<Pricebikes />} />
-         <Route path="/scootersprice" element={<Pricescooters />} />
-         <Route path="/vansprice" element={<Pricevans />} />
-         <Route path="/contact" element={<Footer />} />
-         <Route path="/footer" element={<Footer />} />
-         <Route path="/testimonial" element={<Testimonial />} />
-         <Route path="/reviews" element={<Testimonial />} />
-         <Route path="/newsletter" element={<Newsletter />} />
-
-
-         </Routes>
-         
-         <Display />
-         <Gotobrands />
-         <Gotoprice />
-         <EMIcalc />
-          <About /> 
-          <Testimonial />
-          <Newsletter />
-             <Footer />
-          <Copyright />
-           </div>
+        <Route path="/" element={
+          <div>
+            <Home/>
+            <Display/>
+            <Gotobrands/>
+            <Gotoprice/>
+            <EMIcalc/>
+            <About/>
+            <Testimonial/>
+            <Newsletter/>
+            
+          </div>
           
+        } />
+        <Route path="/Carbrands" element={<Carbrands/>}/>
+        <Route path="/Bikebrands" element={<Bikebrands/>}/>
+        <Route path="/Scooterbrands" element={<Scooterbrands/>}/>
+        <Route path="/Vanbrands" element={<Vanbrands/>}/>
+         </Routes>
+          <Footer />
+          <Copyright />
     </Router>
   );
 };

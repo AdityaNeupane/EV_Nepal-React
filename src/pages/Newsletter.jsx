@@ -12,7 +12,7 @@ const Newsletter = () => {
           <img src={newsletter} alt="newsletterbg" />
         </div>
         <div className="newsletter-right">
-          <h1>
+          <h1 className="geologica-regular">
             Subscribe to our newsletter :
           </h1>
          <input
@@ -21,8 +21,8 @@ const Newsletter = () => {
           className="newsletter-input"
           placeholder="Enter your email" />
           <button className="newsletter-button">Subscribe</button>
-          <p>Join our newsletter to receive exclusive updates, insightful articles, the latest news on electric vehicles, and special offers directly to your inbox. Stay ahead in the EV world with EV Nepal.</p>
-        
+          <p className="geologica-regular">Join our newsletter to receive exclusive updates, insightful articles, the latest news on electric vehicles, and special offers directly to your inbox. Stay ahead in the EV world with EV Nepal.</p>
+          
         </div>
 </div>
 

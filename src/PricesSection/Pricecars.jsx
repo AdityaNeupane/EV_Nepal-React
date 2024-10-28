@@ -37,10 +37,7 @@ const Pricecars = () => {
      <PriceListten/>
      <PriceListeleven/>
      <PriceListtwelve/>
-     
      </div>
-     <Footer/>
-     <Copyright/>
      </>
   )
 }

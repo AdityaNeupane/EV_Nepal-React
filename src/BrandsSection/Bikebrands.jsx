@@ -12,7 +12,7 @@ const Bikebrands = () => {
   return (
     <>
     
-  <Mynavbar />
+  {/* <Mynavbar /> */}
     <div className='bike-brands'>
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback"  className='back-button3'/>

@@ -22,10 +22,10 @@ const scrollToSection = () => {
 
   return (
     <div className="herosection" id="home">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="hero">
       
-          <h1 className="highlight effect3d" data-text="Your gateway to the Electric Vehicle Revolution">Your gateway to the Electric Vehicle Revolution</h1>
+          <h1 className="highlight  michroma-regular   " data-text="Your gateway to the Electric Vehicle Revolution">Your gateway to the Electric Vehicle Revolution</h1>
           
         <div className="hero_content">
           <p  className="hero-text animate__animated animate__slideInDown ">

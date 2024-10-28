@@ -70,6 +70,7 @@
     flex-direction: column;
     gap: 50px; /* Space between slides */
     margin-top: 90px;
+    /* background-color: #F0F8FF; */
 }
 
 .marquee-slide {

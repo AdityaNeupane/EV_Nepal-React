@@ -17,7 +17,7 @@ import Copyright from '../pages/Copyright'
 const Vanbrands = () => {
   return (
     <>
-    <Mynavbar />
+    {/* <Mynavbar /> */}
     <div className="van-brands">
           <button onClick={() => window.history.back()}>
             <img src={turnback} alt="turnback" className="back-button5" />
