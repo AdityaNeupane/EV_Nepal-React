@@ -38,7 +38,7 @@ return (
             activeClass={activeLink === "home" ? "active" : ""}
           >
             <Link to="/Home">
-            <span className="nav_links">Home</span>
+            <span className="nav_links geologica-nav">Home</span>
             </Link>
           </Scroll>
           <Scroll
@@ -49,13 +49,14 @@ return (
             onSetActive={handleSetActive}
             activeClass={activeLink === "menu" ? "active" : ""}
           >
-            <span className="nav_links">About Us</span>
+            <span className="nav_links geologica-nav">About Us</span>
           </Scroll>
           <span className="nav_links">
   <a 
     href="https://chargingstationsnepal.com" 
     target="_blank" 
     rel="noopener noreferrer"
+    className="  geologica-nav"
   >
     Charging Stations
   </a>
@@ -73,7 +74,7 @@ return (
               onMouseLeave={() => setVehiclesDropdown(false)}
             >
               <div className="dropdownone">
-                <span className="nav_links">Vehicles</span>
+                <span className="nav_links geologica-nav">Vehicles</span>
                   <FontAwesomeIcon icon={faCaretDown} className="dropdown-iconone" />
               </div>
 
@@ -108,14 +109,14 @@ return (
               onMouseLeave={() => setPriceListDropdown(false)}
             > 
             <div className="dropdowntwo">
-        <span className="nav_links">Price List</span>
+        <span className="nav_links geologica-nav">Price List</span>
                   <FontAwesomeIcon icon={faCaretDown} className="dropdown-icontwo" />
               </div>
 
 
               {priceListDropdown && (
-                <ul className="dropdown-menutwo">
-                  <li>
+                <ul className="dropdown-menutwo  ">
+                  <li className="geologica-nav">
                     <Link to="/Pricecars">Electric Car</Link>
                   </li>
                   <li>
@@ -142,7 +143,7 @@ return (
             onSetActive={handleSetActive}
             activeClass={activeLink === "about" ? "active" : ""}
           >
-            <span className="nav_links">Contact Us</span>
+            <span className="nav_links geologica-nav">Contact Us</span>
               {/* <FontAwesomeIcon icon={faPhone} className="dropdown-iconthree" /> */}
           </Scroll>
         </div>

@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ 
+
+.geologica-brands {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:  600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+
 .gotobrands {
     /* background-image: url(../assets/images/price.png); */
     width: 100%;
@@ -41,7 +58,7 @@
     top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family:sans-serif;
+    /* font-family:sans-serif; */
     font-weight: 200;
     text-align: start;
     /* letter-spacing: 1px; */
@@ -53,10 +70,10 @@
 
 .quoteone {
     position: relative;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 600;
     color: #001219;
-    font-family: cursive;
+    /* font-family: cursive; */
     /* text-align: center; */
     left: 7%;
     margin-top: 90px;
@@ -88,17 +105,17 @@
 
 /* Animation for Slide 1 (moving left) */
 .marquee-slide:nth-child(1) .marquee-content {
-    animation: scroll-left 20s linear infinite; /* Specify the direction */
+    animation: scroll-left 30s linear infinite; /* Specify the direction */
 }
 
  
 .marquee-slide:nth-child(2) .marquee-content {
-    animation: scroll-left 20s linear infinite; /* Specify the direction */
+    animation: scroll-left 30s linear infinite; /* Specify the direction */
 }
 
 /* Animation for Slide 3 (moving left) */
 .marquee-slide:nth-child(3) .marquee-content {
-    animation: scroll-left 20s linear infinite; /* Specify the direction */
+    animation: scroll-left 30s linear infinite; /* Specify the direction */
 }
 
 /* Common styles for images */
@@ -133,17 +150,17 @@
 
 /* Ensure that we have enough images for scrolling for Slide 1 */
 .marquee-slide:nth-child(1) .marquee-content::after {
-    animation: scroll-left 20s linear infinite; /* Repeat left scrolling */
+    animation: scroll-left 30s linear infinite; /* Repeat left scrolling */
 }
 
 /* Ensure that we have enough images for scrolling for Slide 2 */
 .marquee-slide:nth-child(2) .marquee-content::after {
-    animation: scroll-left 20s linear infinite; /* Repeat right scrolling */
+    animation: scroll-left 30s linear infinite; /* Repeat right scrolling */
 }
 
 /* Ensure that we have enough images for scrolling for Slide 3 */
 .marquee-slide:nth-child(3) .marquee-content::after {
-    animation: scroll-left 20s linear infinite; /* Repeat left scrolling */
+    animation: scroll-left 30s linear infinite; /* Repeat left scrolling */
 }
 
 
@@ -173,8 +190,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .cart1-text p {
-    font-weight: 500;
-   font-family: sans-serif;
+    font-weight: 300;
+   /* font-family: sans-serif; */
    text-align: center;
 }
 
@@ -207,8 +224,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .cart2-text p {
-    font-weight: 500;
-    font-family: sans-serif;
+    font-weight: 300;
+    /* font-family: sans-serif; */
     text-align: center;
 }
 
@@ -243,8 +260,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .cart3-text p {
-    font-weight: 500;
-    font-family: sans-serif;
+    font-weight: 300;
+    /* font-family: sans-serif; */
     text-align: center;
 }
 
@@ -278,8 +295,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .cart4-text p {
-    font-weight: 500;
-    font-family: sans-serif;
+    font-weight: 300;
+    /* font-family: sans-serif; */
     text-align: center;
 }
 
@@ -318,7 +335,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .cart3-text {
     padding: 12px;
     color: #001219;
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 18px;
     font-weight: 500;
 }
@@ -326,21 +343,21 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .cart4-text {
     padding: 12px;
     color: #001219;
-    margin-top: 10px;
+    margin-top: 4px;
     font-size: 18px;
     font-weight: 500;
 }
 
 .explore1 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     margin-left: 60px;
     font-size: 18px;
     color: black;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: 500;
     display: inline-block;
     /* animation-iteration-count: infinite; */
@@ -348,14 +365,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .explore2 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     margin-left: 60px;
     font-size: 18px;
     color: black;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: 500;
     display: inline-block;
     /* animation-iteration-count: infinite; */
@@ -363,14 +380,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .explore3 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     margin-left: 60px;
     font-size: 18px;
     color: black;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: 500;
     display: inline-block;
     /* animation-iteration-count: infinite; */
@@ -378,14 +395,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .explore4 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     margin-left: 60px;
     font-size: 18px;
     color: black;
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: 500;
     display: inline-block;
     /* animation-iteration-count: infinite; */

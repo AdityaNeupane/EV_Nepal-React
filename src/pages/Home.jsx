@@ -25,15 +25,15 @@ const scrollToSection = () => {
       {/* <Navbar /> */}
       <div className="hero">
       
-          <h1 className="highlight  michroma-regular   " data-text="Your gateway to the Electric Vehicle Revolution">Your gateway to the Electric Vehicle Revolution</h1>
+          <h1 className="highlight  geologica-home  " data-text="Your gateway to the Electric Vehicle Revolution">Your gateway to the Electric Vehicle Revolution</h1>
           
         <div className="hero_content">
-          <p  className="hero-text animate__animated animate__slideInDown ">
+          <p  className="hero-text animate__animated animate__slideInDown geologica-home ">
             From zero emissions to <br></br> cutting-edge technology, <br></br>
             learn why electric vehicles <br></br> are the future of <br></br>
             transortation.
           </p>
-          <button className="learn-more-button animate__animated animate__heartBeat" onClick={handleLearnMoreClick}>Learn More</button>
+          <button className="learn-more-button geologica-home animate__animated animate__heartBeat" onClick={handleLearnMoreClick}>Learn More</button>
         </div>
        
             <button onClick={scrollToSection}>  <img src={scroll3} alt="scroll3" className="scroll animate__animated  animate__jackInTheBox" />   </button>

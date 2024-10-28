@@ -63,7 +63,7 @@
       <div className='image-container'>
         <img src= {headingbg4} alt="headingbg4" className='heading-image' />
           <h1 className='brand-heading'> BRANDS  </h1>
-          <h2 className='brand-subheading'>Car - Bike - Scooter - Passenger Van</h2>
+          <h2 className='brand-subheading geologica-brands'>Car - Bike - Scooter - Passenger Van</h2>
          </div>
          
          
@@ -87,7 +87,7 @@
 </div>
 
 
-<h1 className='quoteone  effect3d '>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
+<h1 className='quoteone   geologica-brands '>Your ideal Electric Vehicle is just a click away - Explore your options now.</h1>
 
 
           
@@ -98,9 +98,9 @@
         <img src= {ecar} alt="carpic" />
         </div>
         <div className='cart1-text'>
-          <p>Discover the leading Car brands available in Nepal. Click the button below to explore.</p>
+          <p className='geologica-brands'>Discover the leading Car brands available in Nepal. Click the button below to explore.</p>
           <Link to="/Carbrands">
-          <button className='explore1 animate__animated animate__heartBeat'>Explore More
+          <button className='explore1 animate__animated animate__heartBeat geologica-brands'>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </Link>
@@ -112,9 +112,9 @@
        <img src= {ebike} alt="bikepic" />
         </div>
         <div className='cart2-text'>
-          <p>Uncover the top Bike brands in Nepal. Click the button below to see the full list.</p>
+          <p className='geologica-brands'>Uncover the top Bike brands in Nepal. Click the button below to see the full list.</p>
           <Link to="/Bikebrands">
-          <button className='explore2 animate__animated animate__heartBeat' >Explore More
+          <button className='explore2 animate__animated animate__heartBeat geologica-brands' >Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </Link>
@@ -126,9 +126,9 @@
       <img src= {escooter} alt="scooterpic" />
         </div>
         <div className='cart3-text'>
-          <p> Explore the range of Scooter brands available in Nepal. Click the button below for more details.</p>
+          <p className='geologica-brands'> Explore the range of Scooter brands available in Nepal. Click the button below for more details.</p>
           <Link to="/Scooterbrands">
-          <button className='explore3 animate__animated animate__heartBeat'>Explore More
+          <button className='explore3 animate__animated animate__heartBeat geologica-brands'>Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </Link>
@@ -140,9 +140,9 @@
         <img src= {evan} alt="vanpic" />
         </div>
         <div className='cart4-text'>
-          <p> Find out about the Passenger Van brands available in Nepal. Click the button below to learn more.</p>
+          <p className='geologica-brands'> Find out about the Passenger Van brands available in Nepal. Click the button below to learn more.</p>
           <Link to="/Vanbrands">
-          <button className='explore4 animate__animated animate__heartBeat' >Explore More
+          <button className='explore4 animate__animated animate__heartBeat geologica-brands' >Explore More
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='arrow' />
           </button>
           </Link>

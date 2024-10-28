@@ -1,13 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ 
+
+.geologica-emi {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:  600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+
+
+
 .EMI {
     height: 700px;
     background-color: #001219;
     padding: 30px;
 } 
 
- 
+
 
 .emi-heading {
-    font-family: cursive;
+    /* font-family: cursive; */
     font-weight: 600;
     font-size: 42px;
     color: #f2f3f4;
@@ -28,7 +46,7 @@
 }
 
 .emi-heading2 {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 500;
     color: #f2f3f4;
     letter-spacing: 1px;
@@ -59,7 +77,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #001219;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -74,9 +92,10 @@ input {
      
 }
 input::placeholder {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     padding-left: 10px;
     letter-spacing: 1px;
+    font-weight: 300;
     
 }
 
@@ -92,7 +111,7 @@ input:focus {
     padding: 15px;
     background-color: #52b788;
     color: #f2f3f4;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     letter-spacing: 1.5px;
     font-weight: 600;
     border: none;
@@ -113,7 +132,7 @@ input:focus {
 
 .result h2 {
     color: #40916c; /* Green color for result */
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     letter-spacing: 0.5px;
     font-weight: 600;
 }
