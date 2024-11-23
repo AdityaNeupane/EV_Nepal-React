@@ -27,7 +27,7 @@ const EMIcalc = () => {
             <h1 className='emi-heading geologica-emi'>Estimate Your Vehicle Financing Costs</h1>
             <h1 className='emi-heading2 geologica-emi'> EMI Calculator : find your monthly payments.</h1>
         <div className="emi-calculator">
-             
+            
             <div className="input-container">
                 <label className="principal geologica-emi">Principal Amount (in Rupees): </label>
                 <input

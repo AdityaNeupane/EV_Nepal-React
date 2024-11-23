@@ -14,13 +14,13 @@ import PriceListeleven from '../carsPricelist/PriceListeleven'
 import PriceListtwelve from '../carsPricelist/PriceListtwelve'
 import Headingcar from '../headingPrice/Headingcar'
 
-import Mynavbar from '../components/Mynavbar'
-import Footer from '../pages/Footer'
-import Copyright from '../pages/Copyright'
+// import Mynavbar from '../components/Mynavbar'
+// import Footer from '../pages/Footer'
+// import Copyright from '../pages/Copyright'
 const Pricecars = () => {
   return (
      <>
-     <Mynavbar/>
+     {/* <Mynavbar/> */}
      <div className='pricecars'>
      
 

@@ -11,10 +11,10 @@ const Head = () => {
            <div className='image-container'>
         <img src={headingbg4} alt='headingbg4'  className='aboutus-img'/>
         <h1 className='about-heading'>About Us</h1>
-        <h2 className='about-subheading'>Home  -  About Us</h2>
+        <h2 className='about-subheading geologica-head'>Home  -  About Us</h2>
         </div>
         </div>
-     
+        
      </>
   )
 }

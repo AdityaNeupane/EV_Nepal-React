@@ -8,13 +8,13 @@ import Vanspricefive from '../vansPricelist/Vanspricefive'
 import Headingvan from '../headingPrice/Headingvan'
 import Vanspricesix from '../vansPricelist/Vanspricesix'
 
-import Mynavbar from '../components/Mynavbar'
-import Footer from '../pages/Footer'
-import Copyright from '../pages/Copyright'
+// import Mynavbar from '../components/Mynavbar'
+// import Footer from '../pages/Footer'
+// import Copyright from '../pages/Copyright'
 const Pricevans = () => {
   return (
      <>
-     <Mynavbar />
+     {/* <Mynavbar /> */}
      <div className="pricevans"> 
 
 
@@ -27,8 +27,8 @@ const Pricevans = () => {
      <Vanspricesix/>
      
      </div>
-     <Footer />
-     <Copyright/>
+     {/* <Footer /> */}
+     {/* <Copyright/> */}
      </>
   )
 }

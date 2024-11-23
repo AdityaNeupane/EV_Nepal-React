@@ -4,7 +4,7 @@
  
 
 .geologica-price {
-  font-family: "Geologica", sans-serif;
+  font-family: "Geologica";
   font-optical-sizing: auto;
   font-weight:  600;
   font-style: normal;
@@ -102,9 +102,9 @@
     width:100px ;
     top: -16%;
     left: 20%;
-    filter: drop-shadow(0 0 8px #f2f3f4);
+    /* filter: drop-shadow(0 0 8px #f2f3f4); */
    }
-
+   
    .marq6 {
     position: relative;
     left: 55%;

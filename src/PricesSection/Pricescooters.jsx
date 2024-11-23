@@ -8,13 +8,13 @@ import Scotypricefive from '../scooterPricelist/Scotypricefive'
 import Scotypricesix from '../scooterPricelist/Scotypricesix'
 import Headingscooter from '../headingPrice/Headingscooter'
 
-import Mynavbar from '../components/Mynavbar'
-import Footer from '../pages/Footer'
-import Copyright from '../pages/Copyright'
+// import Mynavbar from '../components/Mynavbar'
+// import Footer from '../pages/Footer'
+// import Copyright from '../pages/Copyright'
 const Pricescooters = () => {
   return (
      <>
-     <Mynavbar />
+     {/* <Mynavbar /> */}
      <div className="pricescooters">
 
      <Headingscooter />
@@ -27,8 +27,8 @@ const Pricescooters = () => {
 
      </div>
      
-     <Footer />
-     <Copyright/>
+     {/* <Footer /> */}
+     {/* <Copyright/> */}
      </>
   )
 }

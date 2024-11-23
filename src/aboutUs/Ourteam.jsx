@@ -9,8 +9,8 @@ const Ourteam = () => {
      <>
       
       <div className="ourteam">
-
-         <h1 className='ourteam-heading'>Our Team</h1>
+      
+         <h1 className='ourteam-heading geologica-ourteam'>Our Team</h1>
          <img src={needleunderline6} alt='underline' className='ourteam-underline'></img>
         
        <div className='ourteam-content'>
@@ -19,19 +19,19 @@ const Ourteam = () => {
                 <div className='ourteam-box1-img '>
                     <img src={officeperson} alt="officeperson" />
                     </div>
-                    <h1 className='ourteam-box1-heading'>Rosa Lewis</h1>
-                    <p className='ourteam-box1-subheading'>Founder, CTO</p>
+                    <h1 className='ourteam-box1-heading geologica-ourteam'>Rosa Lewis</h1>
+                    <p className='ourteam-box1-subheading geologica-ourteam'>Founder, CTO</p>
                     
             </div>
             <div className='ourteam-box2 animate_animated  animate__bounceInUp'>
                 <div className='ourteam-box2-img'><img src={officeperson2} alt="officeperson2" /></div>
-                <h1 className='ourteam-box2-heading'>Jacob Smith</h1>
-                <p className='ourteam-box2-subheading'>Chief Executive Officer</p>
+                <h1 className='ourteam-box2-heading geologica-ourteam'>Jacob Smith</h1>
+                <p className='ourteam-box2-subheading geologica-ourteam'>Chief Executive Officer</p>
             </div>
             <div className='ourteam-box3 animate_animated  animate__bounceInUp'>
                 <div className='ourteam-box3-img'><img src={officeperson3} alt="officeperson3" /></div>
-                <h1 className='ourteam-box3-heading'>Lisa Collins</h1>
-                <p className='ourteam-box3-subheading'>Marketing Manager</p>
+                <h1 className='ourteam-box3-heading geologica-ourteam'>Lisa Collins</h1>
+                <p className='ourteam-box3-subheading geologica-ourteam'>Marketing Manager</p>
             </div>
             </div>
 

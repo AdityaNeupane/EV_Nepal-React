@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ 
+
+.geologica-ourteam {
+  font-family: "Geologica";
+  font-optical-sizing: auto;
+  font-weight:  600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
 .ourteam {
     width: 100%;
     height: 700px;
@@ -8,7 +23,7 @@
 }
 
  .ourteam-heading {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 600;
     font-size: 52px;
     color: #001219;
@@ -137,7 +152,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ourteam-box1-heading{
     color: #001219;
     font-size: 32px;
-    font-family: cursive;
+    /* font-family: cursive; */
     margin-top: 20px;
     text-align: center;
     letter-spacing: 2px;
@@ -147,7 +162,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ourteam-box2-heading{
     color: #001219;
     font-size: 32px;
-    font-family: cursive;
+    /* font-family: cursive; */
     margin-top: 20px;
     text-align: center;
     letter-spacing: 2px;
@@ -157,7 +172,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ourteam-box3-heading{
     color: #001219;
     font-size: 32px;
-    font-family: cursive;
+    /* font-family: cursive; */
     margin-top: 20px;
     text-align: center;
     letter-spacing: 2px;
@@ -167,7 +182,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ourteam-box1-subheading {
     color: #001219;
     font-size: 18px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     margin-top: 10px;
     text-align: center;
     letter-spacing: 1px;
@@ -177,7 +192,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ourteam-box2-subheading {
     color: #001219;
     font-size: 18px;
-    font-family:  sans-serif;
+    /* font-family:  sans-serif; */
     margin-top: 10px;
     text-align: center;
     letter-spacing: 1px;
@@ -187,7 +202,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .ourteam-box3-subheading {
     color: #001219;
     font-size: 18px;
-    font-family:  sans-serif;
+    /* font-family:  sans-serif; */
     margin-top: 10px;
     text-align: center;
     letter-spacing: 1px;

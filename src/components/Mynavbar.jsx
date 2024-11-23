@@ -133,7 +133,7 @@ return (
           </li> 
 
      </ul>
-
+     
 
           <Scroll
             to="contactus"
@@ -143,7 +143,8 @@ return (
             onSetActive={handleSetActive}
             activeClass={activeLink === "about" ? "active" : ""}
           >
-            <span className="nav_links geologica-nav">Contact Us</span>
+            
+            <span className="nav_links geologica-nav">Contact Us</span> 
               {/* <FontAwesomeIcon icon={faPhone} className="dropdown-iconthree" /> */}
           </Scroll>
         </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../components/Mynavbar";
+import Display from "../pages/Display";
+import Gotobrands from "../pages/Gotobrands";
 import { useNavigate } from "react-router-dom";
 import scroll3 from "../assets/icons/scroll3.png";
 
@@ -25,7 +27,7 @@ const scrollToSection = () => {
       {/* <Navbar /> */}
       <div className="hero">
       
-          <h1 className="highlight  geologica-home  " data-text="Your gateway to the Electric Vehicle Revolution">Your gateway to the Electric Vehicle Revolution</h1>
+          <h1 className="highlight   gloria-hallelujah-home  " data-text="Your gateway to the Electric Vehicle Revolution">Your gateway to the Electric Vehicle Revolution</h1>
           
         <div className="hero_content">
           <p  className="hero-text animate__animated animate__slideInDown geologica-home ">
@@ -38,9 +40,12 @@ const scrollToSection = () => {
        
             <button onClick={scrollToSection}>  <img src={scroll3} alt="scroll3" className="scroll animate__animated  animate__jackInTheBox" />   </button>
       </div>
-    </div>
+     
 
-         
+
+    {/* <Display /> */}
+    <Gotobrands />
+</div>
 
   );
 };

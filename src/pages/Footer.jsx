@@ -11,49 +11,50 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="footer1">
-          <h1 className="footer1-heading">EV Nepal</h1>
+          <h1 className="footer1-heading geologica-footer">EV Nepal</h1>
           <div className="footer1-content">
             <img src={logo3} alt="footerlogo" />
-            <p>  ESTD : 2024 AD </p>
+            <br></br>
+            <p className="geologica-footer">  ESTD : 2024 AD </p>
           </div>
         </div>
         <div className="footer2">
-          <h1 className="footer2-heading">Contact Us</h1>
+          <h1 className="footer2-heading geologica-footer">Contact Us</h1>
           <ul className="footer2-content">
-            <li><b>Contact No:</b>  <br/> +977-9811220410</li>
-            <li><b>Email:</b>   <br/> eVnepal123@gmail.com</li>
-            <li> <b>Address:</b> <br/>  Bharatpur-9, Chitwan</li>
+            <li className="geologica-footer"><b className="geologica-footer">Contact No:</b>  <br/> +977-9811220410</li>
+            <li className="geologica-footer"><b className="geologica-footer">Email:</b>   <br/> eVnepal123@gmail.com</li>
+            <li className="geologica-footer"> <b className="geologica-footer">Address:</b> <br/>  Bharatpur-9, Chitwan</li>
           </ul>
         </div>
         <div className="footer3">
-          <h1 className="footer3-heading">Quick Links</h1>
+          <h1 className="footer3-heading geologica-footer">Quick Links</h1>
           <ul className="footer3-content">
-            <li>Home</li>
-            <li>Brand list</li>
-            <li>Price list</li>
-            <li>Charging Station</li>
-            <li>EMI calculator</li>
-            <li>About Us </li>
-            <li>Blogs</li>
+            <li className="geologica-footer">Home</li>
+            <li className="geologica-footer">Brand list</li>
+            <li className="geologica-footer">Price list</li>
+            <li className="geologica-footer">Charging Station</li>
+            <li className="geologica-footer">EMI calculator</li>
+            <li className="geologica-footer">About Us </li>
+            <li className="geologica-footer">Blogs</li>
           </ul>
         </div>
 
       <div className="footer4">
-        <h1 className="footer4-heading">Others</h1>
+        <h1 className="footer4-heading geologica-footer">Others</h1>
         <ul className="footer4-content">
-          
-          <li>Help Center</li>
-          <li>FAQ</li>
-          <li>Privacy Policy</li>
-          <li>Terms & Conditions</li>
-          <li>Cookie Policy</li>
-          <li>Carrers</li>
-          <li>Support</li>
+        
+          <li className="geologica-footer">Help Center</li>
+          <li className="geologica-footer">FAQ</li>
+          <li className="geologica-footer">Privacy Policy</li>
+          <li className="geologica-footer">Terms & Conditions</li>
+          <li className="geologica-footer">Cookie Policy</li>
+          <li className="geologica-footer">Carrers</li>
+          <li className="geologica-footer">Support</li>
         </ul>
           </div>
 
         <div className="footer5">
-          <h1 className="footer5-heading">Socials</h1>
+          <h1 className="footer5-heading geologica-footer">Socials</h1>
           <div className="footer5-content">
             <FaFacebook className="social-icon" />
             <FaInstagram className="social-icon" />

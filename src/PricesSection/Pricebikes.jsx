@@ -4,22 +4,22 @@ import React from 'react'
  import Bikepricetwo from  '../bikePricelist/Bikepricetwo'
  import Headingbike from '../headingPrice/Headingbike'
 
-import Mynavbar from '../components/Mynavbar'
-import Footer from '../pages/Footer'
-import Copyright from '../pages/Copyright'
+// import Mynavbar from '../components/Mynavbar'
+// import Footer from '../pages/Footer'
+// import Copyright from '../pages/Copyright'
 
 const Pricebikes = () => {
   return (
     <>
-    <Mynavbar/>
+    {/* <Mynavbar/> */}
     <div className="pricebikes">
     
     <Headingbike/>
     
      <Bikepriceone/>
      <Bikepricetwo/>
-    <Footer/>
-    <Copyright />
+    {/* <Footer/> */}
+    {/* <Copyright /> */}
 
     </div>
     

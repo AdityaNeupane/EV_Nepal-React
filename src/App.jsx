@@ -47,6 +47,13 @@ function App() {
         <Route path="/Bikebrands" element={<Bikebrands/>}/>
         <Route path="/Scooterbrands" element={<Scooterbrands/>}/>
         <Route path="/Vanbrands" element={<Vanbrands/>}/>
+        <Route path="/Pricebikes" element={<Pricebikes/>}/>
+        <Route path="/Pricecars" element={<Pricecars/>}/>
+        <Route path="/Pricescooters" element={<Pricescooters/>}/>
+        <Route path="/Pricevans" element={<Pricevans/>}/> 
+        <Route path="/Info" element={<Info/>}/>
+        <Route path="/Footer" element={<Footer/>}/>
+        <Route path="/" element={<Home/>}/>
          </Routes>
           <Footer />
           <Copyright />
@@ -55,3 +62,6 @@ function App() {
 };
 
 export default App;
+
+
+

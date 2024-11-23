@@ -4,39 +4,21 @@ import ecar from '../assets/images/ecar.png'
 import ebike from '../assets/images/ebike.png'
 import escooter from '../assets/images/escooter.png'
 import evan from '../assets/images/evan.png'
-import { useNavigate } from 'react-router-dom'
+ import { Link } from "react-router-dom";
 import headingbg4 from '../assets/Background-images/headingbg4.jpg'
 
  
 import pricemarq5 from '../assets/illustrations/pricemarq5.png'
 import pricemarq6 from '../assets/illustrations/pricemarq6.png'
  
-
-import divider3 from '../assets/underlines/divider3.png'
+ 
  
 
 const Gotoprice = () => {
 
-const navigate = useNavigate();
+ 
 
-const handleViewPricingOne = () => {
-    navigate('/carsprice');
-};
-
-
-const handleViewPricingTwo = () => {
-    navigate('/bikesprice');
-};
-
-
-const handleViewPricingThree = () => {
-    navigate('/scootersprice');
-};
-
-const handleViewPricingFour = () => {
-    navigate('/vansprice');
-};
-
+ 
 
  
 
@@ -79,8 +61,10 @@ const handleViewPricingFour = () => {
 
         <div className='box1-content'>
             <p className='content1 geologica-price'>Explore the full pricing details for Cars - Simply click the button below.</p>
-
-            <button className='button1 animate__animated animate__heartBeat geologica-price' onClick={handleViewPricingOne}>View Pricing</button>
+            
+            <Link to="/Pricecars">
+            <button className='button1 animate__animated animate__heartBeat geologica-price' >View Pricing</button>
+        </Link>
         </div>
     </div>
     
@@ -94,8 +78,10 @@ const handleViewPricingFour = () => {
 
     <div className='box2-content'>
         <p className='content2 geologica-price'>Explore the full pricing details for Bikes - Simply click the button below.</p>
-
-        <button className='button2 animate__animated animate__heartBeat geologica-price' onClick={handleViewPricingTwo}>View Pricing</button>
+       
+       <Link to="/Pricebikes">
+        <button className='button2 animate__animated animate__heartBeat geologica-price'  >View Pricing</button>
+    </Link>
     </div>
 </div>
  
@@ -107,12 +93,14 @@ const handleViewPricingFour = () => {
 
     <div className='box3-content'>
         <p className='content3 geologica-price'>Explore the full pricing details for Scooters - Simply click the button below.</p>
-
-        <button className='button3 animate__animated animate__heartBeat geologica-price' onClick={handleViewPricingThree}>View Pricing</button>
+      
+      <Link to="/Pricescooters">
+        <button className='button3 animate__animated animate__heartBeat geologica-price'  >View Pricing</button>
+    </Link>
     </div>
 </div>
  
-
+ 
 
  
     <div className='box4 animate__animated animate__bounceInRight'> 
@@ -121,8 +109,10 @@ const handleViewPricingFour = () => {
 
     <div className='box4-content'>
         <p className='content4 geologica-price'>Explore the full pricing details for Passenger Vans - Simply click the button below.</p>
-
-        <button className='button4 animate__animated animate__heartBeat geologica-price' onClick={handleViewPricingFour}>View Pricing</button>
+     
+     <Link to="/Pricevans">
+        <button className='button4 animate__animated animate__heartBeat geologica-price' >View Pricing</button>
+   </Link>
     </div>
     
     </div>

@@ -148,10 +148,10 @@
           </Link>
           </div>
       </div>
-
+      
       </div>
 
-        
+
   
         <div><button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><img src={uparrow} alt="uparrow" className='uparrowfixed animate__animated animate__zoomIn' /></button></div>
 
