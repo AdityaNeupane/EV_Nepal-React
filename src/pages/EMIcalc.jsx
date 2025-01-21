@@ -70,9 +70,9 @@ const EMIcalc = () => {
         </div>
          
   
-      {/* <div >   <img src={divider5} alt="divider" className="divider-calc" /></div> */}
       </div>
     );
 };
+
 
 export default EMIcalc;

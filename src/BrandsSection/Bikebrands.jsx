@@ -29,10 +29,10 @@ const Bikebrands = () => {
        <img src= {supersocologo} alt="supersocologo" />
        </div>
  
-
+ 
     </div>
-    <Footer/>
-    <Copyright/>
+    {/* <Footer/> */}
+    {/* <Copyright/> */}
     </>
   )
 }

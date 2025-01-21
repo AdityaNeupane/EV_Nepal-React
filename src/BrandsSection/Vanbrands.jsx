@@ -42,8 +42,8 @@ const Vanbrands = () => {
 
 
     </div>
-    <Footer />
-    <Copyright />
+    {/* <Footer /> */}
+    {/* <Copyright /> */}
     </>
   )
 }

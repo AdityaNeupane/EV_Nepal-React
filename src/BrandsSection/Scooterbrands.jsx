@@ -40,8 +40,8 @@ const Scooterbrands = () => {
 
 
     </div>
-    <Footer />
-    <Copyright />
+    {/* <Footer /> */}
+    {/* <Copyright /> */}
     </>
   )
 }

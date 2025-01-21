@@ -43,7 +43,7 @@ const scrollToSection = () => {
      
 
 
-    {/* <Display /> */}
+    <Display />
     <Gotobrands />
 </div>
 
